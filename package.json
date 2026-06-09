@@ -1,0 +1,29 @@
+{
+  "name": "moonlit-next",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "aos": "^2.3.4",
+    "js-cookie": "^3.0.5",
+    "next": "^16.1.1",
+    "react": "^19.2.3",
+    "react-datepicker": "^8.1.0",
+    "react-dom": "^19.2.3",
+    "react-modal": "^3.16.3",
+    "react-player": "^2.16.0",
+    "rellax": "^1.12.1",
+    "swiper": "^11.2.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "typescript": "^5"
+  }
+}

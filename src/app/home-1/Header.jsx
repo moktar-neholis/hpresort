@@ -45,9 +45,7 @@ function HeaderOne() {
                                                 </Link>
                                             </li>
                                             <li className="navigation__menu--item has-child">
-                                                <Link href="/room-one" className="navigation__menu--item__link">
-                                                    CHAMBRES & SUITES
-                                                </Link>
+                                                <Link href="/room-one" className="navigation__menu--item__link" style={{ whiteSpace: 'nowrap' }}>CHAMBRES & SUITES</Link>
                                             </li>
                                             <li className="navigation__menu--item has-child has-arrow">
                                                 <Link href="/" className="navigation__menu--item__link">

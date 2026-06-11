@@ -19,7 +19,7 @@ function OffcanvasMenu({ isOpen, onClose }) {
                         <div className="offcanvase__top">
                             <div className="offcanvase__logo">
                                 <Link href="/">
-                                    <img src="/assets/images/logo/logo__two.svg" alt="logo" />
+                                    <img src="/assets/images/logo/hp_logo.png" alt="logo" />
                                 </Link>
                             </div>
                             <p className="description">

@@ -76,18 +76,18 @@ function FooterOne() {
                                     </li> */}
                                 </ul>
                             </div>
-                            <div className="rts__widget">
-                                <span className="widget__title">Guest Service</span>
+                            {/* <div className="rts__widget">
+                                <span className="widget__title">Service Client</span>
                                 <ul>
-                                    <li>24/7 Front Desk</li>
+                                    <li>24/7 Réception</li>
                                     <li>Parking</li>
-                                    <li>Room Service</li>
-                                    <li>Free Wi-Fi</li>
+                                    <li>Service Chambres</li>
+                                    <li>Wi-Fi Gratuit</li>
                                     <li>Concierge Service</li>
                                 </ul>
-                            </div>
+                            </div> */}
                             <div className="rts__widget">
-                                <span className="widget__title">Contact Us</span>
+                                <span className="widget__title">Contactez-nous</span>
                                 <ul>
                                     <li>
                                         <Link aria-label="footer__contact" href="tel:+225 27 30 64 68 00">

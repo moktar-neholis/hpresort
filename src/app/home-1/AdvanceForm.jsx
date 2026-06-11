@@ -17,12 +17,12 @@ function AdvanceForm() {
                             {/* Check In Date */}
                             <div className="query__input">
                                 <label htmlFor="check__in" className="query__label">
-                                    Check In
+                                    Arrivée
                                 </label>
                                 <DatePicker
                                     selected={checkInDate}
                                     onChange={(date) => setCheckInDate(date)}
-                                    placeholderText="Select Date"
+                                    placeholderText="Choisissez une date"
                                     className="date-picker-input"
                                 />
                                 <div className="query__input__icon">
@@ -32,24 +32,24 @@ function AdvanceForm() {
                             {/* Check Out Date */}
                             <div className="query__input">
                                 <label htmlFor="check__out" className="query__label">
-                                    Check Out
+                                    Départ
                                 </label>
                                 <DatePicker
                                     selected={checkOutDate}
                                     onChange={(date) => setCheckOutDate(date)}
-                                    placeholderText="Select Date"
+                                    placeholderText="Choisissez une date"
                                     className="date-picker-input"
                                 />
                                 <div className="query__input__icon">
                                     <i className="flaticon-calendar" />
-                                </div>
+                                </div>    
                             </div>
                             {/* Adult Selection */}
                             <div className="query__input">
-                                <label htmlFor="adult" className="query__label">Adult</label>
+                                <label htmlFor="adult" className="query__label">Chambre</label>
                                 <select name="adult" id="adult" className="form-select">
                                     {[...Array(9)].map((_, i) => (
-                                        <option key={i + 1} value={i + 1}>{i + 1} Person</option>
+                                        <option key={i + 1} value={i + 1}>{i + 1} Chambre</option>
                                     ))}
                                 </select>
                                 <div className="query__input__icon">
@@ -57,20 +57,20 @@ function AdvanceForm() {
                                 </div>
                             </div>
                             {/* Child Selection */}
-                            <div className="query__input">
-                                <label htmlFor="child" className="query__label">Child</label>
+                            {/* <div className="query__input">
+                                <label htmlFor="child" className="query__label">Enfant</label>
                                 <select name="child" id="child" className="form-select">
                                     {[...Array(9)].map((_, i) => (
-                                        <option key={i + 1} value={i + 1}>{i + 1} Child</option>
+                                        <option key={i + 1} value={i + 1}>{i + 1} Enfant</option>
                                     ))}
                                 </select>
                                 <div className="query__input__icon">
                                     <i className="flaticon-user" />
                                 </div>
-                            </div>
+                            </div> */}
                             {/* Submit Button */}
                             <button className="theme-btn btn-style fill no-border search__btn" type="submit">
-                                <span>Check Now</span>
+                                <span>RESERVER</span>
                             </button>
                         </div>
                     </form>

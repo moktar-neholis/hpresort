@@ -19,16 +19,13 @@ function RoomOne({ className }) {
                     <div className="section__wrapper mb-40 wow fadeInUp">
                         <div className="section__content__left">
                             <span className="h6 subtitle__icon__two d-block wow fadeInUp">
-                                Room
+                                Chambres et suites de l'hôtel
                             </span>
-                            <h2 className="content__title h2 lh-1">Our Rooms</h2>
+                            <h2 className="content__title h2 lh-1">Nos chambres</h2>
                         </div>
                         <div className="section__content__right">
                             <p>
-                                Our rooms offer a harmonious blend of comfort and elegance,
-                                designed to provide an exceptional stay for every guest. Each room
-                                features plush bedding, high-quality linens, and a selection of
-                                pillows to ensure a restful night's sleep.
+                                Nos chambres allient à la perfection confort et élégance, et sont conçues pour offrir à chaque client un séjour exceptionnel. Chaque chambre est équipée d'une literie moelleuse, de draps de grande qualité et d'un choix d'oreillers, afin de vous garantir une nuit de sommeil réparatrice.
                             </p>
                         </div>
                     </div>
@@ -47,14 +44,14 @@ function RoomOne({ className }) {
                     autoplay={false}
                     pagination={{ el: ".rts-pagination", clickable: true }}
                     speed={1000}
-                    breakpoints={{
-                        0: { slidesPerView: 1 },
-                        575: { slidesPerView: 1 },
-                        768: { slidesPerView: 2 },
-                        992: { slidesPerView: 2.5 },
-                        1200: { slidesPerView: 3 },
-                        1400: { slidesPerView: 4 },
-                    }}
+                    // breakpoints={{
+                    //     0: { slidesPerView: 1 },
+                    //     575: { slidesPerView: 1 },
+                    //     768: { slidesPerView: 3 },
+                    //     992: { slidesPerView: 2.5 },
+                    //     1200: { slidesPerView: 3 },
+                    //     1400: { slidesPerView: 4 },
+                    // }}
                 >
                     {/* Dynamic Room Data */}
                     {posts.length > 0 ? (
@@ -71,14 +68,14 @@ function RoomOne({ className }) {
                                 </SwiperSlide>
                             ))
                     ) : (
-                        <p>No rooms available</p>
+                        <p>Il n'y a plus de chambres disponibles </p>
                     )}
                 </Swiper>
 
-                {/* Pagination */}
+                {/* Pagination *
                 <div className="rts__pagination">
                     <div className="rts-pagination" />
-                </div>
+                </div>*/}
             </div>
         </div>
     );

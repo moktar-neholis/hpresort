@@ -39,139 +39,15 @@ function HeaderOne() {
                                 <div className="navigation d-none d-lg-block">
                                     <nav className="navigation__menu" id="main__menu">
                                         <ul className="list-unstyled">
-                                            <li className="navigation__menu--item has-child has-arrow">
+                                            <li className="navigation__menu--item has-child">
                                                 <Link href="/" className="navigation__menu--item__link">
-                                                    Home
+                                                    ACCUEIL
                                                 </Link>
-                                                <div className="has__mega__menu">
-                                                    <div className="row g-30 row-cols-1 row-cols-md-3 row-cols-lg-5">
-                                                        <div className="menu__item">
-                                                            <Link href="/">
-                                                                <img
-                                                                    src="/assets/images/menu/main.webp"
-                                                                    height={250}
-                                                                    alt=""
-                                                                />
-                                                                <span>Luxury Hotel</span>
-                                                            </Link>
-                                                        </div>
-                                                        <div className="menu__item">
-                                                            <Link href="/home-2">
-                                                                <img
-                                                                    src="/assets/images/menu/01.webp"
-                                                                    height={250}
-                                                                    alt=""
-                                                                />
-                                                                <span>LuxeVista Hotel</span>
-                                                            </Link>
-                                                        </div>
-                                                        <div className="menu__item">
-                                                            <Link href="/home-3">
-                                                                <img
-                                                                    src="/assets/images/menu/03.webp"
-                                                                    height={250}
-                                                                    alt=""
-                                                                />
-                                                                <span>OceanBreeze Resort</span>
-                                                            </Link>
-                                                        </div>
-                                                        <div className="menu__item">
-                                                            <Link href="/home-4">
-                                                                <img
-                                                                    src="/assets/images/menu/04.webp"
-                                                                    height={250}
-                                                                    alt=""
-                                                                />
-                                                                <span>Apartment Hotel</span>
-                                                            </Link>
-                                                        </div>
-                                                        <div className="menu__item">
-                                                            <Link href="/home-5">
-                                                                <img
-                                                                    src="/assets/images/menu/4.webp"
-                                                                    height={250}
-                                                                    alt=""
-                                                                />
-                                                                <span>Mountain Hotel</span>
-                                                            </Link>
-                                                        </div>
-                                                        <div className="menu__item">
-                                                            <Link href="/home-6">
-                                                                <img
-                                                                    src="/assets/images/menu/5.webp"
-                                                                    height={250}
-                                                                    alt=""
-                                                                />
-                                                                <span>City Hotel</span>
-                                                            </Link>
-                                                        </div>
-                                                        <div className="menu__item">
-                                                            <Link href="/home-7">
-                                                                <img
-                                                                    src="/assets/images/menu/6.webp"
-                                                                    height={250}
-                                                                    alt=""
-                                                                />
-                                                                <span>Beach Hotel</span>
-                                                            </Link>
-                                                        </div>
-                                                        <div className="menu__item">
-                                                            <Link href="/home-dark">
-                                                                <img
-                                                                    src="/assets/images/menu/hotel-dark.webp"
-                                                                    height={250}
-                                                                    alt=""
-                                                                />
-                                                                <span>Beach Hotel</span>
-                                                            </Link>
-                                                        </div>
-                                                        <div className="menu__item">
-                                                            <Link href="/home-video">
-                                                                <img
-                                                                    src="/assets/images/menu/08.webp"
-                                                                    height={250}
-                                                                    alt=""
-                                                                />
-                                                                <span>Hotel Seaside</span>
-                                                            </Link>
-                                                        </div>
-                                                    </div>
-                                                </div>
                                             </li>
-                                            <li className="navigation__menu--item has-child has-arrow">
-                                                <Link href="/" className="navigation__menu--item__link">
-                                                    Rooms
+                                            <li className="navigation__menu--item has-child">
+                                                <Link href="/room-one" className="navigation__menu--item__link">
+                                                    CHAMBRES & SUITES
                                                 </Link>
-                                                <ul className="submenu sub__style" role="menu">
-                                                    <li role="menuitem" className="has-child has-arrow">
-                                                        <Link href="/">Room Style</Link>
-                                                        <ul className="sub__style" role="menu">
-                                                            <li role="menuitem">
-                                                                <Link href="/room-one">Room One</Link>
-                                                            </li>
-                                                            <li role="menuitem">
-                                                                <Link href="/room-two">Room Two</Link>
-                                                            </li>
-                                                            <li role="menuitem">
-                                                                <Link href="/room-three">Room Three</Link>
-                                                            </li>
-                                                            <li role="menuitem">
-                                                                <Link href="/room-four">Room Four</Link>
-                                                            </li>
-                                                        </ul>
-                                                    </li>
-                                                    <li role="menuitem" className="has-child has-arrow">
-                                                        <Link href="/">Room Details</Link>
-                                                        <ul className="sub__style" role="menu">
-                                                            <li role="menuitem">
-                                                                <Link href="/room/the-ritz-carlton">Room Details 1</Link>
-                                                            </li>
-                                                            <li role="menuitem">
-                                                                <Link href="/room2/the-ritz-carlton">Room Details 2</Link>
-                                                            </li>
-                                                        </ul>
-                                                    </li>
-                                                </ul>
                                             </li>
                                             <li className="navigation__menu--item has-child has-arrow">
                                                 <Link href="/" className="navigation__menu--item__link">
@@ -227,13 +103,14 @@ function HeaderOne() {
                                 <Link href="/">
                                     <img
                                         className="logo__class"
-                                        src="/assets/images/logo/logo.svg"
-                                        alt="moonlit"
+                                        src="/assets/images/logo/hp_logo.png"
+                                        alt="hp resort logo"
+                                        style={{ width: '60px', height: '60px' }}
                                     />
                                 </Link>
                             </div>
                             <div className="main__right">
-                                {/* Sign In Button */}
+                                {/* Sign In Button *
                                 <button
                                     className="theme-btn btn-style sm-btn border d-none d-lg-block"
                                     onClick={() => setIsLoginOpen(true)}
@@ -241,7 +118,7 @@ function HeaderOne() {
                                     <span>Sign In</span>
                                 </button>
 
-                                {/* Sign Up Button */}
+                                {/* Sign Up Button *
                                 <button
                                     className="theme-btn btn-style sm-btn border d-none d-lg-block"
                                     onClick={() => setIsSignupOpen(true)}
@@ -250,8 +127,8 @@ function HeaderOne() {
                                 </button>
 
                                 {/* Book Now Button */}
-                                <Link href="/room/the-ritz-carlton" className="theme-btn btn-style sm-btn fill">
-                                    <span>Book Now</span>
+                                <Link href="https://www.abidjan.net/" className="theme-btn btn-style sm-btn fill">
+                                    <span>PRESSE</span>
                                 </Link>
 
                                 {/* Mobile Menu Button */}
@@ -269,7 +146,7 @@ function HeaderOne() {
                 </div>
             </header>
             <OffcanvasMenu isOpen={isOffcanvasOpen} onClose={() => setIsOffcanvasOpen(false)} />
-            {/* Login Form Modal */}
+            {/* Login Form Modal 
             <LoginForm
                 isOpen={isLoginOpen}
                 onClose={() => setIsLoginOpen(false)}
@@ -278,7 +155,7 @@ function HeaderOne() {
                     setIsSignupOpen(true);
                 }}
             />
-            {/* Sign Up Form Modal */}
+            {/* Sign Up Form Modal *
             <SignUpForm
                 isOpen={isSignupOpen}
                 onClose={() => setIsSignupOpen(false)}
@@ -286,7 +163,7 @@ function HeaderOne() {
                     setIsSignupOpen(false);
                     setIsLoginOpen(true);
                 }}
-            />
+            />*/}
             {/* header menu end */}
         </>
 

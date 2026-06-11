@@ -38,7 +38,7 @@ function RoomDetailsPage() {
                                         35 sqm
                                     </span>
                                     <span>
-                                        <i className="flaticon-user" />5 Person
+                                        <i className="flaticon-user" />2 Person
                                     </span>
                                 </div>
                                 <p>
@@ -59,7 +59,7 @@ function RoomDetailsPage() {
                                         <img className="rounded-2" src="/assets/images/pages/room/r-d-2.webp" alt="" />
                                     </div>
                                 </div>
-                                <span className="h4 d-block mb-30">Room Amenities</span>
+                                <span className="h4 d-block mb-30">Équipements des chambres</span>
                                 <div className="room__amenity mb-50">
                                     <div className="group__row">
                                         <div className="single__item">

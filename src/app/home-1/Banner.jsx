@@ -30,26 +30,26 @@ function BannerOne() {
                         {/* single slider item */}
                         <SwiperSlide>
                             <div className="banner__slider__image">
-                                <img src="/assets/images/banner/1.webp" alt="" />
+                                <img src="/assets/images/banner/8.jpg" alt="" />
                             </div>
                             <div className="container">
                                 <div className="row justify-content-center">
                                     <div className="col-lg-10">
                                         <div className="banner__slide__content">
                                             <span className="h6 subtitle__icon">
-                                                Welcome to Our Hotel
+                                                Akwaba
                                             </span>
-                                            <h1>Luxury Stay Hotel Experience Comfort &amp; Elegance</h1>
-                                            <p className="sub__text">
+                                                    <h1>BIENVENUE SUR LE SITE DE L'Hôtel HP Resort</h1>
+                                            {/* <p className="sub__text">
                                                 Choosing Bokinn was one of the best decisions we've ever
                                                 made. They have proven to be a reliable and innovative
                                                 partner
-                                            </p>
+                                            </p> */}
                                             <Link
                                                 href="/room-two"
                                                 className="theme-btn btn-style fill no-border "
                                             >
-                                                <span>Discover Room</span>
+                                                <span>VISITEZ NOS CHAMBRES</span>
                                             </Link>
                                         </div>
                                     </div>
@@ -60,24 +60,22 @@ function BannerOne() {
                         {/* single slider item */}
                         <SwiperSlide>
                             <div className="banner__slider__image">
-                                <img src="/assets/images/banner/2.webp" alt="" />
+                                <img src="/assets/images/banner/9.jpg" alt="" />
                             </div>
                             <div className="container">
                                 <div className="row justify-content-center">
                                     <div className="col-lg-10">
                                         <div className="banner__slide__content">
-                                            <span className="h6 subtitle__icon">Welcome to Our Spa</span>
-                                            <h1>Lavish Getaway A Blend of Comfort &amp; Style</h1>
+                                            {/* <span className="h6 subtitle__icon">Bienvenue à notre spa</span> */}
+                                            <h1>Hôtel - Restaurant - Spa - Night club</h1>
                                             <p className="sub__text">
-                                                Choosing Bokinn was one of the best decisions we've ever
-                                                made. They have proven to be a reliable and innovative
-                                                partner
+                                                Le meilleur hôtel pour vos séjours à Yamoussoukro.
                                             </p>
                                             <Link
                                                 href="/room-one"
                                                 className="theme-btn btn-style fill no-border "
                                             >
-                                                <span>Discover Room</span>
+                                                <span>VISITER NOS CHAMBRES</span>
                                             </Link>
                                         </div>
                                     </div>
@@ -88,24 +86,22 @@ function BannerOne() {
                         {/* single slider item */}
                         <SwiperSlide>
                             <div className="banner__slider__image">
-                                <img src="/assets/images/banner/banner-3.webp" alt="" />
+                                <img src="/assets/images/banner/10.jpg" alt="" />
                             </div>
                             <div className="container">
                                 <div className="row justify-content-center">
                                     <div className="col-lg-10">
                                         <div className="banner__slide__content">
-                                            <span className="h6 subtitle__icon">Welcome to Our Spa</span>
-                                            <h1> A Perfect Fusion of Comfort and Elegance</h1>
+                                            {/* <span className="h6 subtitle__icon">Welcome to Our Spa</span> */}
+                                            <h1>Hôtel - Restaurant - Spa - Night club</h1>
                                             <p className="sub__text">
-                                                Choosing Bokinn was one of the best decisions we've ever
-                                                made. They have proven to be a reliable and innovative
-                                                partner
+                                                Le meilleur hôtel pour vos séjours à Yamoussoukro.
                                             </p>
                                             <Link
                                                 href="/room-one"
                                                 className="theme-btn btn-style fill no-border "
                                             >
-                                                <span>Discover Room</span>
+                                                <span>VISITER NOS CHAMBRES</span>
                                             </Link>
                                         </div>
                                     </div>

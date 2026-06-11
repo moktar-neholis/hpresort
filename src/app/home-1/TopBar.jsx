@@ -9,11 +9,11 @@ function TopBar() {
                     <div className="row justify-content-between">
                         <div className="col-lg-6 col-md-6">
                             <div className="social__links">
-                                <Link className="link__item gap-10" href="callto:#">
-                                    <i className="flaticon-phone-flip" /> +12505550199
+                                <Link className="link__item gap-10" href="callto:+2252730646800">
+                                    <i className="flaticon-phone-flip" />  +225 27 30 64 68 00
                                 </Link>
-                                <Link className="link__item gap-10" href="mailto:#">
-                                    <i className="flaticon-envelope" /> moonlit@gmail.com
+                                <Link className="link__item gap-10" href="mailto:info@hp-resort.ci">
+                                    <i className="flaticon-envelope" /> info@hp-resort.ci
                                 </Link>
                             </div>
                         </div>
@@ -21,7 +21,7 @@ function TopBar() {
                             <div className="location">
                                 <Link className="link__item gap-10" href="/">
                                     <i className="flaticon-marker" />
-                                    280 Augusta Avenue, M5T 2L9 Toronto, Canada
+                                    BP 923, Yamoussoukro Quartier Millionnaire
                                 </Link>
                             </div>
                         </div>

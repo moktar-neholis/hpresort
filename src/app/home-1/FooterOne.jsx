@@ -18,7 +18,7 @@ function FooterOne() {
                     </div>
                 </div>
                 <div className="container">
-                    <div className="row">
+                    {/* <div className="row">
                         <div className="footer__newsletter">
                             <span className="h2">Join Our Newsletter</span>
                             <div className="rts__form">
@@ -34,45 +34,46 @@ function FooterOne() {
                                 </form>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
                     <div className="row">
                         <div className="footer__widget__wrapper">
                             <div className="rts__widget">
                                 <Link href="/">
                                     <img
                                         className="footer__logo"
-                                        src="/assets/images/logo/logo.svg"
+                                        src="/assets/images/logo/hp_logo.png"
                                         alt="footer logo"
+                                        width={150}
                                     />
                                 </Link>
                                 <p className="font-sm max-290 mt-20">
-                                    Each room features plush bedding, high-quality linens, and a
-                                    selection of ensure a restful night's sleep.
+                                    Situé au cœur de Yamoussoukro, HP RESORT est 
+                                    un joyau architectural de 4 étoiles à découvrir et à faire découvrir.
                                 </p>
                             </div>
                             <div className="rts__widget">
-                                <span className="widget__title">Quick Links</span>
+                                <span className="widget__title">Liens Utiles</span>
                                 <ul>
                                     <li>
                                         <Link href="#" aria-label="footer__link">
-                                            Rooms &amp; Suites
+                                            Restaurants & Bar
                                         </Link>
                                     </li>
                                     <li>
                                         <Link href="#" aria-label="footer__link">
-                                            Dining
+                                            Réunions & Evenements
                                         </Link>
                                     </li>
                                     <li>
                                         <Link href="#" aria-label="footer__link">
-                                            Spa &amp; Wellness
+                                            Bien Etre & Detente
                                         </Link>
                                     </li>
-                                    <li>
+                                    {/* <li>
                                         <Link href="#" aria-label="footer__link">
                                             Special Offers
                                         </Link>
-                                    </li>
+                                    </li> */}
                                 </ul>
                             </div>
                             <div className="rts__widget">
@@ -89,8 +90,9 @@ function FooterOne() {
                                 <span className="widget__title">Contact Us</span>
                                 <ul>
                                     <li>
-                                        <Link aria-label="footer__contact" href="tel:+12505550199">
-                                            <i className="flaticon-phone-flip" /> +12505550199
+                                        <Link aria-label="footer__contact" href="tel:+225 27 30 64 68 00">
+                                            <i className="flaticon-phone-flip" /> +225 27 30 64 68 00
+
                                         </Link>
                                     </li>
                                     <li>

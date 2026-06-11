@@ -9,10 +9,10 @@ import AdvanceForm from "./home-1/AdvanceForm";
 import AboutOne from "./home-1/About";
 import FacilitiesOne from "./home-1/FacilitiesOne";
 import RoomOne from "./home-1/RoomOne";
-import TestimonialOne from "./home-1/TestimonialOne";
+//import TestimonialOne from "./home-1/TestimonialOne";
 import VideoOne from "./home-1/VideoOne";
-import OfferOne from "./home-1/OfferOne";
-import GalleryOne from "./home-1/GalleryOne";
+//import OfferOne from "./home-1/OfferOne";
+//import GalleryOne from "./home-1/GalleryOne";
 import FooterOne from "./home-1/FooterOne";
 import BackToTop from "./home-1/BackToTop";
 
@@ -32,11 +32,11 @@ function Page() { // Use PascalCase for Next.js pages
       <AdvanceForm />
       <AboutOne />
       <FacilitiesOne />
-      <RoomOne className="pt-120" />
-      <TestimonialOne />
+      <RoomOne className="pt-0" />
+      {/* <TestimonialOne /> */}
       <VideoOne />
-      <OfferOne />
-      <GalleryOne />
+      {/* <OfferOne /> */}
+      {/* <GalleryOne /> */}
       <FooterOne />
       <BackToTop />
     </>

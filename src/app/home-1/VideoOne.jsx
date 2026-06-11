@@ -12,7 +12,7 @@ function VideoOne() {
                 <div className="video-modal-overlay" onClick={() => setIsOpen(false)}>
                     <div className="video-modal-content">
                         <ReactPlayer
-                            url="https://www.youtube.com/watch?v=qOwxqRGHy5Q"
+                            url="https://hpresort.in-novation.tech/assets/video/hotel.mp4"
                             playing
                             controls
                             width="100%"
@@ -23,7 +23,7 @@ function VideoOne() {
             )}
 
             {/* Video Section Start */}
-            <div className="rts__section pb-120 video video__full">
+            <div className="rts__section pb-120 video video__full pt-120">
                 <div className="container-full">
                     <div className="row">
                         <div className="col-12">
@@ -31,9 +31,12 @@ function VideoOne() {
                                 <div className="video__area__image jara-mask-2 jarallax rounded-0">
                                     <img
                                         className="radius-none jarallax-img"
-                                        src="/assets/images/video/video-main.webp"
+                                        src="/assets/images/video/hotel-overview.png"
                                         alt=""
                                     />
+                                    <p className="video__area__content h2 text-white text-center pt-120">
+                                        Presentation de notre hôtel
+                                    </p>
                                 </div>
                                 <div className="video--spinner__wrapper">
                                     <div className="rts__circle">
@@ -46,7 +49,7 @@ function VideoOne() {
                                             </defs>
                                             <text>
                                                 <textPath xlinkHref="#circle-2">
-                                                    Watch Now * Watch Now * Watch Full Video *
+                                                    * Regarder maintenant * Regarder maintenant
                                                 </textPath>
                                             </text>
                                         </svg>

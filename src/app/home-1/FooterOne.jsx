@@ -96,15 +96,15 @@ function FooterOne() {
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link aria-label="footer__contact" href="mailto:UjJw6@example.com">
+                                        <Link aria-label="footer__contact" href="mailto:info@hp-resort.ci">
                                             <i className="flaticon-envelope" />
-                                            Moonlit@gmail.com
+                                            info@hp-resort.ci
                                         </Link>
                                     </li>
                                     <li>
                                         <Link aria-label="footer__contact" href="#">
                                             <i className="flaticon-marker" />
-                                            M5T 2L9 Toronto, Canada
+                                            Yamoussoukro, Côte d'Ivoire
                                         </Link>
                                     </li>
                                 </ul>
@@ -117,7 +117,7 @@ function FooterOne() {
                         <div className="row">
                             <div className="copyright__wrapper">
                                 <p className="mb-0">
-                                    Copyright © 2024 Moonlit. All rights reserved.
+                                    Copyright © {new Date().getFullYear()} HP RESORT. Tous droits réservés.
                                 </p>
                                 <div className="footer__social__link">
                                     <Link href="#" aria-label="footer__social" className="link__item">

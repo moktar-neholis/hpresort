@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(git credential-manager erase 2>&1)"
+    ]
+  }
+}

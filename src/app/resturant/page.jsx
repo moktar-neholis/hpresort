@@ -23,13 +23,13 @@ function page() {
             <TopBar />
             <HeaderOne />
             <BreadcrumbOne
-                title="The Restaurant"
-                description="Whether you are in the mood for a leisurely breakfast, a business lunch, or a romantic dinner."
+                title="Restaurants & Bar"
+                description="Pour un petit-déjeuner tranquille, un déjeuner d'affaires ou un dîner romantique."
             />
             <AboutSeven />
             <GalleryFour />
-            <FoodMenuOne />
-            <TestimonialSection className="section__padding" />
+            {/* <FoodMenuOne /> */}
+            {/* <TestimonialSection className="section__padding" /> */}
             <FooterOne />
             <BackToTop />
         </>

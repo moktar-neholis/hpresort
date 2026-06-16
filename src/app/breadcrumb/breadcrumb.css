@@ -1,0 +1,25 @@
+.page__breadcrumb {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 14px;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.page__breadcrumb a {
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.page__breadcrumb a:hover {
+  color: #D97E4F;
+}
+
+.page__breadcrumb__sep {
+  margin: 0 6px;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.page__breadcrumb__current {
+  color: #D97E4F;
+}

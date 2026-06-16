@@ -44,14 +44,14 @@ function RoomOne({ className }) {
                     autoplay={false}
                     pagination={{ el: ".rts-pagination", clickable: true }}
                     speed={1000}
-                    // breakpoints={{
-                    //     0: { slidesPerView: 1 },
-                    //     575: { slidesPerView: 1 },
-                    //     768: { slidesPerView: 3 },
-                    //     992: { slidesPerView: 2.5 },
-                    //     1200: { slidesPerView: 3 },
-                    //     1400: { slidesPerView: 4 },
-                    // }}
+                    breakpoints={{
+                        0: { slidesPerView: 1 },
+                        575: { slidesPerView: 1 },
+                        768: { slidesPerView: 3 },
+                        992: { slidesPerView: 2.5 },
+                        1200: { slidesPerView: 3 },
+                        1400: { slidesPerView: 4 },
+                    }}
                 >
                     {/* Dynamic Room Data */}
                     {posts.length > 0 ? (
@@ -72,10 +72,10 @@ function RoomOne({ className }) {
                     )}
                 </Swiper>
 
-                {/* Pagination *
+                Pagination *
                 <div className="rts__pagination">
                     <div className="rts-pagination" />
-                </div>*/}
+                </div>
             </div>
         </div>
     );

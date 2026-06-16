@@ -6,7 +6,7 @@ function TopBar() {
         <>
             <div className="header__top">
                 <div className="container">
-                    <div className="row justify-content-between">
+                    <div className="row justify-content-between align-items-center">
                         <div className="col-lg-6 col-md-6">
                             <div className="social__links">
                                 <Link className="link__item gap-10" href="callto:+2252730646800">
@@ -17,11 +17,16 @@ function TopBar() {
                                 </Link>
                             </div>
                         </div>
-                        <div className="col-lg-6 col-md-6">
+                        <div className="col-lg-6 col-md-6 d-flex justify-content-between align-items-center">
                             <div className="location">
                                 <Link className="link__item gap-10" href="/">
                                     <i className="flaticon-marker" />
                                     BP 923, Yamoussoukro Quartier Millionnaire
+                                </Link>
+                            </div>
+                            <div className="language__selector">
+                                <Link className="link__item gap-8" href="/">
+                                    <i className="flaticon-globe" /> Francais
                                 </Link>
                             </div>
                         </div>

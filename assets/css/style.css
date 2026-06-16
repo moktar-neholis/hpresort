@@ -7934,11 +7934,12 @@ textarea:focus-visible, input:focus-visible {
 
 .header__top {
   padding: 8px 0;
+  background-color: #E88850;
   border-bottom: 0.5px solid rgba(101, 103, 107, 0.2);
 }
 .header__top .link__item {
   font-size: 14px;
-  color: var(--rts-para);
+  color: #FFFFFF;
 }
 .header__top .link__item i {
   top: 2px;
@@ -7964,6 +7965,14 @@ textarea:focus-visible, input:focus-visible {
   .location {
     justify-content: center;
   }
+}
+
+.language__selector {
+  display: flex;
+  align-items: center;
+}
+.language__selector .link__item {
+  white-space: nowrap;
 }
 
 @media screen and (max-width: 576px) {

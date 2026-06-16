@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "slug": "nklo",
+        "image": "/assets/images/pages/event/event4.jpg",
+        "title": "N'KLO",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, exercitationem. Ad, est..."
+    },
+    {
+        "id": 2,
+        "slug": "convivialite",
+        "image": "/assets/images/pages/event/event6.jpg",
+        "title": "CONVIVIALITÉ",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, exercitationem. Ad, est..."
+    },
+    {
+        "id": 3,
+        "slug": "lolobo",
+        "image": "/assets/images/pages/event/event2.jpg",
+        "title": "LOLOBO",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, exercitationem. Ad, est..."
+    },
+    {
+        "id": 4,
+        "slug": "morofe",
+        "image": "/assets/images/pages/event/event5.jpg",
+        "title": "MOROFE",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, exercitationem. Ad, est..."
+    },
+    {
+        "id": 5,
+        "slug": "ngokro",
+        "image": "/assets/images/pages/event/event3.jpg",
+        "title": "N'GOKRO",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, exercitationem. Ad, est..."
+    },
+    {
+        "id": 6,
+        "slug": "gala-mariage-anniversaire-bal",
+        "image": "/assets/images/pages/event/event1.jpg",
+        "title": "GALA, MARIAGE, ANNIVERSAIRE",
+        "description": "L'une des principales caractéristiques qui distinguent l'Hôtel HP Resort et ses espaces est sa capacité à accueillir."
+    }
+]

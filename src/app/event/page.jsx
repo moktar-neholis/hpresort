@@ -3,8 +3,6 @@ import TopBar from '../home-1/TopBar'
 import HeaderOne from '../home-1/Header'
 import BreadcrumbOne from '../breadcrumb/Breadcrumb'
 import EventTwo from './Event'
-import NewsletterThree from './Newsletter'
-import ServiceSix from './Service'
 import FooterOne from '../home-1/FooterOne'
 import BackToTop from '../home-1/BackToTop'
 import GDPRCookie from '../home-1/GDPRCookie'
@@ -22,12 +20,11 @@ function page() {
             <TopBar />
             <HeaderOne />
             <BreadcrumbOne
-                title="Events"
-                description="Our diverse range of activities is designed to offer something for everyone."
+                title="Réunions & Evenements"
+                breadcrumb={[{ label: 'Accueil', href: '/' }]}
+                current="Réunions & Evenements"
             />
             <EventTwo />
-            <NewsletterThree />
-            <ServiceSix />
             <FooterOne />
             <BackToTop />
         </>

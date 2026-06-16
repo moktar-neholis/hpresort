@@ -1,15 +1,17 @@
-import React from 'react'
+'use client'
+import React, { useState } from 'react'
 import TopBar from '../home-1/TopBar'
 import HeaderOne from '../home-1/Header'
 import BreadcrumbOne from '../breadcrumb/Breadcrumb'
 import AdvanceFormTwo from '../form/AdvanceFormTwo'
 import RoomSix from '../room/RoomSix'
-import TestimonialOne from '../home-1/TestimonialOne'
 import FooterOne from '../home-1/FooterOne'
 import BackToTop from '../home-1/BackToTop'
 import GDPRCookie from '../home-1/GDPRCookie'
 
 function page() {
+    const [roomFilter, setRoomFilter] = useState('');
+
     return (
         <>
             <GDPRCookie
@@ -22,12 +24,12 @@ function page() {
             <TopBar />
             <HeaderOne />
             <BreadcrumbOne
-                title="Deluxe Room"
-                description="A step up from the standard room, often with better views, more space, and additional amenities."
+                title="Chambres & Suites"
+                breadcrumb={[{ label: 'Accueil', href: '/' }]}
+                current="Chambres & Suites"
             />
-            <AdvanceFormTwo />
-            <RoomSix />
-            <TestimonialOne />
+            <AdvanceFormTwo onFilterChange={setRoomFilter} />
+            <RoomSix filter={roomFilter} />
             <FooterOne />
             <BackToTop />
         </>

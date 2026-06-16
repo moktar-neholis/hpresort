@@ -1,0 +1,126 @@
+/* Vertical room listing (Chambres & Suites page) */
+.room__list {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-bottom: 40px;
+}
+
+.room__list__item {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+  padding: 20px;
+}
+
+.room__list__item__thumb {
+  flex: 0 0 280px;
+  max-width: 280px;
+}
+
+.room__list__item__thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.room__list__item__content {
+  flex: 1;
+  min-width: 260px;
+  display: flex;
+  flex-direction: column;
+}
+
+.room__list__item__rating {
+  margin-bottom: 8px;
+}
+
+.room__list__item__rating i {
+  color: #D97E4F;
+  font-size: 14px;
+  margin-right: 2px;
+}
+
+.room__list__item__top {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.room__list__item__title {
+  margin: 0;
+}
+
+.room__list__item__price {
+  color: #D97E4F;
+  white-space: nowrap;
+}
+
+.room__list__item__desc {
+  margin: 10px 0;
+}
+
+.room__list__item__meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px;
+  margin-bottom: 16px;
+}
+
+.room__list__item__meta span {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 14px;
+}
+
+.room__list__item__meta img {
+  width: 16px;
+  height: 16px;
+}
+
+.room__list__item .theme-btn {
+  align-self: flex-start;
+}
+
+/* Pagination */
+.room__list__pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.room__list__pagination__arrow,
+.room__list__pagination__number {
+  width: 38px;
+  height: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  border: 1px solid #e5e5e5;
+  background: #fff;
+  cursor: pointer;
+}
+
+.room__list__pagination__arrow img {
+  width: 14px;
+  height: 14px;
+}
+
+.room__list__pagination__arrow:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+.room__list__pagination__number.is__active {
+  background: #D97E4F;
+  border-color: #D97E4F;
+  color: #fff;
+}

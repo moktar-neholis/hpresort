@@ -21,8 +21,9 @@ function page() {
             <TopBar />
             <HeaderOne />
             <BreadcrumbOne
-                title="Activities"
-                description="Our diverse range of activities is designed to offer something for everyone."
+                title="Bien Etre & Detente"
+                breadcrumb={[{ label: 'Accueil', href: '/' }]}
+                current="Bien Etre & Detente"
             />
             <ActivitiesOne />
             <FooterOne />

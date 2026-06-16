@@ -144,19 +144,19 @@
 // header home six
 .main__header {
     .main__header__wrapper {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        display: flex;
+        justify-content: space-between;
         position: relative;
-        @include mq($md) {
-            grid-template-columns: repeat(2, 1fr);
-        }
 
         .main__logo {
-            display: grid;
-            justify-items: center;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
 
             @include mq($md) {
-                justify-items: self-start;
+                position: static;
+                transform: none;
             }
         }
 

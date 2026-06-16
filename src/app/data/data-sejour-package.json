@@ -1,0 +1,51 @@
+[
+    {
+        "slug": "paix-et-sante",
+        "image": "/assets/images/sejour-package/activity1.jpg",
+        "title": "Voeux 2025",
+        "excerpt": "L'équipe de HP Resort à Yamoussoukro vous présente ses meilleurs vœux pour...",
+        "description": "L'équipe de HP Resort à Yamoussoukro vous présente ses meilleurs vœux pour la nouvelle année. Que 2025 vous apporte paix, santé et prospérité. Nous espérons vous accueillir pour célébrer cette nouvelle année. Pour toute information, contactez-nous au 07 07 45 21 77 ou 07 01 81 24 32."
+    },
+    {
+        "slug": "vue-sur-l-amour",
+        "image": "/assets/images/sejour-package/activity2.jpg",
+        "title": "Saint Valentin",
+        "excerpt": "Célébrez la fête des amoureux dans un cadre idyllique. HP Resort vous...",
+        "description": "Célébrez la fête des amoureux dans un cadre idyllique. HP Resort vous propose son offre \"Vue sur l'Amour\" du 14 au 16 février. Partagez un moment romantique et inoubliable à Yamoussoukro. Réservez dès maintenant votre escapade amoureuse au 07 07 45 21 77 ou 07 01 81 24 32."
+    },
+    {
+        "slug": "mi-paquinou",
+        "image": "/assets/images/sejour-package/activity3.png",
+        "title": "Pâques (Paquinou)",
+        "excerpt": "Vivez la traditionnelle fête de Paquinou en plein cœur de Yamoussoukro !...",
+        "description": "Vivez la traditionnelle fête de Paquinou en plein cœur de Yamoussoukro ! HP Resort vous invite à célébrer \"Mi Paquinou\" du 17 au 22 avril. Une occasion unique de se retrouver en famille ou entre amis. Pour réserver votre séjour, appelez le 07 07 45 21 77 ou 07 01 81 24 32."
+    },
+    {
+        "slug": "day-off",
+        "image": "/assets/images/sejour-package/activity4.png",
+        "title": "Fête du Travail",
+        "excerpt": "En l'honneur de la fête du travail, accordez-vous une pause bien méritée...",
+        "description": "En l'honneur de la fête du travail, accordez-vous une pause bien méritée ! HP Resort lance son offre \"Day OFF\" valable du 1er au 31 mai. Une invitation à la détente et au repos à Yamoussoukro. Contactez-nous pour réserver votre moment de relaxation au 07 07 45 21 77 ou 07 01 81 24 32."
+    },
+    {
+        "slug": "fete-des-meres",
+        "image": "/assets/images/sejour-package/activity5.jpg",
+        "title": "Bonne Fête des Mères",
+        "excerpt": "Honorez la femme la plus importante de votre vie ! Pour la...",
+        "description": "Honorez la femme la plus importante de votre vie ! Pour la Fête des Mères, HP Resort vous accueille du 23 au 25 mai. Offrez à votre maman un cadeau inoubliable dans un cadre exceptionnel à Yamoussoukro. Réservez sa surprise au 07 07 45 21 77 ou 07 01 81 24 32."
+    },
+    {
+        "slug": "fete-des-peres",
+        "image": "/assets/images/sejour-package/activity6.jpg",
+        "title": "Bonne Fête des Pères",
+        "excerpt": "Mettez les papas à l'honneur ! HP Resort a concocté une offre...",
+        "description": "Mettez les papas à l'honneur ! HP Resort a concocté une offre spéciale pour la Fête des Pères, disponible du 13 au 15 juin. Venez célébrer et créer de merveilleux souvenirs en famille à Yamoussoukro. Pour les réservations, contactez le 07 07 45 21 77 ou 07 01 81 24 32."
+    },
+    {
+        "slug": "yakrholidays",
+        "image": "/assets/images/sejour-package/activity7.jpg",
+        "title": "Yakrholiday's",
+        "excerpt": "Préparez-vous pour des vacances estivales de rêve ! Avec l'offre \"Yakrholiday's\", HP...",
+        "description": "Préparez-vous pour des vacances estivales de rêve ! Avec l'offre \"Yakrholiday's\", HP Resort vous invite à découvrir Yamoussoukro du 1er juin au 31 août. Profitez du soleil, de la détente et des activités en famille. Planifiez votre séjour en appelant le 07 07 45 21 77 ou 07 01 81 24 32."
+    }
+]

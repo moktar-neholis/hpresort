@@ -30,9 +30,6 @@ function AboutSeven() {
                         </div> */}
                         <div className="col-lg-7">
                             <div className="about__content">
-                                <span className="h6 subtitle__icon__two d-block wow fadeInUp">
-                                    Restaurants & Bar
-                                </span>
                                 <h2 className="font-xl wow fadeInUp">
                                     Nos restaurants et Bar
                                 </h2>

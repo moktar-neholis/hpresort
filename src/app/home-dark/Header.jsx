@@ -182,7 +182,7 @@ function HeaderOne() {
                                                         <Link href="/about">About</Link>
                                                     </li>
                                                     <li role="menuitem">
-                                                        <Link href="/resturant">Restaurant</Link>
+                                                        <Link href="/restaurant-bar">Restaurant</Link>
                                                     </li>
                                                     <li role="menuitem">
                                                         <Link href="/gallery">Gallery</Link>

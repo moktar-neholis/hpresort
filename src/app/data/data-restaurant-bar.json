@@ -1,0 +1,37 @@
+[
+    {
+        "slug": "saveurs-du-monde",
+        "image": "/assets/images/pages/resturant/resto1.jpg",
+        "title": "Saveurs du Monde",
+        "excerpt": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio, exercitationem...",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio, exercitationem, aut, vel illum dolore eu fugiat nulla pariatur. Saveurs du Monde vous invite à un voyage culinaire à travers des plats inspirés des quatre coins du globe."
+    },
+    {
+        "slug": "au-poulet-chaud",
+        "image": "/assets/images/pages/resturant/resto2.jpg",
+        "title": "Au Poulet Chaud",
+        "excerpt": "En plein cœur de la ville de Yamoussoukro /capitale, cette...",
+        "description": "En plein cœur de la ville de Yamoussoukro /capitale, cette terrasse fleurie est une véritable oasis, paisible et verdoyant qui vous transporte dans une bulle apaisante, loin du tumulte des rues Abidjanaises et Yamoussoises. Endroit idéal pour profiter des beaux jours, quelle que soit la saison, et faire une pause oxygénée au contact de la nature ; bar restaurant terrasse Au poulet chaud constitue le plan parfait pour prendre l’apéritif en bordure de piscine et déguster les spécialités du Chef. Notre carte menue vous fait revisiter les savoureuses spécialités d’ici et d’ailleurs. Au travers de notre carte boisson variée, vous pourrez découvrir aussi bien des boissons locales que les grands classiques en la matière. Mister Mix et toute notre équipe vous attendent pour faire voyager vos papilles le tout, dans un cadre agréable et bucolique au son d’une musique sélective. Jour & horaire d'ouverture Mardi au dimanche de 12 H00 à 22H00."
+    },
+    {
+        "slug": "le-bar-bistrot-beoue",
+        "image": "/assets/images/pages/resturant/resto3.jpg",
+        "title": "Le Bar Bistrot « Beoué »",
+        "excerpt": "Notre bar pouvant le hall un espace convivial qui...",
+        "description": "Notre bar jouxtant le hall est un espace convivial qui offre des collations et aussi bien des boissons chaudes que froides l’instant d’une pause entre amis, en famille ou à deux. La carte propose des jus de fruit frais de saison, des cocktails, des soft drinks, des liqueurs, du vin et du champagne."
+    },
+    {
+        "slug": "4-epices",
+        "image": "/assets/images/pages/resturant/resto4.jpg",
+        "title": "4 Epices",
+        "excerpt": "Notre coquet restaurant de moyenne capacité, vous propose dans un...",
+        "description": "Notre coquet restaurant de moyenne capacité, vous propose dans un décor cozy une carte colorée de mets aussi bien locaux avec l’incontournable poulet ou poisson braisé à l’ivoirienne, la délicieuse friture de banane plantain Alloco, la soupe nationale Kédjénou de grand-mère mais également, des classiques de la cuisine Européenne. Egayez vos papilles avec notre éventail de savoir-faire culinaire. Jour & horaire d'ouverture Lundi au lundi de 12 H00 à 22H00."
+    },
+    {
+        "slug": "discotheque",
+        "image": "/assets/images/pages/resturant/resto5.png",
+        "title": "Discotheque",
+        "excerpt": "Le NEW VIBE night-club, s'adapte aux tendances musicales et culturelles...",
+        "description": "Le NEW VIBE Night-club, s’adapte aux tendances musicales et culturelles passées et actuelles et, propose une expérience immersive dans une ambiance unique avec des technologies de pointe et des systèmes de son et lumière avancés. Notre carte de bar propose une offre élargie de boissons premium (haut de gamme) et de cocktails artisanaux. L’accent est mis sur la sécurité des clients avec des protocoles et des mesures rigoureusement respectés. Jour & horaires d'ouverture Vendredi et samedi à partir de 22H00."
+    }
+]

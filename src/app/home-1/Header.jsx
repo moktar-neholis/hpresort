@@ -31,33 +31,33 @@ function HeaderOne() {
     return (
         <>
             {/* header menu */}
-             {/* Main header menu */}
+            {/* Main header menu */}
             <header className={`main__header header__function ${hydrated && isSticky ? 'is__sticky' : ''}`}>
                 <div className="container">
                     <div className="row">
-                        <div className="main__header__wrapper" style={{display: 'flex', alignItems: 'center', justifyContent: 'space-between', width: '100%', padding: '15px 0'}}>
+                        <div className="main__header__wrapper" style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', width: '100%', padding: '15px 0' }}>
                             <div className="main__logo">
                                 <Link href="/">
                                     <img
                                         className="logo__class"
                                         src="/assets/images/logo/hp_logo.png"
                                         alt="HP Resort"
-                                        
+
                                     />
                                 </Link>
                             </div>
-                            
-                            <div className="main__nav" style={{flex: 1, display: 'flex', justifyContent: 'center'}}>
+
+                            <div className="main__nav" style={{ flex: 1, display: 'flex', justifyContent: 'center' }}>
                                 <div className="navigation d-none d-lg-block">
                                     <nav className="navigation__menu" id="main__menu">
-                                        <ul className="list-unstyled" style={{display: 'flex', gap: '25px', margin: 0, padding: 0}}>
+                                        <ul className="list-unstyled" style={{ display: 'flex', gap: '25px', margin: 0, padding: 0 }}>
                                             <li className="navigation__menu--item">
                                                 <Link href="/" className="navigation__menu--item__link">
                                                     ACCUEIL
                                                 </Link>
                                             </li>
                                             <li className="navigation__menu--item">
-                                                <Link href="/room-one" className="navigation__menu--item__link" style={{color: '#D97E4F'}}>
+                                                <Link href="/room-one" className="navigation__menu--item__link" style={{ color: '#D97E4F' }}>
                                                     CHAMBRES & SUITES
                                                 </Link>
                                             </li>
@@ -65,29 +65,37 @@ function HeaderOne() {
                                                 <Link href="#" className="navigation__menu--item__link">
                                                     NOS ESPACES+
                                                 </Link>
-                                                <ul className="submenu sub__style" role="menu" style={{position: 'absolute', backgroundColor: 'white', boxShadow: '0 4px 6px rgba(0,0,0,0.1)', minWidth: '200px', top: '100%', left: 0, padding: '10px 0'}}>
-                                                    <li role="menuitem" style={{padding: '8px 20px'}}>
-                                                        <Link href="/event" style={{color: 'black', textDecoration: 'none'}}>Réunions & Événements</Link>
+                                                <ul className="submenu sub__style" role="menu" style={{ position: 'absolute', backgroundColor: 'white', boxShadow: '0 4px 6px rgba(0,0,0,0.1)', minWidth: '200px', top: '100%', left: 0, padding: '10px 0' }}>
+                                                    <li role="menuitem" style={{ padding: '8px 20px' }}>
+                                                        <Link href="/event" style={{ color: 'black', textDecoration: 'none' }}>Réunions & Événements</Link>
                                                     </li>
-                                                    <li role="menuitem" style={{padding: '8px 20px'}}>
-                                                        <Link href="/activities" style={{color: 'black', textDecoration: 'none'}}>Bien-être & Détente</Link>
+                                                    <li role="menuitem" style={{ padding: '8px 20px' }}>
+                                                        <Link href="/activities" style={{ color: 'black', textDecoration: 'none' }}>Bien-être & Détente</Link>
                                                     </li>
-                                                    <li role="menuitem" style={{padding: '8px 20px'}}>
-                                                        <Link href="/resturant" style={{color: 'black', textDecoration: 'none'}}>Restaurant</Link>
+                                                    <li role="menuitem" style={{ padding: '8px 20px' }}>
+                                                        <Link href="/restaurant-bar" style={{ color: 'black', textDecoration: 'none' }}>Restaurant & Bar</Link>
                                                     </li>
                                                 </ul>
                                             </li>
-                                            <li className="navigation__menu--item">
-                                                <Link href="/service" className="navigation__menu--item__link">
+                                            <li className="navigation__menu--item has-child has-arrow">
+                                                <Link href="#" className="navigation__menu--item__link">
                                                     OFFRE DE SÉJOUR+
                                                 </Link>
+                                                <ul className="submenu sub__style" role="menu" style={{ position: 'absolute', backgroundColor: 'white', boxShadow: '0 4px 6px rgba(0,0,0,0.1)', minWidth: '200px', top: '100%', left: 0, padding: '10px 0' }}>
+                                                    <li role="menuitem" style={{ padding: '8px 20px' }}>
+                                                        <Link href="/sejour-package" style={{ color: 'black', textDecoration: 'none' }}>Séjour Packagé</Link>
+                                                    </li>
+                                                    <li role="menuitem" style={{ padding: '8px 20px' }}>
+                                                        <Link href="/promotion" style={{ color: 'black', textDecoration: 'none' }}>Promotion</Link>
+                                                    </li>
+                                                </ul>
                                             </li>
                                         </ul>
                                     </nav>
                                 </div>
                             </div>
 
-                            <button 
+                            <button
                                 style={{
                                     backgroundColor: '#D97E4F',
                                     color: 'white',
@@ -102,7 +110,7 @@ function HeaderOne() {
                             >
                                 PRESSE
                             </button>
-                            
+
                         </div>
                     </div>
                 </div>

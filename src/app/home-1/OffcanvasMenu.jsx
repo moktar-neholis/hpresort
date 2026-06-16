@@ -89,7 +89,7 @@ function OffcanvasMenu({ isOpen, onClose }) {
                                                 <span className="toggle" />
                                             </Link>
                                             <ul className="slide__menu" style={{ display: activeMenu === 4 ? "block" : "none" }}>
-                                                <li><Link href="/restaurant">Restaurant</Link></li>
+                                                <li><Link href="/restaurant-bar">Restaurant</Link></li>
                                                 <li><Link href="/gallery">Gallery</Link></li>
                                                 <li><Link href="/service">Service</Link></li>
                                                 <li><Link href="/event">Event</Link></li>
@@ -191,7 +191,7 @@ function OffcanvasMenu({ isOpen, onClose }) {
                                             <span className="toggle" />
                                         </Link>
                                         <ul className="slide__menu" style={{ display: activeMenu === 4 ? "block" : "none" }}>
-                                            <li><Link href="/restaurant">Restaurant</Link></li>
+                                            <li><Link href="/restaurant-bar">Restaurant</Link></li>
                                             <li><Link href="/gallery">Gallery</Link></li>
                                             <li><Link href="/service">Service</Link></li>
                                             <li><Link href="/event">Event</Link></li>

@@ -1,0 +1,39 @@
+.event__listing .section__topbar .content__title {
+  color: #1E2D46;
+}
+
+.event__listing .section__topbar p {
+  color: #6E737D;
+}
+
+.room__card.is__event {
+  border: none;
+  background: #F4F1EA;
+}
+
+.room__card.is__event .room__card__meta {
+  padding: 25px 30px 30px;
+}
+
+.room__card.is__event .room__card__title {
+  font-size: 22px;
+  color: #1E2D46;
+}
+
+.room__card.is__event .room__card__meta p {
+  color: #6E737D;
+}
+
+.room__card.is__event .theme-btn {
+  margin-top: 10px;
+}
+
+.room__card.is__event .theme-btn.fill {
+  background: #BE643C;
+  border-color: #BE643C;
+}
+
+.room__card.is__event .theme-btn.fill:hover {
+  background: #A8552F;
+  border-color: #A8552F;
+}

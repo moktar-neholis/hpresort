@@ -36,13 +36,13 @@ function FooterOne() {
                                 </li>
                                 <li style={{marginBottom: '15px', display: 'flex', alignItems: 'center', gap: '8px'}}>
                                     <i className="flaticon-arrow-right" style={{color: '#D97E4F', fontSize: '14px'}}></i>
-                                    <Link href="#" style={{color: '#ccc', textDecoration: 'none', fontSize: '14px'}}>
+                                    <Link href="/event" style={{color: '#ccc', textDecoration: 'none', fontSize: '14px'}}>
                                         Réunions & Événements
                                     </Link>
                                 </li>
                                 <li style={{marginBottom: '15px', display: 'flex', alignItems: 'center', gap: '8px'}}>
                                     <i className="flaticon-arrow-right" style={{color: '#D97E4F', fontSize: '14px'}}></i>
-                                    <Link href="#" style={{color: '#ccc', textDecoration: 'none', fontSize: '14px'}}>
+                                    <Link href="/activities" style={{color: '#ccc', textDecoration: 'none', fontSize: '14px'}}>
                                         Bien Etre & Detente
                                     </Link>
                                 </li>

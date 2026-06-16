@@ -31,120 +31,84 @@ function HeaderOne() {
     return (
         <>
             {/* header menu */}
+             {/* Main header menu */}
             <header className={`main__header header__function ${hydrated && isSticky ? 'is__sticky' : ''}`}>
                 <div className="container">
                     <div className="row">
-                        <div className="main__header__wrapper">
-                            <div className="main__nav">
+                        <div className="main__header__wrapper" style={{display: 'flex', alignItems: 'center', justifyContent: 'space-between', width: '100%', padding: '15px 0'}}>
+                            <div className="main__logo">
+                                <Link href="/">
+                                    <img
+                                        className="logo__class"
+                                        src="/assets/images/logo/hp_logo.png"
+                                        alt="HP Resort"
+                                        
+                                    />
+                                </Link>
+                            </div>
+                            
+                            <div className="main__nav" style={{flex: 1, display: 'flex', justifyContent: 'center'}}>
                                 <div className="navigation d-none d-lg-block">
                                     <nav className="navigation__menu" id="main__menu">
-                                        <ul className="list-unstyled">
-                                            <li className="navigation__menu--item has-child">
+                                        <ul className="list-unstyled" style={{display: 'flex', gap: '25px', margin: 0, padding: 0}}>
+                                            <li className="navigation__menu--item">
                                                 <Link href="/" className="navigation__menu--item__link">
                                                     ACCUEIL
                                                 </Link>
                                             </li>
-                                            <li className="navigation__menu--item has-child">
-                                                <Link href="/room-one" className="navigation__menu--item__link" style={{ whiteSpace: 'nowrap' }}>CHAMBRES & SUITES</Link>
+                                            <li className="navigation__menu--item">
+                                                <Link href="/room-one" className="navigation__menu--item__link" style={{color: '#D97E4F'}}>
+                                                    CHAMBRES & SUITES
+                                                </Link>
                                             </li>
                                             <li className="navigation__menu--item has-child has-arrow">
-                                                <Link href="/" className="navigation__menu--item__link">
-                                                    Pages
+                                                <Link href="#" className="navigation__menu--item__link">
+                                                    NOS ESPACES+
                                                 </Link>
-                                                <ul className="submenu sub__style" role="menu">
-                                                    <li role="menuitem">
-                                                        <Link href="/about">About</Link>
+                                                <ul className="submenu sub__style" role="menu" style={{position: 'absolute', backgroundColor: 'white', boxShadow: '0 4px 6px rgba(0,0,0,0.1)', minWidth: '200px', top: '100%', left: 0, padding: '10px 0'}}>
+                                                    <li role="menuitem" style={{padding: '8px 20px'}}>
+                                                        <Link href="/event" style={{color: 'black', textDecoration: 'none'}}>Réunions & Événements</Link>
                                                     </li>
-                                                    <li role="menuitem">
-                                                        <Link href="/resturant">Restaurant</Link>
+                                                    <li role="menuitem" style={{padding: '8px 20px'}}>
+                                                        <Link href="/activities" style={{color: 'black', textDecoration: 'none'}}>Bien-être & Détente</Link>
                                                     </li>
-                                                    <li role="menuitem">
-                                                        <Link href="/gallery">Gallery</Link>
-                                                    </li>
-                                                    <li role="menuitem">
-                                                        <Link href="/service">Service</Link>
-                                                    </li>
-                                                    <li role="menuitem">
-                                                        <Link href="/event">Event</Link>
-                                                    </li>
-                                                    <li role="menuitem">
-                                                        <Link href="/activities">Activities</Link>
-                                                    </li>
-                                                </ul>
-                                            </li>
-                                            <li className="navigation__menu--item has-child has-arrow">
-                                                <Link href="/" className="navigation__menu--item__link">
-                                                    Blog
-                                                </Link>
-                                                <ul className="submenu sub__style" role="menu">
-                                                    <li role="menuitem">
-                                                        <Link href="/blog">Blog</Link>
-                                                    </li>
-                                                    <li role="menuitem">
-                                                        <Link href="/blog/Live-Elegantly-in-Our-Contemporary-Suite-for-Apartment">Blog Details</Link>
+                                                    <li role="menuitem" style={{padding: '8px 20px'}}>
+                                                        <Link href="/resturant" style={{color: 'black', textDecoration: 'none'}}>Restaurant</Link>
                                                     </li>
                                                 </ul>
                                             </li>
                                             <li className="navigation__menu--item">
-                                                <Link
-                                                    href="/contact"
-                                                    className="navigation__menu--item__link"
-                                                >
-                                                    Contact
+                                                <Link href="/service" className="navigation__menu--item__link">
+                                                    OFFRE DE SÉJOUR+
                                                 </Link>
                                             </li>
                                         </ul>
                                     </nav>
                                 </div>
                             </div>
-                            <div className="main__logo">
-                                <Link href="/">
-                                    <img
-                                        className="logo__class"
-                                        src="/assets/images/logo/hp_logo.png"
-                                        alt="hp resort logo"
-                                        style={{ width: '60px', height: '60px' }}
-                                    />
-                                </Link>
-                            </div>
-                            <div className="main__right">
-                                {/* Sign In Button *
-                                <button
-                                    className="theme-btn btn-style sm-btn border d-none d-lg-block"
-                                    onClick={() => setIsLoginOpen(true)}
-                                >
-                                    <span>Sign In</span>
-                                </button>
 
-                                {/* Sign Up Button *
-                                <button
-                                    className="theme-btn btn-style sm-btn border d-none d-lg-block"
-                                    onClick={() => setIsSignupOpen(true)}
-                                >
-                                    <span>Sign Up</span>
-                                </button>
-
-                                {/* Book Now Button */}
-                                <Link href="https://www.abidjan.net/" className="theme-btn btn-style sm-btn fill">
-                                    <span>PRESSE</span>
-                                </Link>
-
-                                {/* Mobile Menu Button */}
-                                <button
-                                    className="theme-btn btn-style sm-btn fill menu__btn d-lg-none"
-                                    onClick={() => setIsOffcanvasOpen(true)}
-                                >
-                                    <span>
-                                        <img src="/assets/images/icon/menu-icon.svg" alt="menu" />
-                                    </span>
-                                </button>
-                            </div>
+                            <button 
+                                style={{
+                                    backgroundColor: '#D97E4F',
+                                    color: 'white',
+                                    border: 'none',
+                                    padding: '10px 24px',
+                                    borderRadius: '4px',
+                                    cursor: 'pointer',
+                                    fontSize: '14px',
+                                    fontWeight: 'bold',
+                                    marginRight: '20px'
+                                }}
+                            >
+                                PRESSE
+                            </button>
+                            
                         </div>
                     </div>
                 </div>
             </header>
             <OffcanvasMenu isOpen={isOffcanvasOpen} onClose={() => setIsOffcanvasOpen(false)} />
-            {/* Login Form Modal 
+            {/* Login Form Modal */}
             <LoginForm
                 isOpen={isLoginOpen}
                 onClose={() => setIsLoginOpen(false)}
@@ -153,7 +117,7 @@ function HeaderOne() {
                     setIsSignupOpen(true);
                 }}
             />
-            {/* Sign Up Form Modal *
+            {/* Sign Up Form Modal */}
             <SignUpForm
                 isOpen={isSignupOpen}
                 onClose={() => setIsSignupOpen(false)}
@@ -161,8 +125,7 @@ function HeaderOne() {
                     setIsSignupOpen(false);
                     setIsLoginOpen(true);
                 }}
-            />*/}
-            {/* header menu end */}
+            />
         </>
 
     )

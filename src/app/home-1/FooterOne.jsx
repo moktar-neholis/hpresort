@@ -5,139 +5,111 @@ function FooterOne() {
     return (
         <>
             {/* footer style one */}
-            <footer className="rts__section rts__footer is__common__footer footer__background has__shape">
-                <div className="section__shape">
-                    <div className="shape__1">
-                        <img src="/assets/images/footer/shape-1.svg" alt="" />
-                    </div>
-                    <div className="shape__2">
-                        <img src="/assets/images/footer/shape-2.svg" alt="" />
-                    </div>
-                    <div className="shape__3">
-                        <img src="/assets/images/footer/shape-3.svg" alt="" />
-                    </div>
-                </div>
+            <footer style={{backgroundColor: '#0F1C2E', color: '#fff', padding: '60px 0 0'}}>
                 <div className="container">
-                    {/* <div className="row">
-                        <div className="footer__newsletter">
-                            <span className="h2">Join Our Newsletter</span>
-                            <div className="rts__form">
-                                <form action="#" method="post">
-                                    <input
-                                        type="email"
-                                        name="email"
-                                        id="subscription"
-                                        placeholder="Enter your mail"
-                                        required
-                                    />
-                                    <button type="submit">Subscribe</button>
-                                </form>
-                            </div>
+                    <div className="row" style={{display: 'grid', gridTemplateColumns: '1fr 1fr 1fr 1fr', gap: '40px', paddingBottom: '60px'}}>
+                        {/* Logo et Description */}
+                        <div>
+                            <Link href="/">
+                                <img
+                                    className="footer__logo"
+                                    src="/assets/images/logo/hp_logo.png"
+                                    alt="footer logo"
+                                    width={120}
+                                    style={{marginBottom: '20px'}}
+                                />
+                            </Link>
+                            <p style={{fontSize: '14px', lineHeight: '1.6', color: '#ccc'}}>
+                                Situé au cœur de Yamoussoukro, HP RESORT est un joyau architectural de 4 étoiles à découvrir et à faire découvrir.
+                            </p>
                         </div>
-                    </div> */}
-                    <div className="row">
-                        <div className="footer__widget__wrapper">
-                            <div className="rts__widget">
-                                <Link href="/">
-                                    <img
-                                        className="footer__logo"
-                                        src="/assets/images/logo/hp_logo.png"
-                                        alt="footer logo"
-                                        width={150}
-                                    />
-                                </Link>
-                                <p className="font-sm max-290 mt-20">
-                                    Situé au cœur de Yamoussoukro, HP RESORT est 
-                                    un joyau architectural de 4 étoiles à découvrir et à faire découvrir.
-                                </p>
-                            </div>
-                            <div className="rts__widget">
-                                <span className="widget__title">Liens Utiles</span>
-                                <ul>
-                                    <li>
-                                        <Link href="#" aria-label="footer__link">
-                                            Restaurants & Bar
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link href="#" aria-label="footer__link">
-                                            Réunions & Evenements
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link href="#" aria-label="footer__link">
-                                            Bien Etre & Detente
-                                        </Link>
-                                    </li>
-                                    {/* <li>
-                                        <Link href="#" aria-label="footer__link">
-                                            Special Offers
-                                        </Link>
-                                    </li> */}
-                                </ul>
-                            </div>
-                            {/* <div className="rts__widget">
-                                <span className="widget__title">Service Client</span>
-                                <ul>
-                                    <li>24/7 Réception</li>
-                                    <li>Parking</li>
-                                    <li>Service Chambres</li>
-                                    <li>Wi-Fi Gratuit</li>
-                                    <li>Concierge Service</li>
-                                </ul>
-                            </div> */}
-                            <div className="rts__widget">
-                                <span className="widget__title">Contactez-nous</span>
-                                <ul>
-                                    <li>
-                                        <Link aria-label="footer__contact" href="tel:+225 27 30 64 68 00">
-                                            <i className="flaticon-phone-flip" /> +225 27 30 64 68 00
 
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link aria-label="footer__contact" href="mailto:info@hp-resort.ci">
-                                            <i className="flaticon-envelope" />
-                                            info@hp-resort.ci
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link aria-label="footer__contact" href="#">
-                                            <i className="flaticon-marker" />
-                                            Yamoussoukro, Côte d'Ivoire
-                                        </Link>
-                                    </li>
-                                </ul>
+                        {/* Liens Utiles */}
+                        <div>
+                            <h3 style={{fontSize: '20px', fontWeight: 'bold', marginBottom: '20px', color: '#fff'}}>Liens utiles</h3>
+                            <ul style={{listStyle: 'none', padding: 0, margin: 0}}>
+                                <li style={{marginBottom: '15px', display: 'flex', alignItems: 'center', gap: '8px'}}>
+                                    <i className="flaticon-arrow-right" style={{color: '#D97E4F', fontSize: '14px'}}></i>
+                                    <Link href="#" style={{color: '#ccc', textDecoration: 'none', fontSize: '14px'}}>
+                                        Restaurants & Bar
+                                    </Link>
+                                </li>
+                                <li style={{marginBottom: '15px', display: 'flex', alignItems: 'center', gap: '8px'}}>
+                                    <i className="flaticon-arrow-right" style={{color: '#D97E4F', fontSize: '14px'}}></i>
+                                    <Link href="#" style={{color: '#ccc', textDecoration: 'none', fontSize: '14px'}}>
+                                        Réunions & Événements
+                                    </Link>
+                                </li>
+                                <li style={{marginBottom: '15px', display: 'flex', alignItems: 'center', gap: '8px'}}>
+                                    <i className="flaticon-arrow-right" style={{color: '#D97E4F', fontSize: '14px'}}></i>
+                                    <Link href="#" style={{color: '#ccc', textDecoration: 'none', fontSize: '14px'}}>
+                                        Bien Etre & Detente
+                                    </Link>
+                                </li>
+                            </ul>
+                        </div>
+
+                        {/* Contact Info */}
+                        <div>
+                            <h3 style={{fontSize: '20px', fontWeight: 'bold', marginBottom: '20px', color: '#fff'}}>Contact info</h3>
+                            <ul style={{listStyle: 'none', padding: 0, margin: 0}}>
+                                <li style={{marginBottom: '15px', display: 'flex', alignItems: 'center', gap: '10px'}}>
+                                    <i className="flaticon-phone-flip" style={{color: '#D97E4F', fontSize: '16px'}}></i>
+                                    <Link href="tel:+225 27 30 64 68 00" style={{color: '#ccc', textDecoration: 'none', fontSize: '14px'}}>
+                                        +225 27 30 64 68 00
+                                    </Link>
+                                </li>
+                                <li style={{marginBottom: '15px', display: 'flex', alignItems: 'center', gap: '10px'}}>
+                                    <i className="flaticon-clock" style={{color: '#D97E4F', fontSize: '16px'}}></i>
+                                    <span style={{color: '#ccc', fontSize: '14px'}}>Lun-Dim 24h/24</span>
+                                </li>
+                                <li style={{marginBottom: '0', display: 'flex', alignItems: 'flex-start', gap: '10px'}}>
+                                    <i className="flaticon-marker" style={{color: '#D97E4F', fontSize: '16px', marginTop: '2px'}}></i>
+                                    <div style={{color: '#ccc', fontSize: '14px'}}>
+                                        BP 923, Yamoussoukro<br/>
+                                        Quartier Millionnaire
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+
+                        {/* Galerie */}
+                        <div>
+                            <h3 style={{fontSize: '20px', fontWeight: 'bold', marginBottom: '20px', color: '#fff'}}>Galerie</h3>
+                            <div style={{display: 'grid', gridTemplateColumns: '1fr 1fr 1fr', gap: '8px'}}>
+                                <img src="/assets/images/footer/premier.jpg" alt="footer" style={{width: '100%', height: '80px', objectFit: 'cover', borderRadius: '4px'}} />
+                                <img src="/assets/images/footer/deux.jpg" alt="footer" style={{width: '100%', height: '80px', objectFit: 'cover', borderRadius: '4px'}} />
+                                <img src="/assets/images/footer/trois.jpg" alt="footer" style={{width: '100%', height: '80px', objectFit: 'cover', borderRadius: '4px'}} />
+                                <img src="/assets/images/footer/quatre.jpg" alt="footer" style={{width: '100%', height: '80px', objectFit: 'cover', borderRadius: '4px'}} />
+                                <img src="/assets/images/footer/cinq.jpg" alt="footer" style={{width: '100%', height: '80px', objectFit: 'cover', borderRadius: '4px'}} />
+                                <img src="/assets/images/footer/six.jpg" alt="footer" style={{width: '100%', height: '80px', objectFit: 'cover', borderRadius: '4px'}} />
                             </div>
                         </div>
                     </div>
-                </div>
-                <div className="copyright__text">
-                    <div className="container">
-                        <div className="row">
-                            <div className="copyright__wrapper">
-                                <p className="mb-0">
-                                    Copyright © {new Date().getFullYear()} HP RESORT. Tous droits réservés.
-                                </p>
-                                <div className="footer__social__link">
-                                    <Link href="#" aria-label="footer__social" className="link__item">
-                                        Facebook
-                                    </Link>
-                                    <Link href="#" aria-label="footer__social" className="link__item">
-                                        Linkedin
-                                    </Link>
-                                    <Link href="#" aria-label="footer__social" className="link__item">
-                                        Twitter
-                                    </Link>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+
+                    {/* Footer Bottom */}
+                    <div
+                    style={{
+                        borderTop: '1px solid rgba(255,255,255,0.1)',
+                            paddingTop: '30px',
+                               paddingBottom: '30px',
+                                  textAlign: 'center'
+                         }}
+                    >
+                        <p
+                             style={{
+                               margin: 0,
+                               fontSize: '13px',
+                               color: '#999'
+                             }}
+                >
+                 © 2023 Tous droits réservés. Développé par In-novation
+             </p>
+            </div>
                 </div>
             </footer>
             {/* footer style one end */}
         </>
-
     )
 }
 

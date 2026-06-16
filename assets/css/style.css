@@ -8122,16 +8122,19 @@ textarea:focus-visible, input:focus-visible {
   position: relative;
 }
 .main__header .main__header__wrapper .main__logo {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
+  position: relative;
+  transform: none;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
 }
-@media screen and (max-width: 992px) {
-  .main__header .main__header__wrapper .main__logo {
-    position: static;
-    transform: none;
-  }
+
+.main__header .main__header__wrapper .main__logo img,
+.main__header .main__header__wrapper .main__logo .logo__class {
+  height: 70px;
+  width: auto;
+  object-fit: contain;
+  display: block;
 }
 .main__header .main__header__wrapper .main__right {
   justify-content: end;

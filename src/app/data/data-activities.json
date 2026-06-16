@@ -2,21 +2,21 @@
     {
         "id": 1,
         "slug": "piscine",
-        "image": "/assets/images/pages/activities/piscine.jpg",
+        "image": "/assets/images/pages/activities/activity1.jpg",
         "title": "PISCINE",
         "description": "Notre spacieuse piscine extérieure avec ses deux bassins distincts de 0.80m et 1.80m de profondeur vous offre un cadre idéal pour vous détendre."
     },
     {
         "id": 2,
         "slug": "fitness",
-        "image": "/assets/images/pages/activities/fitness.jpg",
+        "image": "/assets/images/pages/activities/activity2.jpg",
         "title": "FITNESS",
         "description": "Que vous soyez un sportif aguerri ou simplement à la recherche d'une remise en forme, notre salle de fitness est équipée pour répondre à vos besoins."
     },
     {
         "id": 3,
         "slug": "spaplus",
-        "image": "/assets/images/pages/activities/spaplus.jpg",
+        "image": "/assets/images/pages/activities/activity3.png",
         "title": "SPAPLUS",
         "description": "Laissez-vous transporter pour une expérience des plus inoubliables ! En déplacement d'affaires ou en séjour détente, profitez de nos soins SPA PLUS."
     }

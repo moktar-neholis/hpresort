@@ -15,7 +15,7 @@ function ActivitiesCard(props) {
                 <div className="room__card__image">
                     <Link href={`/activities/${Slug || "details"}`}>
                         <img
-                            src={Img || "/assets/images/pages/activities/piscine.jpg"}
+                            src={Img || "/assets/images/pages/activities/activity1.jpg"}
                             width={420}
                             height={310}
                             alt={Title || "service"}

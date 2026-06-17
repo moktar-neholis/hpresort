@@ -1,55 +1,19 @@
-"use client";
+// app/activities/[slug]/page.js
 import React from 'react';
-import { useParams } from 'next/navigation';
-import Link from 'next/link';
-import TopBar from '../../home-1/TopBar';
-import HeaderOne from '../../home-1/Header';
-import BreadcrumbOne from '../../breadcrumb/Breadcrumb';
-import FooterOne from '../../home-1/FooterOne';
-import BackToTop from '../../home-1/BackToTop';
 import posts from '../../data/data-activities.json';
+import ActivitiesClient from './ActivitiesClient';
 
-function ActivitiesDetailsPage() {
-    const { slug } = useParams();
-
-    const activity = posts.find((post) => post.slug === slug);
-
-    if (!activity) {
-        return <div>Service introuvable !</div>;
-    }
-
-    return (
-        <>
-            <TopBar />
-            <HeaderOne />
-            <BreadcrumbOne
-                title={activity.title}
-                bgImage={activity.image}
-                breadcrumb={[
-                    { label: 'Accueil', href: '/' },
-                    { label: 'Bien Etre & Detente', href: '/activities' },
-                ]}
-                current={activity.title}
-            />
-            <div className="rts__section section__padding">
-                <div className="container">
-                    <div className="row justify-content-center">
-                        <div className="col-lg-8 text-center">
-                            <p className="font-sm">{activity.description}</p>
-                            <Link
-                                href="/contact"
-                                className="theme-btn btn-style fill no-border mt-30"
-                            >
-                                <span>NOUS CONTACTER</span>
-                            </Link>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <FooterOne />
-            <BackToTop />
-        </>
-    );
+// 1. Map out every single static path using your local JSON data
+export async function generateStaticParams() {
+    return posts.map((post) => ({
+        slug: post.slug,
+    }));
 }
 
-export default ActivitiesDetailsPage;
+// 2. Pass the resolved parameter down to the Client UI component
+export default async function Page({ params }) {
+    const resolvedParams = await params; // Provides compatibility for Next.js 14 and 15
+    const { slug } = resolvedParams;
+
+    return <ActivitiesClient slug={slug} />;
+}

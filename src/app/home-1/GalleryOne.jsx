@@ -3,11 +3,11 @@ import React, { useState } from 'react';
 import Modal from './Modal';
 
 const images = [
-  '/assets/images/insta/1.webp',
-  '/assets/images/insta/2.webp',
-  '/assets/images/insta/3.webp',
-  '/assets/images/insta/4.webp',
-  '/assets/images/insta/5.webp',
+  '/assets/images/insta/1.jpg',
+  '/assets/images/insta/2.jpg',
+  '/assets/images/insta/3.jpg',
+  '/assets/images/insta/4.jpg',
+  '/assets/images/insta/5.jpg',
 ];
 
 function GalleryOne() {
@@ -28,9 +28,9 @@ function GalleryOne() {
             <div className="col-lg-6 wow fadeInUp">
               <div className="section__topbar">
                 <span className="h6 subtitle__icon__three mx-auto">
-                  Instagram Post
+                  HP RESORT
                 </span>
-                <h2 className="section__title">Follow on&nbsp;Instagram</h2>
+                <p className="section__title">Nous sommes fiers de vous offrir des services de qualité exceptionnelle qui dépassent les attentes de nos clients.</p>
               </div>
             </div>
           </div>

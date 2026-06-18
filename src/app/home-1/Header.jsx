@@ -52,7 +52,7 @@ function HeaderOne() {
                                             </li>
                                             <li className="navigation__menu--item has-child has-arrow">
                                                 <Link href="#" className="navigation__menu--item__link">
-                                                    NOS ESPACES+
+                                                    NOS ESPACES
                                                 </Link>
                                                 <ul className="submenu sub__style" role="menu" style={{ position: 'absolute', backgroundColor: 'white', boxShadow: '0 4px 6px rgba(0,0,0,0.1)', minWidth: '200px', top: '100%', left: 0, padding: '10px 0' }}>
                                                     <li role="menuitem" style={{ padding: '8px 20px' }}>
@@ -68,7 +68,7 @@ function HeaderOne() {
                                             </li>
                                             <li className="navigation__menu--item has-child has-arrow">
                                                 <Link href="#" className="navigation__menu--item__link">
-                                                    OFFRE DE SÉJOUR+
+                                                    OFFRE DE SÉJOUR
                                                 </Link>
                                                 <ul className="submenu sub__style" role="menu" style={{ position: 'absolute', backgroundColor: 'white', boxShadow: '0 4px 6px rgba(0,0,0,0.1)', minWidth: '200px', top: '100%', left: 0, padding: '10px 0' }}>
                                                     <li role="menuitem" style={{ padding: '8px 20px' }}>

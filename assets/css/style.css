@@ -6961,14 +6961,14 @@ textarea:focus-visible, input:focus-visible {
 }
 .navigation__menu--item__link {
   position: relative;
-  font-size: 16px;
-  text-transform: capitalize;
+  font-family: var(--jost);
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
   padding-top: 24px;
   padding-bottom: 30px;
-  font-weight: 400;
   display: block;
   color: var(--rts-para);
-  transition: padding 0.3s ease;
   transition: var(--transition);
 }
 .navigation__menu--item.has-child:hover ul.submenu {
@@ -7185,7 +7185,7 @@ textarea:focus-visible, input:focus-visible {
   padding: 8px 20px;
   margin: 0;
   font-family: inherit;
-  font-size: 16px;
+  font-size: 12px;
   position: relative;
   display: inline-block;
 }
@@ -8118,7 +8118,7 @@ textarea:focus-visible, input:focus-visible {
 
 .main__header .main__header__wrapper {
   display: grid;
-  grid-template-columns: auto 1fr auto;
+  grid-template-columns: 1fr auto 1fr;
   align-items: center;
   position: relative;
 }
@@ -8128,12 +8128,13 @@ textarea:focus-visible, input:focus-visible {
   }
 }
 .main__header .main__header__wrapper .main__logo {
-  display: grid;
-  justify-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 @media screen and (max-width: 992px) {
   .main__header .main__header__wrapper .main__logo {
-    justify-items: self-start;
+    justify-content: flex-start;
   }
 }
 

@@ -17,6 +17,7 @@ import "../../assets/css/style.css";
 import "react-datepicker/dist/react-datepicker.css";
 import 'aos/dist/aos.css';
 import Script from 'next/script';
+import { LanguageProvider } from './context/LanguageContext';
 
 export const metadata: Metadata = {
   title: "Moonlit - Hotel and Resturant NextJs Template",
@@ -42,7 +43,9 @@ export default function RootLayout({
         />
       </head>
       <body>
-        {children}
+        <LanguageProvider>
+          {children}
+        </LanguageProvider>
         <Script src="/assets/js/smoothscroll.js" strategy="afterInteractive"/>
       </body>
     </html>

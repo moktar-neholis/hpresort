@@ -1,8 +1,12 @@
+'use client'
 import Link from 'next/link';
 import React from 'react'
+import { useTranslation } from '../hooks/useTranslation';
 
 function RoomCardSix(props) {
     const { Slug, Img, Title, Price, Description, Capacity, BedType, Surface } = props;
+    const { t } = useTranslation();
+
     return (
         <div className="room__card is__style__four">
             <div className="room__card__top">
@@ -28,17 +32,17 @@ function RoomCardSix(props) {
                     </span>
                     <span>
                         <i className="flaticon-user" />
-                        {Capacity || "2 Personnes"}
+                        {Capacity || `2 ${t.rooms.persons}`}
                     </span>
                 </div>
                 <p className="font-sm">
-                    {Description || "Nos chambres offrent un mélange harmonieux de confort et d'élégance, conçues pour offrir un séjour exceptionnel à chaque client."}
+                    {Description || "Nos chambres offrent un mélange harmonieux de confort et d'élégance."}
                 </p>
                 <div className="room__price__tag">
                     <span className="h5 d-block">{Price || '120$'}</span>
                 </div>
                 <Link href={`/room/${Slug || "details"}`} className="room__card__link">
-                    Découvrir
+                    {t.rooms.discover}
                 </Link>
             </div>
         </div>

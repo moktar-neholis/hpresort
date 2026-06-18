@@ -1,0 +1,124 @@
+{
+    "nav": {
+        "home": "ACCUEIL",
+        "rooms": "CHAMBRES & SUITES",
+        "spaces": "NOS ESPACES",
+        "meetings": "Réunions & Événements",
+        "wellness": "Bien-être & Détente",
+        "restaurant": "Restaurant & Bar",
+        "offers": "OFFRE DE SÉJOUR",
+        "packages": "Séjour Packagé",
+        "promotions": "Promotion"
+    },
+    "header": {
+        "login": "Se connecter",
+        "register": "S'inscrire",
+        "book": "Réservez maintenant",
+        "press": "PRESSE"
+    },
+    "topbar": {
+        "language": "Français"
+    },
+    "banner": {
+        "subtitle": "Akwaba",
+        "title": "BIENVENUE SUR LE SITE DE L'Hôtel HP Resort",
+        "cta": "VISITEZ NOS CHAMBRES"
+    },
+    "search": {
+        "checkIn": "Arrivée",
+        "checkOut": "Départ",
+        "room": "Chambre",
+        "rooms": "Chambres",
+        "placeholder": "Choisissez une date",
+        "submit": "RÉSERVER"
+    },
+    "about": {
+        "label": "À propos de nous",
+        "title": "BIENVENUE À HP RESORT.",
+        "desc": "Situé dans le futur quartier des affaires, dans un cadre paisible et reposant, notre établissement au charme discret est l'endroit idéal pour les séjours professionnels et les villégiatures en famille. Notre hôtel, d'une capacité de 300 chambres, dispose d'un centre de conférence moderne équipé avec toutes les commodités nécessaires. Douze salles polyvalentes, allant de 15 à 200 participants, vous sont proposées avec également des salles de banquet de 200 personnes au maximum et d'autres espaces locatifs côté jardin ou en terrasse piscine pouvant accueillir 1500 convives voire plus. Notre jeune équipe de professionnels, dynamique, disponible et disposée est à votre écoute en permanence afin que votre séjour soit de qualité, riche en émotion et en souvenir mémorable. Laissez-vous tenter par une expérience immersive à Yamoussoukro, dans un cadre surprenant, original et chaleureux. Akwaba à l'hôtel HP Resort !",
+        "staffCount": "50+",
+        "staffLabel": "Personnel expérimenté"
+    },
+    "rooms": {
+        "label": "Chambres et suites de l'hôtel",
+        "title": "Nos chambres",
+        "desc": "Nos chambres allient à la perfection confort et élégance, et sont conçues pour offrir à chaque client un séjour exceptionnel. Chaque chambre est équipée d'une literie moelleuse, de draps de grande qualité et d'un choix d'oreillers, afin de vous garantir une nuit de sommeil réparatrice.",
+        "discover": "Découvrir",
+        "loadMore": "Voir plus",
+        "persons": "Personnes",
+        "person": "Personne"
+    },
+    "video": {
+        "title": "Visiter notre hôtel",
+        "watch": "Regarder maintenant"
+    },
+    "booking": {
+        "title": "Réserver votre séjour",
+        "checkIn": "Arrivée",
+        "checkOut": "Départ",
+        "adults": "Adultes",
+        "children": "Enfants",
+        "room": "Chambre",
+        "rooms": "Chambres",
+        "extraBed": "Lit supplémentaire",
+        "beds": "Lit",
+        "bedsPlural": "Lits",
+        "services": "Services supplémentaires",
+        "cleaning": "Nettoyage chambre",
+        "parking": "Parking",
+        "transport": "Navette aéroport",
+        "breakfast": "Petit-déjeuner",
+        "totalPrice": "Prix / nuit",
+        "bookNow": "Réserver cette chambre",
+        "free": "Gratuit",
+        "perNight": "/ Nuit",
+        "perPerson": "/ Personne",
+        "perTrip": "/ Trajet"
+    },
+    "amenities": {
+        "title": "Équipements de la chambre",
+        "wifi": "Wifi Gratuit",
+        "shower": "Douche",
+        "airport": "Navette aéroport",
+        "balcony": "Balcon",
+        "fridge": "Réfrigérateur",
+        "support": "Support 24/7",
+        "desk": "Bureau",
+        "fitness": "Salle de sport",
+        "pool": "Piscine"
+    },
+    "features": {
+        "title": "Caractéristiques de la chambre",
+        "extraBeds": "Lits supplémentaires disponibles",
+        "ac": "Climatisation",
+        "art": "Décoration artistique",
+        "coffee": "Cafetière / Bouilloire",
+        "bedding": "Literie haut de gamme",
+        "smarttv": "Technologie Smart TV",
+        "closing": "Nos chambres élégamment aménagées sont conçues pour offrir le summum du confort et du style."
+    },
+    "breadcrumb": {
+        "home": "Accueil",
+        "rooms": "Chambres & Suites"
+    },
+    "footer": {
+        "usefulLinks": "Liens utiles",
+        "contactInfo": "Contact info",
+        "social": "Réseaux sociaux",
+        "follow": "Suivez-nous sur nos réseaux sociaux et restez connectés à l'actualité du HP Resort.",
+        "copyright": "© 2023 Tous droits réservés. Développé par In-novation",
+        "description": "Situé au cœur de Yamoussoukro, HP RESORT est un joyau architectural de 4 étoiles à découvrir et à faire découvrir.",
+        "links": {
+            "restaurant": "Restaurants & Bar",
+            "meetings": "Réunions & Événements",
+            "wellness": "Bien Etre & Détente"
+        },
+        "open": "Lun-Dim 24h/24"
+    },
+    "gdpr": {
+        "title": "Accepter les cookies",
+        "message": "Les cookies nous permettent de personnaliser votre expérience, de mesurer l'efficacité de nos campagnes et d'analyser le trafic. En continuant à naviguer, vous acceptez leur utilisation.",
+        "accept": "Accepter",
+        "decline": "Refuser"
+    }
+}

@@ -4,8 +4,10 @@ import OffcanvasMenu from './OffcanvasMenu';
 import Link from 'next/link';
 import LoginForm from '../form/LoginForm';
 import SignUpForm from '../form/SignUpForm';
+import { useTranslation } from '../hooks/useTranslation';
 
 function HeaderOne() {
+    const { t } = useTranslation();
     const [isLoginOpen, setIsLoginOpen] = useState(false);
     const [isSignupOpen, setIsSignupOpen] = useState(false);
     const [isSticky, setIsSticky] = useState(false);
@@ -42,40 +44,40 @@ function HeaderOne() {
                                         <ul className="list-unstyled">
                                             <li className="navigation__menu--item">
                                                 <Link href="/" className="navigation__menu--item__link">
-                                                    ACCUEIL
+                                                    {t.nav.home}
                                                 </Link>
                                             </li>
                                             <li className="navigation__menu--item">
                                                 <Link href="/room-one" className="navigation__menu--item__link">
-                                                    CHAMBRES & SUITES
+                                                    {t.nav.rooms}
                                                 </Link>
                                             </li>
                                             <li className="navigation__menu--item has-child has-arrow">
                                                 <Link href="#" className="navigation__menu--item__link">
-                                                    NOS ESPACES
+                                                    {t.nav.spaces}
                                                 </Link>
                                                 <ul className="submenu sub__style" role="menu" style={{ position: 'absolute', backgroundColor: 'white', boxShadow: '0 4px 6px rgba(0,0,0,0.1)', minWidth: '200px', top: '100%', left: 0, padding: '10px 0' }}>
                                                     <li role="menuitem" style={{ padding: '8px 20px' }}>
-                                                        <Link href="/event" style={{ color: 'black', textDecoration: 'none' }}>Réunions & Événements</Link>
+                                                        <Link href="/event" style={{ color: 'black', textDecoration: 'none' }}>{t.nav.meetings}</Link>
                                                     </li>
                                                     <li role="menuitem" style={{ padding: '8px 20px' }}>
-                                                        <Link href="/activities" style={{ color: 'black', textDecoration: 'none' }}>Bien-être & Détente</Link>
+                                                        <Link href="/activities" style={{ color: 'black', textDecoration: 'none' }}>{t.nav.wellness}</Link>
                                                     </li>
                                                     <li role="menuitem" style={{ padding: '8px 20px' }}>
-                                                        <Link href="/restaurant-bar" style={{ color: 'black', textDecoration: 'none' }}>Restaurant & Bar</Link>
+                                                        <Link href="/restaurant-bar" style={{ color: 'black', textDecoration: 'none' }}>{t.nav.restaurant}</Link>
                                                     </li>
                                                 </ul>
                                             </li>
                                             <li className="navigation__menu--item has-child has-arrow">
                                                 <Link href="#" className="navigation__menu--item__link">
-                                                    OFFRE DE SÉJOUR
+                                                    {t.nav.offers}
                                                 </Link>
                                                 <ul className="submenu sub__style" role="menu" style={{ position: 'absolute', backgroundColor: 'white', boxShadow: '0 4px 6px rgba(0,0,0,0.1)', minWidth: '200px', top: '100%', left: 0, padding: '10px 0' }}>
                                                     <li role="menuitem" style={{ padding: '8px 20px' }}>
-                                                        <Link href="/sejour-package" style={{ color: 'black', textDecoration: 'none' }}>Séjour Packagé</Link>
+                                                        <Link href="/sejour-package" style={{ color: 'black', textDecoration: 'none' }}>{t.nav.packages}</Link>
                                                     </li>
                                                     <li role="menuitem" style={{ padding: '8px 20px' }}>
-                                                        <Link href="/promotion" style={{ color: 'black', textDecoration: 'none' }}>Promotion</Link>
+                                                        <Link href="/promotion" style={{ color: 'black', textDecoration: 'none' }}>{t.nav.promotions}</Link>
                                                     </li>
                                                 </ul>
                                             </li>
@@ -99,16 +101,16 @@ function HeaderOne() {
                                     className="theme-btn btn-style sm-btn border"
                                     onClick={() => setIsLoginOpen(true)}
                                 >
-                                    <span>Se connecter</span>
+                                    <span>{t.header.login}</span>
                                 </button>
                                 <button
                                     className="theme-btn btn-style sm-btn border"
                                     onClick={() => setIsSignupOpen(true)}
                                 >
-                                    <span>S'inscrire</span>
+                                    <span>{t.header.register}</span>
                                 </button>
                                 <button className="theme-btn btn-style sm-btn fill">
-                                    <span>Réservez maintenant</span>
+                                    <span>{t.header.book}</span>
                                 </button>
                                 {/* <a
                                     href="https://www.abidjan.net/"

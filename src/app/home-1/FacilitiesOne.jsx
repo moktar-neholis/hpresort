@@ -1,13 +1,14 @@
 'use client'
 import React, { useState } from "react";
 import ReactPlayer from "react-player";
+import { useTranslation } from '../hooks/useTranslation';
 
-function VideoOne() {
+function FacilitiesOne() {
+    const { t } = useTranslation();
     const [isOpen, setIsOpen] = useState(false);
 
     return (
         <>
-            {/* Video Modal */}
             {isOpen && (
                 <div className="video-modal-overlay" onClick={() => setIsOpen(false)}>
                     <div className="video-modal-content">
@@ -21,8 +22,6 @@ function VideoOne() {
                     </div>
                 </div>
             )}
-
-            {/* Video Section Start */}
             <div className="rts__section pb-120 video video__full">
                 <div className="container-full">
                     <div className="row">
@@ -35,29 +34,23 @@ function VideoOne() {
                                         alt=""
                                     />
                                     <p className="video__area__content h2 text-white text-center pt-120">
-                                        Visiter notre hôtel
+                                        {t.video.title}
                                     </p>
                                 </div>
                                 <div className="video--spinner__wrapper">
                                     <div className="rts__circle">
                                         <svg className="spinner" viewBox="0 0 100 100">
                                             <defs>
-                                                <path
-                                                    id="circle-2"
-                                                    d="M50,50 m-37,0a37,37 0 1,1 74,0a37,37 0 1,1 -74,0"
-                                                />
+                                                <path id="circle-2" d="M50,50 m-37,0a37,37 0 1,1 74,0a37,37 0 1,1 -74,0" />
                                             </defs>
                                             <text>
                                                 <textPath xlinkHref="#circle-2">
-                                                    Regarder maintenant * Regarder maintenant *  
+                                                    {t.video.watch} * {t.video.watch} *
                                                 </textPath>
                                             </text>
                                         </svg>
                                         <div className="rts__circle--icon">
-                                            <button
-                                                className="video-play"
-                                                onClick={() => setIsOpen(true)}
-                                            >
+                                            <button className="video-play" onClick={() => setIsOpen(true)}>
                                                 <i className="flaticon-play" />
                                             </button>
                                         </div>
@@ -68,9 +61,8 @@ function VideoOne() {
                     </div>
                 </div>
             </div>
-            {/* Video Section End */}
         </>
     );
 }
 
-export default VideoOne;
+export default FacilitiesOne;

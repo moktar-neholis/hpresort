@@ -1,0 +1,124 @@
+{
+    "nav": {
+        "home": "HOME",
+        "rooms": "ROOMS & SUITES",
+        "spaces": "OUR SPACES",
+        "meetings": "Meetings & Events",
+        "wellness": "Wellness & Relaxation",
+        "restaurant": "Restaurant & Bar",
+        "offers": "STAY OFFERS",
+        "packages": "Package Stay",
+        "promotions": "Promotions"
+    },
+    "header": {
+        "login": "Sign in",
+        "register": "Sign up",
+        "book": "Book now",
+        "press": "PRESS"
+    },
+    "topbar": {
+        "language": "English"
+    },
+    "banner": {
+        "subtitle": "Welcome",
+        "title": "WELCOME TO HP RESORT HOTEL",
+        "cta": "EXPLORE OUR ROOMS"
+    },
+    "search": {
+        "checkIn": "Check-in",
+        "checkOut": "Check-out",
+        "room": "Room",
+        "rooms": "Rooms",
+        "placeholder": "Choose a date",
+        "submit": "BOOK NOW"
+    },
+    "about": {
+        "label": "About us",
+        "title": "WELCOME TO HP RESORT.",
+        "desc": "Located in the future business district, in a peaceful and relaxing setting, our discreet establishment is the ideal place for business stays and family vacations. Our hotel, with a capacity of 300 rooms, features a modern conference center equipped with all necessary amenities. Twelve versatile rooms, ranging from 15 to 200 participants, are available along with banquet halls for up to 200 people and other rental spaces in the garden or pool terrace that can accommodate 1,500 guests or more. Our young team of dynamic, available and dedicated professionals is always at your service to ensure a quality stay, rich in emotion and memorable experiences. Be tempted by an immersive experience in Yamoussoukro, in a surprising, original and warm setting. Welcome to HP Resort Hotel!",
+        "staffCount": "50+",
+        "staffLabel": "Experienced staff"
+    },
+    "rooms": {
+        "label": "Hotel rooms and suites",
+        "title": "Our rooms",
+        "desc": "Our rooms perfectly combine comfort and elegance, designed to offer every guest an exceptional stay. Each room is equipped with soft bedding, high-quality sheets and a choice of pillows, to guarantee you a restful night's sleep.",
+        "discover": "Discover",
+        "loadMore": "Load more",
+        "persons": "Persons",
+        "person": "Person"
+    },
+    "video": {
+        "title": "Visit our hotel",
+        "watch": "Watch now"
+    },
+    "booking": {
+        "title": "Book your stay",
+        "checkIn": "Check-in",
+        "checkOut": "Check-out",
+        "adults": "Adults",
+        "children": "Children",
+        "room": "Room",
+        "rooms": "Rooms",
+        "extraBed": "Extra bed",
+        "beds": "Bed",
+        "bedsPlural": "Beds",
+        "services": "Extra services",
+        "cleaning": "Room cleaning",
+        "parking": "Parking",
+        "transport": "Airport transfer",
+        "breakfast": "Breakfast",
+        "totalPrice": "Price / night",
+        "bookNow": "Book this room",
+        "free": "Free",
+        "perNight": "/ Night",
+        "perPerson": "/ Person",
+        "perTrip": "/ Trip"
+    },
+    "amenities": {
+        "title": "Room amenities",
+        "wifi": "Free Wifi",
+        "shower": "Shower",
+        "airport": "Airport transfer",
+        "balcony": "Balcony",
+        "fridge": "Refrigerator",
+        "support": "24/7 Support",
+        "desk": "Work desk",
+        "fitness": "Fitness center",
+        "pool": "Swimming pool"
+    },
+    "features": {
+        "title": "Room features",
+        "extraBeds": "Extra beds available",
+        "ac": "Air conditioning",
+        "art": "Artistic decoration",
+        "coffee": "Coffee maker / Kettle",
+        "bedding": "High-end bedding",
+        "smarttv": "Smart TV technology",
+        "closing": "Our elegantly appointed rooms are designed to offer the utmost in comfort and style."
+    },
+    "breadcrumb": {
+        "home": "Home",
+        "rooms": "Rooms & Suites"
+    },
+    "footer": {
+        "usefulLinks": "Useful links",
+        "contactInfo": "Contact info",
+        "social": "Social media",
+        "follow": "Follow us on social media and stay connected with HP Resort news.",
+        "copyright": "© 2023 All rights reserved. Developed by In-novation",
+        "description": "Located in the heart of Yamoussoukro, HP RESORT is a 4-star architectural gem waiting to be discovered.",
+        "links": {
+            "restaurant": "Restaurant & Bar",
+            "meetings": "Meetings & Events",
+            "wellness": "Wellness & Relaxation"
+        },
+        "open": "Mon-Sun 24h/24"
+    },
+    "gdpr": {
+        "title": "Accept Cookies",
+        "message": "Cookies allow us to personalize your experience, measure the effectiveness of our campaigns, and analyze traffic. By continuing to browse, you accept their use.",
+        "accept": "Accept",
+        "decline": "Decline"
+    }
+}

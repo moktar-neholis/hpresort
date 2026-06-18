@@ -2,9 +2,10 @@
 import React, { useState } from 'react';
 import DatePicker from 'react-datepicker';
 import "react-datepicker/dist/react-datepicker.css";
-
+import { useTranslation } from '../hooks/useTranslation';
 
 function AdvanceForm() {
+    const { t } = useTranslation();
     const [checkInDate, setCheckInDate] = useState(null);
     const [checkOutDate, setCheckOutDate] = useState(null);
 
@@ -14,63 +15,49 @@ function AdvanceForm() {
                 <div className="row">
                     <form action="#" method="post" className="advance__search">
                         <div className="advance__search__wrapper">
-                            {/* Check In Date */}
                             <div className="query__input">
                                 <label htmlFor="check__in" className="query__label">
-                                    Arrivée
+                                    {t.search.checkIn}
                                 </label>
                                 <DatePicker
                                     selected={checkInDate}
                                     onChange={(date) => setCheckInDate(date)}
-                                    placeholderText="Choisissez une date"
+                                    placeholderText={t.search.placeholder}
                                     className="date-picker-input"
                                 />
                                 <div className="query__input__icon">
                                     <i className="flaticon-calendar" />
                                 </div>
                             </div>
-                            {/* Check Out Date */}
                             <div className="query__input">
                                 <label htmlFor="check__out" className="query__label">
-                                    Départ
+                                    {t.search.checkOut}
                                 </label>
                                 <DatePicker
                                     selected={checkOutDate}
                                     onChange={(date) => setCheckOutDate(date)}
-                                    placeholderText="Choisissez une date"
+                                    placeholderText={t.search.placeholder}
                                     className="date-picker-input"
                                 />
                                 <div className="query__input__icon">
                                     <i className="flaticon-calendar" />
-                                </div>    
+                                </div>
                             </div>
-                            {/* Adult Selection */}
                             <div className="query__input">
-                                <label htmlFor="adult" className="query__label">Chambre</label>
+                                <label htmlFor="adult" className="query__label">{t.search.room}</label>
                                 <select name="adult" id="adult" className="form-select">
                                     {[...Array(9)].map((_, i) => (
-                                        <option key={i + 1} value={i + 1}>{i + 1} Chambre</option>
+                                        <option key={i + 1} value={i + 1}>
+                                            {i + 1} {i === 0 ? t.search.room : t.search.rooms}
+                                        </option>
                                     ))}
                                 </select>
                                 <div className="query__input__icon">
                                     <i className="flaticon-user" />
                                 </div>
                             </div>
-                            {/* Child Selection */}
-                            {/* <div className="query__input">
-                                <label htmlFor="child" className="query__label">Enfant</label>
-                                <select name="child" id="child" className="form-select">
-                                    {[...Array(9)].map((_, i) => (
-                                        <option key={i + 1} value={i + 1}>{i + 1} Enfant</option>
-                                    ))}
-                                </select>
-                                <div className="query__input__icon">
-                                    <i className="flaticon-user" />
-                                </div>
-                            </div> */}
-                            {/* Submit Button */}
                             <button className="theme-btn btn-style fill no-border search__btn" type="submit">
-                                <span>RESERVER</span>
+                                <span>{t.search.submit}</span>
                             </button>
                         </div>
                     </form>
@@ -81,5 +68,3 @@ function AdvanceForm() {
 }
 
 export default AdvanceForm;
-
-

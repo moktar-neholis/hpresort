@@ -2,8 +2,10 @@
 import React, { useState } from 'react'
 import RoomCardSix from './RoomCardSix'
 import posts from '../data/data-room.json';
+import { useTranslation } from '../hooks/useTranslation';
 
 function RoomNine() {
+    const { t } = useTranslation();
     const [visiblePosts, setVisiblePosts] = useState(6);
     const postsPerLoad = 3;
 
@@ -31,7 +33,7 @@ function RoomNine() {
                 </div>
                 {visiblePosts < posts.length && (
                     <div className="load__more__link">
-                        <button onClick={handleLoadMore}>Voir plus</button>
+                        <button onClick={handleLoadMore}>{t.rooms.loadMore}</button>
                     </div>
                 )}
             </div>

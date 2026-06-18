@@ -32,16 +32,14 @@ function BannerOne() {
                                     <div className="col-lg-10">
                                         <div className="banner__slide__content">
                                             <span className="h6 subtitle__icon">
-                                                Bienvenue dans nôtre hôtel
+                                                AKWABA
                                             </span>
-                                            <h1>Luxury Stay Hotel Experience Comfort &amp; Elegance</h1>
+                                            <h1>Bienvenue sur le site de l’hôtel HP Resort</h1>
                                             <p className="sub__text">
-                                                Choosing Bokinn was one of the best decisions we've ever
-                                                made. They have proven to be a reliable and innovative
-                                                partner
+                                                Le meilleur hôtel pour vos séjours à Yamoussoukro.
                                             </p>
                                             <Link href="/room-two" className="theme-btn btn-style fill no-border">
-                                                <span>Discover Room</span>
+                                                <span>Visitez nos chambres</span>
                                             </Link>
                                         </div>
                                     </div>
@@ -57,14 +55,12 @@ function BannerOne() {
                                     <div className="col-lg-10">
                                         <div className="banner__slide__content">
                                             <span className="h6 subtitle__icon">Bienvenue dans notre Spa</span>
-                                            <h1>Lavish Getaway A Blend of Comfort &amp; Style</h1>
+                                            <h1>Hôtel - Restaurant - Spa - Night Club</h1>
                                             <p className="sub__text">
-                                                Choosing Bokinn was one of the best decisions we've ever
-                                                made. They have proven to be a reliable and innovative
-                                                partner
+                                                Le meilleur hôtel pour vos séjours à Yamoussoukro.
                                             </p>
                                             <Link href="/room-one" className="theme-btn btn-style fill no-border">
-                                                <span>Discover Room</span>
+                                                <span>Visitez nos chambres</span>
                                             </Link>
                                         </div>
                                     </div>
@@ -80,14 +76,12 @@ function BannerOne() {
                                     <div className="col-lg-10">
                                         <div className="banner__slide__content">
                                             <span className="h6 subtitle__icon">Bienvenue dans notre Spa</span>
-                                            <h1>A Perfect Fusion of Comfort and Elegance</h1>
+                                            <h1>Hôtel - Restaurant - Spa - Night Club</h1>
                                             <p className="sub__text">
-                                                Choosing Bokinn was one of the best decisions we've ever
-                                                made. They have proven to be a reliable and innovative
-                                                partner
+                                                Le meilleur hôtel pour vos séjours à Yamoussoukro.
                                             </p>
                                             <Link href="/room-one" className="theme-btn btn-style fill no-border">
-                                                <span>Discover Room</span>
+                                                <span>Visitez nos chambres</span>
                                             </Link>
                                         </div>
                                     </div>

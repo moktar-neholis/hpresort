@@ -17,18 +17,18 @@ function RoomOne({ className }) {
                     <div className="section__wrapper mb-40 wow fadeInUp">
                         <div className="section__content__left">
                             <span className="h6 subtitle__icon__two d-block wow fadeInUp">
-                                Room
+                                HP RESORT
                             </span>
-                            <h2 className="content__title h2 lh-1">Our Rooms</h2>
+                            <h2 className="content__title h2 lh-1">Nos Chambres & Suites</h2>
                         </div>
-                        <div className="section__content__right">
+                        {/* <div className="section__content__right">
                             <p>
                                 Our rooms offer a harmonious blend of comfort and elegance,
                                 designed to provide an exceptional stay for every guest. Each room
                                 features plush bedding, high-quality linens, and a selection of
                                 pillows to ensure a restful night's sleep.
                             </p>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </div>

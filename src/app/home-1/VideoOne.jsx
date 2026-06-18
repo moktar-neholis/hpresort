@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import ReactPlayer from "react-player";
 
-function VideoOne({ videoSrc = "/assets/images/video/visite.mp4", title = "Visiter notre hôtel" }) {
+function VideoOne({ videoSrc = "https://hpresort.in-novation.tech/assets/video/visite.mp4", title = "Visiter notre hôtel" }) {
     const [isOpen, setIsOpen] = useState(false);
 
     return (

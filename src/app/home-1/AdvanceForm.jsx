@@ -22,7 +22,7 @@ function AdvanceForm() {
                                 <DatePicker
                                     selected={checkInDate}
                                     onChange={(date) => setCheckInDate(date)}
-                                    placeholderText={t.search.placeholder}
+                                    placeholderText="Sélectionnez une date"
                                     className="date-picker-input"
                                 />
                                 <div className="query__input__icon">
@@ -36,7 +36,7 @@ function AdvanceForm() {
                                 <DatePicker
                                     selected={checkOutDate}
                                     onChange={(date) => setCheckOutDate(date)}
-                                    placeholderText={t.search.placeholder}
+                                    placeholderText="Sélectionnez une date"
                                     className="date-picker-input"
                                 />
                                 <div className="query__input__icon">
@@ -44,12 +44,21 @@ function AdvanceForm() {
                                 </div>
                             </div>
                             <div className="query__input">
-                                <label htmlFor="adult" className="query__label">{t.search.room}</label>
+                                <label htmlFor="adult" className="query__label">Adulte</label>
                                 <select name="adult" id="adult" className="form-select">
                                     {[...Array(9)].map((_, i) => (
-                                        <option key={i + 1} value={i + 1}>
-                                            {i + 1} {i === 0 ? t.search.room : t.search.rooms}
-                                        </option>
+                                        <option key={i + 1} value={i + 1}>{i + 1} Personne</option>
+                                    ))}
+                                </select>
+                                <div className="query__input__icon">
+                                    <i className="flaticon-user" />
+                                </div>
+                            </div>
+                            <div className="query__input">
+                                <label htmlFor="child" className="query__label">Enfant</label>
+                                <select name="child" id="child" className="form-select">
+                                    {[...Array(9)].map((_, i) => (
+                                        <option key={i + 1} value={i + 1}>{i + 1} Enfant</option>
                                     ))}
                                 </select>
                                 <div className="query__input__icon">
@@ -57,7 +66,7 @@ function AdvanceForm() {
                                 </div>
                             </div>
                             <button className="theme-btn btn-style fill no-border search__btn" type="submit">
-                                <span>{t.search.submit}</span>
+                                <span>Réserver</span>
                             </button>
                         </div>
                     </form>

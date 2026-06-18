@@ -8,11 +8,8 @@ import 'swiper/css/navigation';
 import 'swiper/css/scrollbar';
 import RoomCardOne from '../room/RoomCardOne';
 import posts from '../data/data-room.json';
-import { useTranslation } from '../hooks/useTranslation';
 
 function RoomOne({ className }) {
-    const { t } = useTranslation();
-
     return (
         <div className={`rts__section ${className}`}>
             <div className="container">
@@ -20,12 +17,17 @@ function RoomOne({ className }) {
                     <div className="section__wrapper mb-40 wow fadeInUp">
                         <div className="section__content__left">
                             <span className="h6 subtitle__icon__two d-block wow fadeInUp">
-                                {t.rooms.label}
+                                Room
                             </span>
-                            <h2 className="content__title h2 lh-1">{t.rooms.title}</h2>
+                            <h2 className="content__title h2 lh-1">Our Rooms</h2>
                         </div>
                         <div className="section__content__right">
-                            <p>{t.rooms.desc}</p>
+                            <p>
+                                Our rooms offer a harmonious blend of comfort and elegance,
+                                designed to provide an exceptional stay for every guest. Each room
+                                features plush bedding, high-quality linens, and a selection of
+                                pillows to ensure a restful night's sleep.
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -45,7 +47,7 @@ function RoomOne({ className }) {
                     breakpoints={{
                         0: { slidesPerView: 1 },
                         575: { slidesPerView: 1 },
-                        768: { slidesPerView: 3 },
+                        768: { slidesPerView: 2 },
                         992: { slidesPerView: 2.5 },
                         1200: { slidesPerView: 3 },
                         1400: { slidesPerView: 4 },
@@ -65,10 +67,11 @@ function RoomOne({ className }) {
                                 </SwiperSlide>
                             ))
                     ) : (
-                        <p>{t.rooms.noRooms || "Aucune chambre disponible"}</p>
+                        <p>No rooms available</p>
                     )}
                 </Swiper>
 
+                {/* Pagination */}
                 <div className="rts__pagination">
                     <div className="rts-pagination" />
                 </div>

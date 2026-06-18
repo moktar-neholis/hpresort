@@ -33,7 +33,7 @@ function RoomOne({ className }) {
                 </div>
             </div>
 
-            <div className="row">
+            <div className="row mb-60">
                 <Swiper
                     className="main__room__slider overflow-hidden wow fadeInUp"
                     data-wow-delay=".5s"
@@ -72,9 +72,9 @@ function RoomOne({ className }) {
                 </Swiper>
 
                 {/* Pagination */}
-                <div className="rts__pagination">
+                {/* <div className="rts__pagination">
                     <div className="rts-pagination" />
-                </div>
+                </div> */}
             </div>
         </div>
     );

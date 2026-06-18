@@ -39,7 +39,7 @@ function FacilitiesOne() {
                                         <h6 className="card-title h6 mb-15">Chambres et suites</h6>
                                     </Link>
                                     <p className="card-text">
-                                        Varied types of rooms, from standard to luxury suites, equipped with essentials like beds.
+                                        Des chambres de différents types, allant des chambres standard aux suites de luxe, équipées de tout le nécessaire, notamment de lits.
                                     </p>
                                 </div>
                             </div>
@@ -51,10 +51,10 @@ function FacilitiesOne() {
                                         <img src="/assets/images/icon/security.svg" alt="" />
                                     </div>
                                     <Link href="/">
-                                        <h6 className="card-title h6 mb-15">24-Hour Security</h6>
+                                        <h6 className="card-title h6 mb-15">Sécurité 24h/24</h6>
                                     </Link>
                                     <p className="card-text">
-                                        On-site security personnel and best surveillance. Secure storage for valuables.
+                                        Personnel de sécurité sur place et système de vidéosurveillance de pointe. Consigne sécurisée pour vos objets de valeur.
                                     </p>
                                 </div>
                             </div>
@@ -66,10 +66,10 @@ function FacilitiesOne() {
                                         <img src="/assets/images/icon/gym.svg" alt="" />
                                     </div>
                                     <Link href="/">
-                                        <h6 className="card-title h6 mb-15">Fitness Center</h6>
+                                        <h6 className="card-title h6 mb-15">Salle de sport</h6>
                                     </Link>
                                     <p className="card-text">
-                                        Equipped with exercise machines and weights. Offering massages, facials, and other treatments.
+                                        Équipé d'appareils de musculation et d'haltères. Propose des massages, des soins du visage et d'autres soins.
                                     </p>
                                 </div>
                             </div>
@@ -81,10 +81,10 @@ function FacilitiesOne() {
                                         <img src="/assets/images/icon/swimming-pool.svg" alt="" />
                                     </div>
                                     <Link href="/">
-                                        <h6 className="card-title h6 mb-15">Swimming Pool</h6>
+                                        <h6 className="card-title h6 mb-15">Piscine</h6>
                                     </Link>
                                     <p className="card-text">
-                                        Indoor or outdoor pools for leisure or exercise. Offering massages, facials, and other treatments.
+                                        Piscines intérieures ou extérieures, pour les loisirs ou le sport. Propose des massages, des soins du visage et d'autres soins
                                     </p>
                                 </div>
                             </div>

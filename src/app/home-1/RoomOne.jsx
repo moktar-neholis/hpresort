@@ -17,7 +17,7 @@ function RoomOne({ className }) {
                     <div className="section__wrapper mb-40 wow fadeInUp">
                         <div className="section__content__left">
                             <span className="h6 subtitle__icon__two d-block wow fadeInUp">
-                                HP RESORT
+                                HP Resort
                             </span>
                             <h2 className="content__title h2 lh-1">Nos Chambres & Suites</h2>
                         </div>

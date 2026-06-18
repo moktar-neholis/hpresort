@@ -1,126 +1,88 @@
 'use client'
 import React from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react';
-import 'swiper/swiper-bundle.css'; // Core Swiper styles
-import { Navigation } from 'swiper/modules';
-// Import Swiper styles
+import { Autoplay, Navigation } from 'swiper/modules';
 import 'swiper/css';
-import 'swiper/css/navigation';
-import 'swiper/css/scrollbar';
+
+const partenaires = [
+    { src: 'https://hpresort.in-novation.tech/assets/images/sponsor/1.png', alt: 'Hotel Président' },
+    { src: 'https://hpresort.in-novation.tech/assets/images/sponsor/2.png',    alt: 'Orange Money' },
+    { src: 'https://hpresort.in-novation.tech/assets/images/sponsor/3.png',    alt: 'Yamoussoukro' },
+    { src: 'https://hpresort.in-novation.tech/assets/images/sponsor/4.png',             alt: 'SPA+' },
+    { src: 'https://hpresort.in-novation.tech/assets/images/sponsor/5.png',       alt: 'DJ School' },
+    { src: 'https://hpresort.in-novation.tech/assets/images/sponsor/6.png',         alt: 'Solibra' },
+    { src: 'https://hpresort.in-novation.tech/assets/images/sponsor/7.png',             alt: 'YafohiTravel' },
+];
 
 function TestimonialOne() {
     return (
-        <>
-            {/* client testimonial  */}
-            <div className="rts__section section__padding testimonial has__shape">
-                <div className="container">
-                    <div className="row mb-40">
-                        <div className="d-flex align-items-center justify-content-between position-relative">
-                            <div className="section__content__left">
-                                <span className="h6 subtitle__icon__two d-block wow fadeInUp">
-                                    Testimonial
-                                </span>
-                                <h2 className="content__title h2 lh-1">What Our Client Say</h2>
-                            </div>
-                            <div className="slider__navigation">
-                                <div className="nav__btn button-next">
-                                    <img src="/assets/images/icon/arrow-left-short.svg" alt="" />
-                                </div>
-                                <div className="nav__btn button-prev">
-                                    <img src="/assets/images/icon/arrow-right-short.svg" alt="" />
-                                </div>
-                            </div>
+        <div className="rts__section section__padding testimonial has__shape" style={{ background: '#faf9f7' }}>
+            <div className="container">
+                <div className="row mb-40">
+                    <div className="d-flex align-items-center justify-content-between position-relative">
+                        <div className="section__content__left">
+                            <span className="h6 subtitle__icon__two d-block wow fadeInUp">
+                                HP Resort
+                            </span>
+                            <h2 className="content__title h2 lh-1">Nos partenaires</h2>
                         </div>
-                    </div>
-                    <div className="row">
-                        <div className="col-lg-11">
-                            <div className="">
-                                <Swiper
-                                    className="testimonial__slider overflow-hidden"
-                                    modules={[Navigation]}
-                                    direction="horizontal"
-                                    slidesPerView={1}
-                                    spaceBetween={0}
-                                    loop={true}
-                                    centeredSlides={true}
-                                    autoplay="false"
-                                    navigation={{
-                                        nextEl: ".button-next",
-                                        prevEl: ".button-prev",
-                                    }}
-                                    speed={1000}
-                                    effect="slide"
-                                >
-                                    <SwiperSlide>
-                                        <div className="testimonial__item__content">
-                                            <div className="author__icon">
-                                                <img src="/assets/images/author/author-2x.webp" alt="" />
-                                            </div>
-                                            <div className="testimonial__content">
-                                                <div className="single__slider__item ">
-                                                    <div className="slider__rating mb-20">
-                                                        <i className="flaticon-star" />
-                                                        <i className="flaticon-star" />
-                                                        <i className="flaticon-star" />
-                                                        <i className="flaticon-star" />
-                                                        <i className="flaticon-star-sharp-half-stroke" />
-                                                    </div>
-                                                    <span className="slider__text d-block">
-                                                        Choosing Bokinn was one of the best decisions we've ever
-                                                        made. They have proven to be a reliable and innovative
-                                                        partner, always ready to tackle new challenges with and
-                                                        expertise.Their commitment to and delivering tailored.
-                                                    </span>
-                                                    <div className="slider__author__info">
-                                                        <div className="slider__author__info__content">
-                                                            <h6 className="mb-0">Sarah Martinez</h6>
-                                                            <span>COO of Apex Solutions</span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </SwiperSlide>
-                                    <SwiperSlide>
-                                        <div className="testimonial__item__content">
-                                            <div className="author__icon">
-                                                <img src="/assets/images/author/author-4.webp" alt="" />
-                                            </div>
-                                            <div className="testimonial__content">
-                                                <div className="single__slider__item ">
-                                                    <div className="slider__rating mb-20">
-                                                        <i className="flaticon-star" />
-                                                        <i className="flaticon-star" />
-                                                        <i className="flaticon-star" />
-                                                        <i className="flaticon-star" />
-                                                        <i className="flaticon-star-sharp-half-stroke" />
-                                                    </div>
-                                                    <span className="slider__text d-block">
-                                                        Choosing Bokinn was one of the best decisions we've ever
-                                                        made. They have proven to be a reliable and innovative
-                                                        partner, always ready to tackle new challenges with and
-                                                        expertise.Their commitment to and delivering tailored.
-                                                    </span>
-                                                    <div className="slider__author__info">
-                                                        <div className="slider__author__info__content">
-                                                            <h6 className="mb-0">Sarah Martinez</h6>
-                                                            <span>COO of Apex Solutions</span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </SwiperSlide>
-                                </Swiper>
+                        {/* <div className="slider__navigation">
+                            <div className="nav__btn button-next">
+                                <img src="/assets/images/icon/arrow-left-short.svg" alt="" />
                             </div>
-                        </div>
+                            <div className="nav__btn button-prev">
+                                <img src="/assets/images/icon/arrow-right-short.svg" alt="" />
+                            </div>
+                        </div> */}
                     </div>
                 </div>
-            </div>
-            {/* client testimonial  end */}
-        </>
 
-    )
+                <Swiper
+                    modules={[Autoplay, Navigation]}
+                    slidesPerView={6}
+                    spaceBetween={40}
+                    loop={true}
+                    speed={300}
+                    autoplay={{ delay: 2500, disableOnInteraction: false }}
+                    navigation={{ nextEl: ".button-next", prevEl: ".button-prev" }}
+                    watchSlidesProgress={true}
+                    cssMode={false}
+                    breakpoints={{
+                        0:    { slidesPerView: 2 },
+                        480:  { slidesPerView: 3 },
+                        768:  { slidesPerView: 4 },
+                        1024: { slidesPerView: 6 },
+                    }}
+                    style={{ transform: 'translate3d(0px, 0px, 0px)' }}
+                >
+                    {partenaires.map((p, i) => (
+                        <SwiperSlide key={i}>
+                            <div style={{
+                                display: 'flex',
+                                alignItems: 'center',
+                                justifyContent: 'center',
+                                padding: '10px',
+                            }}>
+                                <img
+                                    src={p.src}
+                                    alt={p.alt}
+                                    style={{
+                                        maxHeight: '80px',
+                                        maxWidth: '140px',
+                                        objectFit: 'contain',
+                                        filter: 'grayscale(20%)',
+                                        transition: 'filter 0.3s',
+                                    }}
+                                    onMouseEnter={(e) => e.currentTarget.style.filter = 'grayscale(0%)'}
+                                    onMouseLeave={(e) => e.currentTarget.style.filter = 'grayscale(20%)'}
+                                />
+                            </div>
+                        </SwiperSlide>
+                    ))}
+                </Swiper>
+            </div>
+        </div>
+    );
 }
 
-export default TestimonialOne
+export default TestimonialOne;

@@ -21,14 +21,14 @@ function GalleryOne() {
 
   return (
     <>
-      <div className="rts__section is__home__main pb-120 ">
+      <div className="rts__section is__home__main pb-60 ">
         <div className="container-fluid px-3">
 
           <div className="row position-relative justify-content-center text-center mb-30">
             <div className="col-lg-6 wow fadeInUp">
               <div className="section__topbar">
                 <span className="h6 subtitle__icon__three mx-auto">
-                  HP RESORT
+                  HP Resort
                 </span>
                 <p className="section__title">Nous sommes fiers de vous offrir des services de qualité exceptionnelle qui dépassent les attentes de nos clients.</p>
               </div>

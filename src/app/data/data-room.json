@@ -3,51 +3,100 @@
         "id": 1,
         "slug": "chambre-twins",
         "image": "/assets/images/pages/room/room1.jpg",
-        "bannerImg": "/assets/images/banner/8.jpg",
+        "bannerImg": "/assets/images/pages/room/1.webp",
+        "images": [
+            "/assets/images/pages/room/room1.jpg",
+            "/assets/images/pages/room/r-d-1.webp",
+            "/assets/images/pages/room/2.webp"
+        ],
         "title": "Chambre Twins",
-        "price": "60000.00 CFA",
+        "surface": "22.5 m²",
+        "price": "60 000 CFA",
         "rating": 5,
         "capacity": "2 Personnes",
-        "bedType": "Lit King",
+        "bedType": "Lits Jumeaux",
         "wifi": true,
         "meal": "Repas",
-        "description": "Vous envisagez de partager une chambre en toute convivialité ? La Twin d'une superficie de 22.5 m² a été aménagée dans un style moderne et minimaliste pour vous offrir un séjour confortable et agréable.",
-        "author" : "Mack jon",
-        "authorImg": "author__one.png",
-        "publishedDate": "20 Aug 2024"
+        "description": "Vous envisagez de partager une chambre en toute convivialité ? La Twin d'une superficie de 22.5 m² a été aménagée dans un style moderne et minimaliste pour permettre à deux personnes d'avoir chacune son espace (lit individuel avec chevet) tout en profitant des moments de partage autour d'une table bistrot de deux places dans une atmosphère chaleureuse.\n\nUn plateau de courtoisie vous y attend : bouilloire, thé et café pour vous souhaiter Akwaba !"
     },
     {
         "id": 2,
         "slug": "chambre-superieure",
         "image": "/assets/images/pages/room/room2.jpg",
-        "bannerImg": "/assets/images/banner/8.jpg",
+        "bannerImg": "/assets/images/pages/room/2.webp",
+        "images": [
+            "/assets/images/pages/room/room2.jpg",
+            "/assets/images/pages/room/r-d-2.webp",
+            "/assets/images/pages/room/3.webp"
+        ],
         "title": "Chambre Supérieure",
-        "price": "70000.00 CFA",
+        "surface": "18.5 m²",
+        "price": "70 000 CFA",
         "rating": 5,
         "capacity": "2 Personnes",
-        "bedType": "Lit King",
+        "bedType": "Lit Double",
         "wifi": true,
         "meal": "Repas",
-        "description": "La Supérieure vous offre un peu de confort dans notre chambre à lit double, moderne et pratique, d'une superficie de 18.5 m². Dans cette chambre au décor élégant, vous profiterez d'un cadre apaisant.",
-        "author" : "Mack jon",
-        "authorImg": "author__one.png",
-        "publishedDate": "20 Aug 2024"
+        "description": "Offrez-vous un peu de confort dans notre chambre à lit double, moderne et pratique d'une superficie de 18.5 m². Dans cette chambre au décor chaleureux, vous trouverez tout un ensemble d'équipements pour satisfaire vos besoins. Durant votre séjour, le coin bureau est à votre disposition pour lire et écrire à votre aise. Quant à la literie sélectionnée avec soin, elle vous assurera un sommeil paisible pour une ou plusieurs nuitées.\n\nUn plateau de courtoisie vous y attend : bouilloire, thé et café pour vous souhaiter Akwaba !"
     },
     {
         "id": 3,
         "slug": "chambre-deluxe",
         "image": "/assets/images/pages/room/room3.jpg",
-        "bannerImg": "/assets/images/banner/8.jpg",
+        "bannerImg": "/assets/images/pages/room/3.webp",
+        "images": [
+            "/assets/images/pages/room/room3.jpg",
+            "/assets/images/pages/room/r-d-3.webp",
+            "/assets/images/pages/room/4.webp"
+        ],
         "title": "Chambre Deluxe",
-        "price": "100000.00 CFA",
+        "surface": "26.5 m²",
+        "price": "100 000 CFA",
         "rating": 5,
         "capacity": "2 Personnes",
-        "bedType": "Lit King",
+        "bedType": "Lit Double",
         "wifi": true,
         "meal": "Repas",
-        "description": "Vous méritez bien un peu d'espace. Bien équipée avec ses 28.5 mètres carrés, la spacieuse chambre Deluxe dispose d'un mini salon intégré de 4 assises classiques (2 fauteuils et un canapé) pour votre confort.",
-        "author" : "Mack jon",
-        "authorImg": "author__one.png",
-        "publishedDate": "20 Aug 2024"
+        "description": "Vous méritez bien un peu d'espace. Bien équipée avec ses 26.5 mètres carrés, la spacieuse dispose d'un mini salon intégré de 4 assises classiques (2 fauteuils à accoudoir et un canapé de 2 places) avec table basse, d'une coiffeuse, d'un espace bureau et d'un lit double parfaitement agencé, dans un style sobre contemporain. Cette chambre a été conçue pour un séjour paisible, alliant douceur et tranquillité.\n\nUn plateau de courtoisie vous y attend : bouilloire, thé et café pour vous souhaiter Akwaba !"
+    },
+    {
+        "id": 4,
+        "slug": "suite-junior",
+        "image": "/assets/images/pages/room/interior_space_big_bed_room_luxury_hotel_1.webp",
+        "bannerImg": "/assets/images/pages/room/hotel_room_with_bed_chair_view_ocean_1.webp",
+        "images": [
+            "/assets/images/pages/room/interior_space_big_bed_room_luxury_hotel_1.webp",
+            "/assets/images/pages/room/hotel_room_with_bed_chair_view_ocean_1.webp",
+            "/assets/images/pages/room/5.webp"
+        ],
+        "title": "Suite Junior",
+        "surface": "52 m²",
+        "price": "150 000 CFA",
+        "rating": 5,
+        "capacity": "2 Personnes",
+        "bedType": "Lit King Size",
+        "wifi": true,
+        "meal": "Repas",
+        "description": "Le luxe vous est offert dans notre junior élégante de style américain d'une superficie de 52 m² avec une chambre et un séjour bien distinct avec une télévision à écran plat et un magnifique salon de 4 assises classiques (un canapé de 2 places, 2 fauteuils à accoudoir) avec table basse. Les murs aux teintes chaudes rehaussées par des tableaux thématiques vous plongent dans une atmosphère rassurante.\n\nDans la chambre, trône un vaste lit King size habillé d'une literie conforme à la norme, pour garantir un repos réparateur. La coiffeuse, l'espace bureau et la seconde télévision, le tout parfaitement agencé, est une véritable invite à la détente en toute quiétude.\n\nUn plateau de courtoisie amélioré vous y attend : machine à café en dosette, assortiment de capsules, bouilloire, thé et café soluble, pour vous souhaiter Akwaba !"
+    },
+    {
+        "id": 5,
+        "slug": "suite-senior",
+        "image": "/assets/images/pages/room/luxurious_bedroom_with_large_windows_overlooking_beautiful_ocean_view_2.webp",
+        "bannerImg": "/assets/images/pages/room/living_room_with_large_sofa_table_with_glass_top_4.webp",
+        "images": [
+            "/assets/images/pages/room/luxurious_bedroom_with_large_windows_overlooking_beautiful_ocean_view_2.webp",
+            "/assets/images/pages/room/living_room_with_large_sofa_table_with_glass_top_4.webp",
+            "/assets/images/pages/room/3d_rendering_living_room_family_space_3.webp"
+        ],
+        "title": "Suite Senior",
+        "surface": "64 m²",
+        "price": "200 000 CFA",
+        "rating": 5,
+        "capacity": "4 Personnes",
+        "bedType": "Lit King Size",
+        "wifi": true,
+        "meal": "Repas",
+        "description": "Bien aménagée, fonctionnelle et plus spacieuse que la suite junior avec ses 64 m² de superficie, cette chambre aux allures d'appartement luxueux de deux pièces vous propose un salon de 5 assises classiques avec : un canapé de 3 places, 2 fauteuils à accoudoir et une table basse, un bureau de travail, une coiffeuse — tout ce qu'il vous faut pour agrémenter votre séjour dans la capitale.\n\nCette suite convient pour les familles ou pour les personnes en voyage d'affaires ayant besoin d'une pièce dédiée pour recevoir et de repos paisible dans un lit King size accommodé d'une literie de qualité supérieure.\n\nUn plateau de courtoisie amélioré vous y attend : machine à café en dosette, assortiment de capsules, bouilloire, thé et café soluble, pour vous souhaiter Akwaba !"
     }
 ]

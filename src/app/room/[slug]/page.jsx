@@ -9,8 +9,8 @@ export function generateStaticParams() {
   }));
 }
 
-export default function RoomDetailsPage({ params }) {
-  const { slug } = params;
+export default async function RoomDetailsPage({ params }) {
+  const { slug } = await params;
   const roomPost = Posts.find(post => post.slug === slug);
 
   return <RoomDetailsClient roomPost={roomPost} />;

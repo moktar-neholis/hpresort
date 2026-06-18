@@ -73,16 +73,47 @@ function FooterOne() {
                             </ul>
                         </div>
 
-                        {/* Galerie */}
+                        {/* Réseaux sociaux */}
                         <div>
-                            <h3 style={{fontSize: '20px', fontWeight: 'bold', marginBottom: '20px', color: '#fff'}}>Galerie</h3>
-                            <div style={{display: 'grid', gridTemplateColumns: '1fr 1fr 1fr', gap: '8px'}}>
-                                <img src="/assets/images/footer/premier.jpg" alt="footer" style={{width: '100%', height: '80px', objectFit: 'cover', borderRadius: '4px'}} />
-                                <img src="/assets/images/footer/deux.jpg" alt="footer" style={{width: '100%', height: '80px', objectFit: 'cover', borderRadius: '4px'}} />
-                                <img src="/assets/images/footer/trois.jpg" alt="footer" style={{width: '100%', height: '80px', objectFit: 'cover', borderRadius: '4px'}} />
-                                <img src="/assets/images/footer/quatre.jpg" alt="footer" style={{width: '100%', height: '80px', objectFit: 'cover', borderRadius: '4px'}} />
-                                <img src="/assets/images/footer/cinq.jpg" alt="footer" style={{width: '100%', height: '80px', objectFit: 'cover', borderRadius: '4px'}} />
-                                <img src="/assets/images/footer/six.jpg" alt="footer" style={{width: '100%', height: '80px', objectFit: 'cover', borderRadius: '4px'}} />
+                            <h3 style={{fontSize: '20px', fontWeight: 'bold', marginBottom: '20px', color: '#fff'}}>Réseaux sociaux</h3>
+                            <p style={{fontSize: '14px', color: '#ccc', marginBottom: '20px', lineHeight: '1.6'}}>
+                                Suivez-nous sur nos réseaux sociaux et restez connectés à l'actualité du HP Resort.
+                            </p>
+                            <div style={{display: 'flex', flexDirection: 'column', gap: '14px'}}>
+                                <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer"
+                                    style={{display: 'flex', alignItems: 'center', gap: '12px', color: '#ccc', textDecoration: 'none', fontSize: '14px'}}>
+                                    <span style={{
+                                        display: 'flex', alignItems: 'center', justifyContent: 'center',
+                                        width: '36px', height: '36px', borderRadius: '50%',
+                                        backgroundColor: '#1877F2', flexShrink: 0
+                                    }}>
+                                        <i className="fab fa-facebook-f" style={{color: '#fff', fontSize: '14px'}}></i>
+                                    </span>
+                                    Facebook
+                                </a>
+                                <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer"
+                                    style={{display: 'flex', alignItems: 'center', gap: '12px', color: '#ccc', textDecoration: 'none', fontSize: '14px'}}>
+                                    <span style={{
+                                        display: 'flex', alignItems: 'center', justifyContent: 'center',
+                                        width: '36px', height: '36px', borderRadius: '50%',
+                                        background: 'radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%)',
+                                        flexShrink: 0
+                                    }}>
+                                        <i className="fab fa-instagram" style={{color: '#fff', fontSize: '14px'}}></i>
+                                    </span>
+                                    Instagram
+                                </a>
+                                <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer"
+                                    style={{display: 'flex', alignItems: 'center', gap: '12px', color: '#ccc', textDecoration: 'none', fontSize: '14px'}}>
+                                    <span style={{
+                                        display: 'flex', alignItems: 'center', justifyContent: 'center',
+                                        width: '36px', height: '36px', borderRadius: '50%',
+                                        backgroundColor: '#FF0000', flexShrink: 0
+                                    }}>
+                                        <i className="fab fa-youtube" style={{color: '#fff', fontSize: '14px'}}></i>
+                                    </span>
+                                    YouTube
+                                </a>
                             </div>
                         </div>
                     </div>

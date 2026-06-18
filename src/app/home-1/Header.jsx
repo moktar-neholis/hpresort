@@ -46,7 +46,7 @@ function HeaderOne() {
                                                 </Link>
                                             </li>
                                             <li className="navigation__menu--item">
-                                                <Link href="/room-one" className="navigation__menu--item__link" style={{ color: '#D97E4F' }}>
+                                                <Link href="/room-one" className="navigation__menu--item__link">
                                                     CHAMBRES & SUITES
                                                 </Link>
                                             </li>
@@ -107,11 +107,17 @@ function HeaderOne() {
                                 >
                                     <span>S'inscrire</span>
                                 </button>
-                                <button
-                                    className="theme-btn btn-style sm-btn fill"
-                                >
+                                <button className="theme-btn btn-style sm-btn fill">
                                     <span>Réservez maintenant</span>
                                 </button>
+                                {/* <a
+                                    href="https://www.abidjan.net/"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="theme-btn btn-style sm-btn border"
+                                >
+                                    <span>PRESSE</span>
+                                </a> */}
                             </div>
 
                         </div>

@@ -7856,6 +7856,9 @@ textarea:focus-visible, input:focus-visible {
 }
 .room__card.is__style__four .room__card__top .room__card__image img {
   border-radius: 10px;
+  height: 420px;
+  width: 100%;
+  object-fit: cover;
 }
 .room__card.is__style__four .room__card__meta {
   flex-basis: 50%;

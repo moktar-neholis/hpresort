@@ -7935,12 +7935,11 @@ textarea:focus-visible, input:focus-visible {
 
 .header__top {
   padding: 8px 0;
-  background-color: #E88850;
   border-bottom: 0.5px solid rgba(101, 103, 107, 0.2);
 }
 .header__top .link__item {
   font-size: 14px;
-  color: #FFFFFF;
+  color: var(--rts-para);
 }
 .header__top .link__item i {
   top: 2px;
@@ -8118,16 +8117,24 @@ textarea:focus-visible, input:focus-visible {
 }
 
 .main__header .main__header__wrapper {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
   position: relative;
 }
+@media screen and (max-width: 992px) {
+  .main__header .main__header__wrapper {
+    grid-template-columns: auto auto;
+  }
+}
 .main__header .main__header__wrapper .main__logo {
-  position: relative;
-  transform: none;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
+  display: grid;
+  justify-items: center;
+}
+@media screen and (max-width: 992px) {
+  .main__header .main__header__wrapper .main__logo {
+    justify-items: self-start;
+  }
 }
 
 .main__header .main__header__wrapper .main__logo img,

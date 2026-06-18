@@ -35,22 +35,11 @@ function HeaderOne() {
             <header className={`main__header header__function ${hydrated && isSticky ? 'is__sticky' : ''}`}>
                 <div className="container">
                     <div className="row">
-                        <div className="main__header__wrapper" style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', width: '100%', padding: '15px 0' }}>
-                            <div className="main__logo">
-                                <Link href="/">
-                                    <img
-                                        className="logo__class"
-                                        src="/assets/images/logo/hp_logo.png"
-                                        alt="HP Resort"
-
-                                    />
-                                </Link>
-                            </div>
-
-                            <div className="main__nav" style={{ flex: 1, display: 'flex', justifyContent: 'center' }}>
+                        <div className="main__header__wrapper">
+                            <div className="main__nav">
                                 <div className="navigation d-none d-lg-block">
                                     <nav className="navigation__menu" id="main__menu">
-                                        <ul className="list-unstyled" style={{ display: 'flex', gap: '25px', margin: 0, padding: 0 }}>
+                                        <ul className="list-unstyled">
                                             <li className="navigation__menu--item">
                                                 <Link href="/" className="navigation__menu--item__link">
                                                     ACCUEIL
@@ -95,21 +84,35 @@ function HeaderOne() {
                                 </div>
                             </div>
 
-                            <button
-                                style={{
-                                    backgroundColor: '#D97E4F',
-                                    color: 'white',
-                                    border: 'none',
-                                    padding: '10px 24px',
-                                    borderRadius: '4px',
-                                    cursor: 'pointer',
-                                    fontSize: '14px',
-                                    fontWeight: 'bold',
-                                    marginRight: '20px'
-                                }}
-                            >
-                                PRESSE
-                            </button>
+                            <div className="main__logo">
+                                <Link href="/">
+                                    <img
+                                        className="logo__class"
+                                        src="/assets/images/logo/hp_logo.png"
+                                        alt="HP Resort"
+                                    />
+                                </Link>
+                            </div>
+
+                            <div className="main__right">
+                                <button
+                                    className="theme-btn btn-style sm-btn border"
+                                    onClick={() => setIsLoginOpen(true)}
+                                >
+                                    <span>Se connecter</span>
+                                </button>
+                                <button
+                                    className="theme-btn btn-style sm-btn border"
+                                    onClick={() => setIsSignupOpen(true)}
+                                >
+                                    <span>S'inscrire</span>
+                                </button>
+                                <button
+                                    className="theme-btn btn-style sm-btn fill"
+                                >
+                                    <span>Réservez maintenant</span>
+                                </button>
+                            </div>
 
                         </div>
                     </div>

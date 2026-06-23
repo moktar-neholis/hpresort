@@ -1,13 +1,13 @@
 [
-    {
-        "slug": "paix-et-sante",
+    {   
+        "slug": "paix-sante",
         "image": "/assets/images/sejour-package/activity1.jpg",
         "title": "Voeux 2025",
         "excerpt": "L'équipe de HP Resort à Yamoussoukro vous présente ses meilleurs vœux pour...",
         "description": "L'équipe de HP Resort à Yamoussoukro vous présente ses meilleurs vœux pour la nouvelle année. Que 2025 vous apporte paix, santé et prospérité. Nous espérons vous accueillir pour célébrer cette nouvelle année. Pour toute information, contactez-nous au 07 07 45 21 77 ou 07 01 81 24 32."
     },
-    {
-        "slug": "vue-sur-l-amour",
+    {  
+        "slug": "vue-amour",
         "image": "/assets/images/sejour-package/activity2.jpg",
         "title": "Saint Valentin",
         "excerpt": "Célébrez la fête des amoureux dans un cadre idyllique. HP Resort vous...",

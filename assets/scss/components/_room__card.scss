@@ -75,10 +75,23 @@
         }
 
         .room__card__link {
-            font-size: 18px;
-            color: var(--heading-color);
-            text-decoration: underline;
+            display: inline-block;
+            margin-top: 15px;
+            padding: 10px 20px;
+            font-size: 14px;
+            color: var(--rts-white);
+            background-color: var(--heading-color);
+            text-decoration: none;
             font-family: var(--jost);
+            border-radius: 6px;
+            transition: var(--transition);
+            font-weight: 600;
+
+            &:hover {
+                background-color: var(--rts-white);
+                color: var(--heading-color);
+                border: 1px solid var(--heading-color);
+            }
         }
     }
 

@@ -11,9 +11,11 @@ export function generateStaticParams() {
   }))
 }
 
-export default function ReadMorePage({ params }) {
-  const { slug } = params
-  const pkg = allItems.find((item) => item.slug === slug)
+export default async function ReadMorePage({ params }) {
+  const { slug } = await params
+  // Normalize slug for case-insensitive comparison
+  const normalizedSlug = slug?.toLowerCase()?.trim()
+  const pkg = allItems.find((item) => item.slug?.toLowerCase()?.trim() === normalizedSlug)
 
   return <ReadMoreClient pkg={pkg} />
 }

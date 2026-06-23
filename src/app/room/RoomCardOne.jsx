@@ -10,13 +10,14 @@ function RoomCardOne(props) {
     } = props;
     return (
         <div className="room__slide__box radius-6">
-            <div className="room__thumbnail jara-mask-2 jarallax">
+            <div className="room__thumbnail jara-mask-2 jarallax" style={{ overflow: 'hidden', height: '585px', position: 'relative' }}>
                 <img
                     height={585}
                     width={420}
                     className="radius-6 jarallax-img"
                     src={Img || "/assets/images/pages/room/1.webp"}
                     alt=""
+                    style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'center' }}
                 />
             </div>
             <div className="room__content">

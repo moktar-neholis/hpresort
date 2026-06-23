@@ -2,7 +2,7 @@
 import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/swiper-bundle.css';
-import { Pagination } from 'swiper/modules';
+import { Pagination, Autoplay } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/scrollbar';
@@ -37,11 +37,11 @@ function RoomOne({ className }) {
                 <Swiper
                     className="main__room__slider overflow-hidden wow fadeInUp"
                     data-wow-delay=".5s"
-                    modules={[Pagination]}
+                    modules={[Pagination, Autoplay]}
                     slidesPerView={3}
                     spaceBetween={30}
                     loop={posts.length > 1}
-                    autoplay={false}
+                    autoplay={{ delay: 3000, disableOnInteraction: false }}
                     pagination={{ el: ".rts-pagination", clickable: true }}
                     speed={1000}
                     breakpoints={{
@@ -72,9 +72,9 @@ function RoomOne({ className }) {
                 </Swiper>
 
                 {/* Pagination */}
-                {/* <div className="rts__pagination">
+                <div className="rts__pagination">
                     <div className="rts-pagination" />
-                </div> */}
+                </div>
             </div>
         </div>
     );

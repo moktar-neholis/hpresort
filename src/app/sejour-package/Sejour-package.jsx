@@ -37,7 +37,7 @@ function SejourPackage() {
                                     <p className="room__card__description">
                                         {pkg.excerpt}
                                     </p>
-                                    <Link href={`/read-more/${pkg.slug}`} className="room__card__link">
+                                    <Link href={`/voir-plus/${pkg.slug}`} className="room__card__link">
                                         LIRE LA SUITE
                                     </Link>
                                 </div>

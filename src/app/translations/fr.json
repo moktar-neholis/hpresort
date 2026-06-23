@@ -99,7 +99,36 @@
     },
     "breadcrumb": {
         "home": "Accueil",
-        "rooms": "Chambres & Suites"
+        "rooms": "Chambres & Suites",
+        "event": "Réunions & Événements",
+        "activities": "Bien Être & Détente",
+        "restaurant": "Restaurants & Bar",
+        "package": "Séjour Packagé"
+    },
+    "event": {
+        "title": "Réunions & Événements",
+        "desc": "L'Hôtel HP Resort est le second établissement hôtelier de grande capacité de Yamoussoukro qui possède en son sein des salles de conférences et de banquets, ce qui en fait l'endroit idéal pour vos événements.",
+        "readMore": "LIRE LA SUITE",
+        "contactUs": "NOUS CONTACTER"
+    },
+    "activities": {
+        "title": "Bien Être & Détente",
+        "desc": "Notre espace bien-être dispose de plusieurs installations : deux cabines individuelles, une cabine double, une salle de relaxation, un hammam, un sauna, une cabine beauté des mains et des pieds, un salon de coiffure."
+    },
+    "restaurant": {
+        "subtitle": "Gastronomie & Détente",
+        "heading": "De la ferme à l'assiette : savourez des plats frais et de saison au HP Resort",
+        "desc": "Bienvenue au HP Resort, où la gastronomie rencontre l'élégance au cœur de Yamoussoukro. Nos restaurants et bars vous invitent à savourer une cuisine exceptionnelle, alliant saveurs locales ivoiriennes et influences internationales, dans un cadre raffiné et apaisant. Chaque repas est une invitation au voyage culinaire.",
+        "reservationPhone": "Réservation par téléphone",
+        "openingHours": "Horaires d'ouverture",
+        "ourSpacesSubtitle": "Nos Espaces",
+        "ourSpacesTitle": "Restaurants & Bar",
+        "ourSpacesDesc": "Découvrez nos espaces de restauration, chacun offrant une expérience culinaire unique dans un cadre exceptionnel."
+    },
+    "package": {
+        "title": "Nos séjours packagés",
+        "desc": "Découvrez nos séjours packagés alliant confort, activités variées et découvertes, pour une expérience de voyage clé en main. Profitez d'offres soigneusement conçues pour un séjour sans souci et riche en souvenirs.",
+        "readMore": "LIRE LA SUITE"
     },
     "footer": {
         "usefulLinks": "Liens utiles",

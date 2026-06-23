@@ -22,7 +22,14 @@ import { LanguageProvider } from './context/LanguageContext';
 export const metadata: Metadata = {
   title: "HOTEL HP RESORT",
   description: "Vivez le luxe et le confort à l’HOTEL HP RESORT",
-  
+  openGraph: {
+    title: "HOTEL HP RESORT",
+    description: "Vivez le luxe et le confort à l’HOTEL HP RESORT",
+    images: ["/assets/images/logo/hp_logo.png"],
+  },
+  icons: {
+    icon: "/assets/images/favicon.png",
+  },
 };
 
 export default function RootLayout({

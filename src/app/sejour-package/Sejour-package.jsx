@@ -1,17 +1,20 @@
+'use client'
 import Link from 'next/link'
 import React from 'react'
 import packages from '../data/data-sejour-package.json'
+import { useTranslation } from '../hooks/useTranslation'
 
 function SejourPackage() {
+    const { t } = useTranslation();
     return (
         <div className="rts__section section__padding">
             <div className="container">
                 <div className="about__content text-center">
                         <h2 className="font-xl wow fadeInUp">
-                            Nos séjours packagés
+                            {t.package.title}
                         </h2>
                     <p className="font-sm mt-30 wow fadeInUp" data-wow-delay=".3s">
-                        Découvrez nos séjours packagés alliant confort, activités variées et découvertes, pour une expérience de voyage clé en main. Profitez d'offres soigneusement conçues pour un séjour sans souci et riche en souvenirs.
+                        {t.package.desc}
                     </p>
                 </div>
                 <div className="row g-30 mt-30">
@@ -38,7 +41,7 @@ function SejourPackage() {
                                         {pkg.excerpt}
                                     </p>
                                     <Link href={`/voir-plus/${pkg.slug}`} className="room__card__link">
-                                        LIRE LA SUITE
+                                        {t.package.readMore}
                                     </Link>
                                 </div>
                             </div>

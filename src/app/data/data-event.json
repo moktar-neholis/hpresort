@@ -4,41 +4,53 @@
         "slug": "nklo",
         "image": "/assets/images/pages/event/event4.jpg",
         "title": "N'KLO",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, exercitationem. Ad, est..."
+        "title_en": "N'KLO",
+        "description": "La salle N'KLO est un espace modulable idéal pour vos conférences, séminaires et réunions d'affaires jusqu'à 50 participants. Équipée de matériel audiovisuel moderne et d'une connexion Wi-Fi haut débit, elle offre un cadre professionnel et confortable.",
+        "description_en": "The N'KLO room is a flexible space ideal for your conferences, seminars and business meetings for up to 50 participants. Equipped with modern audiovisual equipment and high-speed Wi-Fi, it offers a professional and comfortable setting."
     },
     {
         "id": 2,
         "slug": "convivialite",
         "image": "/assets/images/pages/event/event6.jpg",
         "title": "CONVIVIALITÉ",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, exercitationem. Ad, est..."
+        "title_en": "CONVIVIALITY",
+        "description": "L'espace Convivialité est conçu pour accueillir vos cocktails, afterworks et événements festifs. Avec sa décoration chaleureuse et son bar intégré, cet espace met l'accent sur le partage et la convivialité pour des moments inoubliables.",
+        "description_en": "The Conviviality space is designed to host your cocktail parties, afterworks and festive events. With its warm décor and integrated bar, this space focuses on sharing and togetherness for unforgettable moments."
     },
     {
         "id": 3,
         "slug": "lolobo",
         "image": "/assets/images/pages/event/event2.jpg",
         "title": "LOLOBO",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, exercitationem. Ad, est..."
+        "title_en": "LOLOBO",
+        "description": "La salle LOLOBO est un espace polyvalent pouvant accueillir jusqu'à 100 personnes. Idéale pour les formations, ateliers et réunions de grande envergure, elle dispose d'un équipement complet et d'une lumière naturelle abondante.",
+        "description_en": "The LOLOBO room is a versatile space that can accommodate up to 100 people. Ideal for training sessions, workshops and large-scale meetings, it is fully equipped and benefits from abundant natural light."
     },
     {
         "id": 4,
         "slug": "morofe",
         "image": "/assets/images/pages/event/event5.jpg",
         "title": "MOROFE",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, exercitationem. Ad, est..."
+        "title_en": "MOROFE",
+        "description": "La salle MOROFE est un espace exclusif réservé aux réunions de direction et aux comités restreints. Son ambiance feutrée et son équipement haut de gamme en font le lieu parfait pour vos échanges confidentiels et stratégiques.",
+        "description_en": "The MOROFE room is an exclusive space reserved for board meetings and small committees. Its intimate atmosphere and high-end equipment make it the perfect venue for your confidential and strategic discussions."
     },
     {
         "id": 5,
         "slug": "ngokro",
         "image": "/assets/images/pages/event/event3.jpg",
         "title": "N'GOKRO",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, exercitationem. Ad, est..."
+        "title_en": "N'GOKRO",
+        "description": "La salle N'GOKRO est notre plus grand espace événementiel, pouvant accueillir jusqu'à 200 participants. Parfaitement adaptée aux congrès, assemblées générales et grandes conférences, elle dispose d'une scène et d'un système son professionnel.",
+        "description_en": "The N'GOKRO room is our largest event space, accommodating up to 200 participants. Perfectly suited for congresses, general assemblies and large conferences, it features a stage and a professional sound system."
     },
     {
         "id": 6,
         "slug": "gala-mariage-anniversaire-bal",
         "image": "/assets/images/pages/event/event1.jpg",
         "title": "GALA, MARIAGE, ANNIVERSAIRE",
-        "description": "L'une des principales caractéristiques qui distinguent l'Hôtel HP Resort et ses espaces est sa capacité à accueillir."
+        "title_en": "GALA, WEDDING, ANNIVERSARY",
+        "description": "L'une des principales caractéristiques qui distinguent l'Hôtel HP Resort et ses espaces est sa capacité à accueillir des événements privés d'exception. Que ce soit pour un mariage, un gala ou un anniversaire, notre équipe vous accompagne pour créer un moment magique et inoubliable.",
+        "description_en": "One of the defining features that sets HP Resort Hotel apart is its ability to host exceptional private events. Whether for a wedding, gala or anniversary, our team is with you every step of the way to create a magical and unforgettable moment."
     }
 ]

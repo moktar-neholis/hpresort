@@ -5,7 +5,7 @@ import posts from '../data/data-room.json';
 import { useTranslation } from '../hooks/useTranslation';
 
 function RoomNine() {
-    const { t } = useTranslation();
+    const { t, lang } = useTranslation();
     const [visiblePosts, setVisiblePosts] = useState(6);
     const postsPerLoad = 3;
 
@@ -22,11 +22,11 @@ function RoomNine() {
                             key={data.id}
                             Slug={data.slug}
                             Img={data.image}
-                            Title={data.title}
+                            Title={lang === 'en' ? (data.title_en || data.title) : data.title}
                             Price={data.price}
-                            Description={data.description}
-                            Capacity={data.capacity}
-                            BedType={data.bedType}
+                            Description={lang === 'en' ? (data.description_en || data.description) : data.description}
+                            Capacity={lang === 'en' ? (data.capacity_en || data.capacity) : data.capacity}
+                            BedType={lang === 'en' ? (data.bedType_en || data.bedType) : data.bedType}
                             Surface={data.surface}
                         />
                     ))}

@@ -99,7 +99,36 @@
     },
     "breadcrumb": {
         "home": "Home",
-        "rooms": "Rooms & Suites"
+        "rooms": "Rooms & Suites",
+        "event": "Meetings & Events",
+        "activities": "Wellness & Relaxation",
+        "restaurant": "Restaurant & Bar",
+        "package": "Package Stay"
+    },
+    "event": {
+        "title": "Meetings & Events",
+        "desc": "HP Resort Hotel is the second large-capacity hotel in Yamoussoukro, featuring conference and banquet rooms, making it the ideal venue for your events.",
+        "readMore": "READ MORE",
+        "contactUs": "CONTACT US"
+    },
+    "activities": {
+        "title": "Wellness & Relaxation",
+        "desc": "Our wellness area features several facilities: two individual cabins, a double cabin, a relaxation room, a hammam, a sauna, a hand and foot beauty cabin, and a hair salon."
+    },
+    "restaurant": {
+        "subtitle": "Gastronomy & Relaxation",
+        "heading": "Farm to table: savor fresh, seasonal dishes at HP Resort",
+        "desc": "Welcome to HP Resort, where gastronomy meets elegance in the heart of Yamoussoukro. Our restaurants and bars invite you to enjoy exceptional cuisine, combining local Ivorian flavors with international influences, in a refined and soothing setting. Every meal is an invitation to a culinary journey.",
+        "reservationPhone": "Phone reservation",
+        "openingHours": "Opening hours",
+        "ourSpacesSubtitle": "Our Spaces",
+        "ourSpacesTitle": "Restaurant & Bar",
+        "ourSpacesDesc": "Discover our dining spaces, each offering a unique culinary experience in an exceptional setting."
+    },
+    "package": {
+        "title": "Our package stays",
+        "desc": "Discover our package stays combining comfort, varied activities and discoveries, for a turnkey travel experience. Enjoy carefully designed offers for a worry-free stay full of memories.",
+        "readMore": "READ MORE"
     },
     "footer": {
         "usefulLinks": "Useful links",

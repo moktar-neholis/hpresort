@@ -8,8 +8,8 @@ export function generateStaticParams() {
   }));
 }
 
-export default function EventDetailsPage({ params }) {
-  const { slug } = params;
+export default async function EventDetailsPage({ params }) {
+  const { slug } = await params;
   const event = posts.find((post) => post.slug === slug);
 
   return <EventDetailsClient event={event} />;

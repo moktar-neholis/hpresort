@@ -20,7 +20,11 @@ const fallbackGallery = [
 ];
 
 export default function RoomDetailsClient({ roomPost }) {
-    const { t } = useTranslation();
+    const { t, lang } = useTranslation();
+    const title       = lang === 'en' ? (roomPost.title_en       || roomPost.title)       : roomPost.title;
+    const description = lang === 'en' ? (roomPost.description_en || roomPost.description) : roomPost.description;
+    const capacity    = lang === 'en' ? (roomPost.capacity_en    || roomPost.capacity)    : roomPost.capacity;
+    const bedType     = lang === 'en' ? (roomPost.bedType_en     || roomPost.bedType)     : roomPost.bedType;
 
     if (!roomPost) {
         return <div>Chambre introuvable !</div>;
@@ -48,13 +52,13 @@ export default function RoomDetailsClient({ roomPost }) {
             <HeaderOne />
 
             <BreadcrumbOne
-                title={roomPost.title}
+                title={title}
                 bgImage={roomPost.bannerImg}
                 breadcrumb={[
                     { label: t.breadcrumb.home, href: '/' },
                     { label: t.breadcrumb.rooms, href: '/room-one' }
                 ]}
-                current={roomPost.title}
+                current={title}
             />
 
             <div className="rts__section section__padding">
@@ -66,7 +70,7 @@ export default function RoomDetailsClient({ roomPost }) {
                             <div className="room__details">
 
                                 <span className="h4 price">{roomPost.price}</span>
-                                <h2 className="room__title">{roomPost.title}</h2>
+                                <h2 className="room__title">{title}</h2>
                                 <div className="room__meta">
                                     <span>
                                         <i className="flaticon-construction" />
@@ -74,15 +78,15 @@ export default function RoomDetailsClient({ roomPost }) {
                                     </span>
                                     <span>
                                         <i className="flaticon-user" />
-                                        {roomPost.capacity || `2 ${t.rooms.persons}`}
+                                        {capacity || `2 ${t.rooms.persons}`}
                                     </span>
                                     <span>
                                         <i className="flaticon-bed" />
-                                        {roomPost.bedType || "Lit Double"}
+                                        {bedType}
                                     </span>
                                 </div>
 
-                                {(roomPost.description || "").split('\n\n').map((para, i) => (
+                                {(description || "").split('\n\n').map((para, i) => (
                                     <p key={i} className={i > 0 ? 'mt-20' : ''}>{para}</p>
                                 ))}
 

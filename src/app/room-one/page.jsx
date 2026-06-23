@@ -7,8 +7,10 @@ import RoomNine from '../room/RoomNine'
 import FooterOne from '../home-1/FooterOne'
 import BackToTop from '../home-1/BackToTop'
 import GDPRCookie from '../home-1/GDPRCookie'
+import { useTranslation } from '../hooks/useTranslation'
 
 function page() {
+    const { t } = useTranslation();
     return (
         <>
             <GDPRCookie
@@ -21,9 +23,9 @@ function page() {
             <TopBar />
             <HeaderOne />
             <BreadcrumbOne
-                title="Chambres & Suites"
-                breadcrumb={[{ label: 'Accueil', href: '/' }]}
-                current="Chambres & Suites"
+                title={t.breadcrumb.rooms}
+                breadcrumb={[{ label: t.breadcrumb.home, href: '/' }]}
+                current={t.breadcrumb.rooms}
             />
             <RoomNine />
             <FooterOne />

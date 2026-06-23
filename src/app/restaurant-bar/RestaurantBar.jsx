@@ -2,8 +2,10 @@
 import Link from 'next/link'
 import React, { useState } from 'react'
 import items from '../data/data-restaurant-bar.json'
+import { useTranslation } from '../hooks/useTranslation'
 
 function RestaurantBar() {
+    const { t } = useTranslation();
     const [activeTab, setActiveTab] = useState(items[0]?.slug || '');
 
     return (
@@ -35,26 +37,23 @@ function RestaurantBar() {
                         <div className="col-lg-7">
                             <div className="about__content">
                                 <span className="h6 subtitle__icon__two d-block wow fadeInUp">
-                                    Gastronomie & Détente
+                                    {t.restaurant.subtitle}
                                 </span>
                                 <h2 className="font-xl wow fadeInUp">
-                                    De la ferme à l'assiette : savourez des plats frais et de saison au HP Resort
+                                    {t.restaurant.heading}
                                 </h2>
                                 <p className="font-sm mt-30 wow fadeInUp" data-wow-delay=".3s">
-                                    Bienvenue au HP Resort, où la gastronomie rencontre l'élégance au cœur de Yamoussoukro.
-                                    Nos restaurants et bars vous invitent à savourer une cuisine exceptionnelle, alliant
-                                    saveurs locales ivoiriennes et influences internationales, dans un cadre raffiné et
-                                    apaisant. Chaque repas est une invitation au voyage culinaire.
+                                    {t.restaurant.desc}
                                 </p>
                                 <div className="reservation__meta wow fadeInUp">
                                     <div className="reservation__item">
-                                        <p className="font-sm">Réservation par téléphone</p>
+                                        <p className="font-sm">{t.restaurant.reservationPhone}</p>
                                         <Link href="tel:+2252730646800">
                                             <img src="/assets/images/icon/phone.svg" alt="" /> +225 27 30 64 68 00
                                         </Link>
                                     </div>
                                     <div className="reservation__item">
-                                        <p className="font-sm">Horaires d'ouverture</p>
+                                        <p className="font-sm">{t.restaurant.openingHours}</p>
                                         <span>
                                             <img src="/assets/images/icon/clock.svg" alt="" />
                                             12H00 - 22H00
@@ -74,15 +73,12 @@ function RestaurantBar() {
                         <div className="section__wrapper mb-40 wow fadeInUp">
                             <div className="section__content__left">
                                 <span className="h6 subtitle__icon__two d-block wow fadeInUp">
-                                    Nos Espaces
+                                    {t.restaurant.ourSpacesSubtitle}
                                 </span>
-                                <h2 className="content__title h2 lh-1">Restaurants & Bar</h2>
+                                <h2 className="content__title h2 lh-1">{t.restaurant.ourSpacesTitle}</h2>
                             </div>
                             <div className="section__content__right">
-                                <p>
-                                    Découvrez nos espaces de restauration, chacun offrant une
-                                    expérience culinaire unique dans un cadre exceptionnel.
-                                </p>
+                                <p>{t.restaurant.ourSpacesDesc}</p>
                             </div>
                         </div>
                     </div>

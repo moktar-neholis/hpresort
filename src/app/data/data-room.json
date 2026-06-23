@@ -10,14 +10,18 @@
             "/assets/images/pages/room/2.webp"
         ],
         "title": "Chambre Twins",
+        "title_en": "Twin Room",
         "surface": "22.5 m²",
         "price": "60 000 CFA",
         "rating": 5,
         "capacity": "2 Personnes",
+        "capacity_en": "2 Persons",
         "bedType": "Lits Jumeaux",
+        "bedType_en": "Twin Beds",
         "wifi": true,
         "meal": "Repas",
-        "description": "Vous envisagez de partager une chambre en toute convivialité ? La Twin d'une superficie de 22.5 m² a été aménagée dans un style moderne et minimaliste pour permettre à deux personnes d'avoir chacune son espace (lit individuel avec chevet) tout en profitant des moments de partage autour d'une table bistrot de deux places dans une atmosphère chaleureuse.\n\nUn plateau de courtoisie vous y attend : bouilloire, thé et café pour vous souhaiter Akwaba !"
+        "description": "Vous envisagez de partager une chambre en toute convivialité ? La Twin d'une superficie de 22.5 m² a été aménagée dans un style moderne et minimaliste pour permettre à deux personnes d'avoir chacune son espace (lit individuel avec chevet) tout en profitant des moments de partage autour d'une table bistrot de deux places dans une atmosphère chaleureuse.\n\nUn plateau de courtoisie vous y attend : bouilloire, thé et café pour vous souhaiter Akwaba !",
+        "description_en": "Are you looking to share a room in a friendly atmosphere? The Twin, spanning 22.5 m², has been designed in a modern and minimalist style to allow two people to each have their own space (individual bed with bedside table) while enjoying shared moments around a two-seat bistro table in a warm setting.\n\nA courtesy tray awaits you: kettle, tea and coffee to welcome you — Akwaba!"
     },
     {
         "id": 2,
@@ -30,14 +34,18 @@
             "/assets/images/pages/room/3.webp"
         ],
         "title": "Chambre Supérieure",
+        "title_en": "Superior Room",
         "surface": "18.5 m²",
         "price": "70 000 CFA",
         "rating": 5,
         "capacity": "2 Personnes",
+        "capacity_en": "2 Persons",
         "bedType": "Lit Double",
+        "bedType_en": "Double Bed",
         "wifi": true,
         "meal": "Repas",
-        "description": "Offrez-vous un peu de confort dans notre chambre à lit double, moderne et pratique d'une superficie de 18.5 m². Dans cette chambre au décor chaleureux, vous trouverez tout un ensemble d'équipements pour satisfaire vos besoins. Durant votre séjour, le coin bureau est à votre disposition pour lire et écrire à votre aise. Quant à la literie sélectionnée avec soin, elle vous assurera un sommeil paisible pour une ou plusieurs nuitées.\n\nUn plateau de courtoisie vous y attend : bouilloire, thé et café pour vous souhaiter Akwaba !"
+        "description": "Offrez-vous un peu de confort dans notre chambre à lit double, moderne et pratique d'une superficie de 18.5 m². Dans cette chambre au décor chaleureux, vous trouverez tout un ensemble d'équipements pour satisfaire vos besoins. Durant votre séjour, le coin bureau est à votre disposition pour lire et écrire à votre aise. Quant à la literie sélectionnée avec soin, elle vous assurera un sommeil paisible pour une ou plusieurs nuitées.\n\nUn plateau de courtoisie vous y attend : bouilloire, thé et café pour vous souhaiter Akwaba !",
+        "description_en": "Treat yourself to some comfort in our modern and practical double bedroom spanning 18.5 m². In this warm and inviting room, you will find a full range of equipment to meet your needs. During your stay, the desk area is available for reading and writing at your leisure. The carefully selected bedding will ensure a peaceful sleep for one or more nights.\n\nA courtesy tray awaits you: kettle, tea and coffee to welcome you — Akwaba!"
     },
     {
         "id": 3,
@@ -50,14 +58,18 @@
             "/assets/images/pages/room/4.webp"
         ],
         "title": "Chambre Deluxe",
+        "title_en": "Deluxe Room",
         "surface": "26.5 m²",
         "price": "100 000 CFA",
         "rating": 5,
         "capacity": "2 Personnes",
+        "capacity_en": "2 Persons",
         "bedType": "Lit Double",
+        "bedType_en": "Double Bed",
         "wifi": true,
         "meal": "Repas",
-        "description": "Vous méritez bien un peu d'espace. Bien équipée avec ses 26.5 mètres carrés, la spacieuse dispose d'un mini salon intégré de 4 assises classiques (2 fauteuils à accoudoir et un canapé de 2 places) avec table basse, d'une coiffeuse, d'un espace bureau et d'un lit double parfaitement agencé, dans un style sobre contemporain. Cette chambre a été conçue pour un séjour paisible, alliant douceur et tranquillité.\n\nUn plateau de courtoisie vous y attend : bouilloire, thé et café pour vous souhaiter Akwaba !"
+        "description": "Vous méritez bien un peu d'espace. Bien équipée avec ses 26.5 mètres carrés, la spacieuse dispose d'un mini salon intégré de 4 assises classiques (2 fauteuils à accoudoir et un canapé de 2 places) avec table basse, d'une coiffeuse, d'un espace bureau et d'un lit double parfaitement agencé, dans un style sobre contemporain. Cette chambre a été conçue pour un séjour paisible, alliant douceur et tranquillité.\n\nUn plateau de courtoisie vous y attend : bouilloire, thé et café pour vous souhaiter Akwaba !",
+        "description_en": "You deserve some extra space. Well-equipped at 26.5 m², this spacious room features an integrated mini lounge with 4 classic seats (2 armchairs and a 2-seater sofa) with a coffee table, a dressing table, a desk area and a perfectly arranged double bed in a sober contemporary style. This room was designed for a peaceful stay, combining softness and tranquility.\n\nA courtesy tray awaits you: kettle, tea and coffee to welcome you — Akwaba!"
     },
     {
         "id": 4,
@@ -70,14 +82,18 @@
             "/assets/images/pages/room/5.webp"
         ],
         "title": "Suite Junior",
+        "title_en": "Junior Suite",
         "surface": "52 m²",
         "price": "150 000 CFA",
         "rating": 5,
         "capacity": "2 Personnes",
+        "capacity_en": "2 Persons",
         "bedType": "Lit King Size",
+        "bedType_en": "King Size Bed",
         "wifi": true,
         "meal": "Repas",
-        "description": "Le luxe vous est offert dans notre junior élégante de style américain d'une superficie de 52 m² avec une chambre et un séjour bien distinct avec une télévision à écran plat et un magnifique salon de 4 assises classiques (un canapé de 2 places, 2 fauteuils à accoudoir) avec table basse. Les murs aux teintes chaudes rehaussées par des tableaux thématiques vous plongent dans une atmosphère rassurante.\n\nDans la chambre, trône un vaste lit King size habillé d'une literie conforme à la norme, pour garantir un repos réparateur. La coiffeuse, l'espace bureau et la seconde télévision, le tout parfaitement agencé, est une véritable invite à la détente en toute quiétude.\n\nUn plateau de courtoisie amélioré vous y attend : machine à café en dosette, assortiment de capsules, bouilloire, thé et café soluble, pour vous souhaiter Akwaba !"
+        "description": "Le luxe vous est offert dans notre junior élégante de style américain d'une superficie de 52 m² avec une chambre et un séjour bien distinct avec une télévision à écran plat et un magnifique salon de 4 assises classiques (un canapé de 2 places, 2 fauteuils à accoudoir) avec table basse. Les murs aux teintes chaudes rehaussées par des tableaux thématiques vous plongent dans une atmosphère rassurante.\n\nDans la chambre, trône un vaste lit King size habillé d'une literie conforme à la norme, pour garantir un repos réparateur. La coiffeuse, l'espace bureau et la seconde télévision, le tout parfaitement agencé, est une véritable invite à la détente en toute quiétude.\n\nUn plateau de courtoisie amélioré vous y attend : machine à café en dosette, assortiment de capsules, bouilloire, thé et café soluble, pour vous souhaiter Akwaba !",
+        "description_en": "Luxury awaits you in our elegant American-style Junior Suite spanning 52 m², with a bedroom and a distinct living room featuring a flat-screen TV and a magnificent lounge with 4 classic seats (a 2-seater sofa, 2 armchairs) with a coffee table. The warm-toned walls enhanced by thematic artwork immerse you in a reassuring atmosphere.\n\nIn the bedroom stands a vast king-size bed with premium bedding for a truly restful sleep. The dressing table, desk area and second television, all perfectly arranged, make for a true invitation to relaxation.\n\nAn enhanced courtesy tray awaits you: pod coffee machine, assorted capsules, kettle, tea and instant coffee to welcome you — Akwaba!"
     },
     {
         "id": 5,
@@ -90,13 +106,17 @@
             "/assets/images/pages/room/3d_rendering_living_room_family_space_3.webp"
         ],
         "title": "Suite Senior",
+        "title_en": "Senior Suite",
         "surface": "64 m²",
         "price": "200 000 CFA",
         "rating": 5,
         "capacity": "4 Personnes",
+        "capacity_en": "4 Persons",
         "bedType": "Lit King Size",
+        "bedType_en": "King Size Bed",
         "wifi": true,
         "meal": "Repas",
-        "description": "Bien aménagée, fonctionnelle et plus spacieuse que la suite junior avec ses 64 m² de superficie, cette chambre aux allures d'appartement luxueux de deux pièces vous propose un salon de 5 assises classiques avec : un canapé de 3 places, 2 fauteuils à accoudoir et une table basse, un bureau de travail, une coiffeuse — tout ce qu'il vous faut pour agrémenter votre séjour dans la capitale.\n\nCette suite convient pour les familles ou pour les personnes en voyage d'affaires ayant besoin d'une pièce dédiée pour recevoir et de repos paisible dans un lit King size accommodé d'une literie de qualité supérieure.\n\nUn plateau de courtoisie amélioré vous y attend : machine à café en dosette, assortiment de capsules, bouilloire, thé et café soluble, pour vous souhaiter Akwaba !"
+        "description": "Bien aménagée, fonctionnelle et plus spacieuse que la suite junior avec ses 64 m² de superficie, cette chambre aux allures d'appartement luxueux de deux pièces vous propose un salon de 5 assises classiques avec : un canapé de 3 places, 2 fauteuils à accoudoir et une table basse, un bureau de travail, une coiffeuse — tout ce qu'il vous faut pour agrémenter votre séjour dans la capitale.\n\nCette suite convient pour les familles ou pour les personnes en voyage d'affaires ayant besoin d'une pièce dédiée pour recevoir et de repos paisible dans un lit King size accommodé d'une literie de qualité supérieure.\n\nUn plateau de courtoisie amélioré vous y attend : machine à café en dosette, assortiment de capsules, bouilloire, thé et café soluble, pour vous souhaiter Akwaba !",
+        "description_en": "Well-appointed, functional and more spacious than the Junior Suite at 64 m², this two-room luxury apartment-style accommodation offers a 5-seat lounge with: a 3-seater sofa, 2 armchairs and a coffee table, a work desk, and a dressing table — everything you need to make your stay in the capital more enjoyable.\n\nThis suite is ideal for families or business travelers needing a dedicated space for meetings and peaceful rest in a king-size bed with superior quality bedding.\n\nAn enhanced courtesy tray awaits you: pod coffee machine, assorted capsules, kettle, tea and instant coffee to welcome you — Akwaba!"
     }
 ]

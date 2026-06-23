@@ -1,3 +1,4 @@
+'use client'
 import React from 'react'
 import GDPRCookie from '../home-1/GDPRCookie'
 import TopBar from '../home-1/TopBar'
@@ -6,8 +7,10 @@ import BreadcrumbOne from '../breadcrumb/Breadcrumb'
 import RestaurantBar from './RestaurantBar'
 import FooterOne from '../home-1/FooterOne'
 import BackToTop from '../home-1/BackToTop'
+import { useTranslation } from '../hooks/useTranslation'
 
 function page() {
+    const { t } = useTranslation();
     return (
         <>
             <GDPRCookie
@@ -20,9 +23,10 @@ function page() {
             <TopBar />
             <HeaderOne />
             <BreadcrumbOne
-                title="Restaurants & Bar"
+                title={t.breadcrumb.restaurant}
                 bgImage="/assets/images/banner/8.jpg"
-                description="Accueil - Restaurants & Bar"
+                breadcrumb={[{ label: t.breadcrumb.home, href: '/' }]}
+                current={t.breadcrumb.restaurant}
             />
             <RestaurantBar />
             <FooterOne />

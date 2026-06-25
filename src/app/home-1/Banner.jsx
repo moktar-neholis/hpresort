@@ -38,7 +38,7 @@ function BannerOne() {
                                             <p className="sub__text">
                                                 Le meilleur hôtel pour vos séjours à Yamoussoukro.
                                             </p>
-                                            <Link href="/room-two" className="theme-btn btn-style fill no-border">
+                                            <Link href="/room-one" className="theme-btn btn-style fill no-border">
                                                 <span>Visitez nos chambres</span>
                                             </Link>
                                         </div>

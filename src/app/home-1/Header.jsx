@@ -98,28 +98,29 @@ function HeaderOne() {
 
                             <div className="main__right">
                                 <button
-                                    className="theme-btn btn-style sm-btn border"
+                                    className="theme-btn btn-style sm-btn border d-none d-lg-inline-flex"
                                     onClick={() => setIsLoginOpen(true)}
                                 >
                                     <span>{t.header.login}</span>
                                 </button>
                                 <button
-                                    className="theme-btn btn-style sm-btn border"
+                                    className="theme-btn btn-style sm-btn border d-none d-lg-inline-flex"
                                     onClick={() => setIsSignupOpen(true)}
                                 >
                                     <span>{t.header.register}</span>
                                 </button>
-                                <button className="theme-btn btn-style sm-btn fill">
+                                <button className="theme-btn btn-style sm-btn fill d-none d-lg-inline-flex">
                                     <span>{t.header.book}</span>
                                 </button>
-                                {/* <a
-                                    href="https://www.abidjan.net/"
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                    className="theme-btn btn-style sm-btn border"
+                                <button
+                                    className="theme-btn btn-style sm-btn fill d-lg-none"
+                                    onClick={() => setIsOffcanvasOpen(true)}
+                                    aria-label="Open menu"
                                 >
-                                    <span>PRESSE</span>
-                                </a> */}
+                                    <span>
+                                        <img src="/assets/images/icon/menu-icon.svg" alt="menu" />
+                                    </span>
+                                </button>
                             </div>
 
                         </div>

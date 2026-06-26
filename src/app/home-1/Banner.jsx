@@ -25,7 +25,7 @@ function BannerOne() {
                     <div className="swiper-wrapper">
                         <SwiperSlide>
                             <div className="banner__slider__image">
-                                <img src="/assets/images/banner/bg-banner-1.jpg" alt="" />
+                                <img src="/assets/images/banner/carro-1.jpg" alt="" />
                             </div>
                             <div className="container">
                                 <div className="row justify-content-center">
@@ -48,7 +48,7 @@ function BannerOne() {
                         </SwiperSlide>
                         <SwiperSlide>
                             <div className="banner__slider__image">
-                                <img src="/assets/images/banner/bg-banner-2.jpg" alt="" />
+                                <img src="/assets/images/banner/carro-2.jpg" alt="" />
                             </div>
                             <div className="container">
                                 <div className="row justify-content-center">
@@ -69,7 +69,7 @@ function BannerOne() {
                         </SwiperSlide>
                         <SwiperSlide>
                             <div className="banner__slider__image">
-                                <img src="/assets/images/banner/bg-banner-3.jpg" alt="" />
+                                <img src="/assets/images/banner/carro-3.jpg" alt="" />
                             </div>
                             <div className="container">
                                 <div className="row justify-content-center">

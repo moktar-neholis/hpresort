@@ -20,15 +20,13 @@ import Script from 'next/script';
 import { LanguageProvider } from './context/LanguageContext';
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://hpresort.in-novation.tech"),
   title: "HOTEL HP RESORT",
   description: "Vivez le luxe et le confort à l’HOTEL HP RESORT",
   openGraph: {
     title: "HOTEL HP RESORT",
     description: "Vivez le luxe et le confort à l’HOTEL HP RESORT",
     images: ["/assets/images/logo/hp_logo.png"],
-  },
-  icons: {
-    icon: "/assets/images/logo/hp_logo.png",
   },
 };
 
@@ -40,6 +38,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        <link rel="icon" href="/assets/images/logo/hp_logo.png" type="image/png" />
         <link
           rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"

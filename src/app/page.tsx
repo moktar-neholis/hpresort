@@ -33,8 +33,9 @@ function Page() { // Use PascalCase for Next.js pages
       <AboutOne />
       <VideoOne videoSrc="https://hpresort.in-novation.tech/assets/video/hotel.mp4" title="Présentation de notre hôtel" />
       <RoomOne className="pt-0" />
+      <VideoOne videoSrc="https://hpresort.in-novation.tech/assets/video/visite.mp4" title="Visiter nos chambres" />
       <TestimonialOne />
-      <VideoOne videoSrc="https://hpresort.in-novation.tech/assets/video/visite.mp4" title="Visiter notre hôtel" />
+      
       {/* <OfferOne /> */}
       <GalleryOne />
       <FacilitiesOne />

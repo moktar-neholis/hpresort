@@ -84,7 +84,7 @@ function FacilitiesOne() {
                                         <h6 className="card-title h6 mb-15">Piscine</h6>
                                     </Link>
                                     <p className="card-text">
-                                        Piscines intérieures ou extérieures, pour les loisirs ou le sport. Propose des massages, des soins du visage et d'autres soins.
+                                        Piscines intérieures ou extérieures, pour les loisirs ou le sport.
                                     </p>
                                 </div>
                             </div>

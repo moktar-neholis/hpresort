@@ -36,6 +36,7 @@ function RoomOne({ className }) {
             <div className="row mb-60">
                 <Swiper
                     className="main__room__slider overflow-hidden wow fadeInUp"
+                    style={{ height: 'auto', maxHeight: 'none' }}
                     data-wow-delay=".5s"
                     modules={[Pagination, Autoplay]}
                     slidesPerView={3}
@@ -51,7 +52,7 @@ function RoomOne({ className }) {
                         992: { slidesPerView: 2.5 },
                         1200: { slidesPerView: 3 },
                         1400: { slidesPerView: 4 },
-                    }}
+                    }} 
                 >
                     {posts.length > 0 ? (
                         posts
@@ -72,7 +73,7 @@ function RoomOne({ className }) {
                 </Swiper>
 
                 {/* Pagination */}
-                <div className="rts__pagination">
+                <div className="rts__pagination" style={{ paddingTop: '16px' }}>
                     <div className="rts-pagination" />
                 </div>
             </div>

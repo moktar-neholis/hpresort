@@ -20,10 +20,10 @@ function FooterOne() {
                 </div>
 
                 <div className="container" style={{position: 'relative', zIndex: 1}}>
-                    <div className="row" style={{display: 'grid', gridTemplateColumns: '1fr 1fr 1fr 1fr', gap: '40px', paddingBottom: '60px'}}>
+                    <div className="row g-4" style={{paddingBottom: '60px'}}>
 
                         {/* Logo et Description */}
-                        <div>
+                        <div className="col-12 col-md-6 col-lg-3">
                             <Link href="/">
                                 <img
                                     className="footer__logo"
@@ -39,7 +39,7 @@ function FooterOne() {
                         </div>
 
                         {/* Liens Utiles */}
-                        <div>
+                        <div className="col-12 col-md-6 col-lg-3">
                             <h3 style={{fontSize: '20px', fontWeight: 'bold', marginBottom: '20px', color: '#1a1a2e'}}>{t.footer.usefulLinks}</h3>
                             <ul style={{listStyle: 'none', padding: 0, margin: 0}}>
                                 <li style={{marginBottom: '15px', display: 'flex', alignItems: 'center', gap: '8px'}}>
@@ -64,7 +64,7 @@ function FooterOne() {
                         </div>
 
                         {/* Contact Info */}
-                        <div>
+                        <div className="col-12 col-md-6 col-lg-3">
                             <h3 style={{fontSize: '20px', fontWeight: 'bold', marginBottom: '20px', color: '#1a1a2e'}}>{t.footer.contactInfo}</h3>
                             <ul style={{listStyle: 'none', padding: 0, margin: 0}}>
                                 <li style={{marginBottom: '15px', display: 'flex', alignItems: 'center', gap: '10px'}}>
@@ -88,7 +88,7 @@ function FooterOne() {
                         </div>
 
                         {/* Réseaux sociaux */}
-                        <div>
+                        <div className="col-12 col-md-6 col-lg-3">
                             <h3 style={{fontSize: '20px', fontWeight: 'bold', marginBottom: '20px', color: '#1a1a2e'}}>{t.footer.social}</h3>
                             <p style={{fontSize: '14px', color: '#666', marginBottom: '20px', lineHeight: '1.6'}}>
                                 {t.footer.follow}
@@ -96,23 +96,17 @@ function FooterOne() {
                             <div style={{display: 'flex', flexDirection: 'column', gap: '14px'}}>
                                 <a href="https://www.facebook.com/hpresortyamoussoukro/?locale=fr_FR" target="_blank" rel="noopener noreferrer"
                                     style={{display: 'flex', alignItems: 'center', gap: '12px', color: '#555', textDecoration: 'none', fontSize: '14px'}}>
-                                    <span style={{display: 'flex', alignItems: 'center', justifyContent: 'center', width: '36px', height: '36px', borderRadius: '50%', backgroundColor: '#1877F2', flexShrink: 0}}>
-                                        <i className="fab fa-facebook-f" style={{color: '#fff', fontSize: '14px'}}></i>
-                                    </span>
+                                    <i className="fab fa-facebook-f" style={{color: '#D97E4F', fontSize: '20px', width: '20px', textAlign: 'center'}}></i>
                                     Facebook
                                 </a>
                                 <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer"
                                     style={{display: 'flex', alignItems: 'center', gap: '12px', color: '#555', textDecoration: 'none', fontSize: '14px'}}>
-                                    <span style={{display: 'flex', alignItems: 'center', justifyContent: 'center', width: '36px', height: '36px', borderRadius: '50%', background: 'radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%)', flexShrink: 0}}>
-                                        <i className="fab fa-instagram" style={{color: '#fff', fontSize: '14px'}}></i>
-                                    </span>
+                                    <i className="fab fa-instagram" style={{color: '#D97E4F', fontSize: '20px', width: '20px', textAlign: 'center'}}></i>
                                     Instagram
                                 </a>
                                 <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer"
                                     style={{display: 'flex', alignItems: 'center', gap: '12px', color: '#555', textDecoration: 'none', fontSize: '14px'}}>
-                                    <span style={{display: 'flex', alignItems: 'center', justifyContent: 'center', width: '36px', height: '36px', borderRadius: '50%', backgroundColor: '#FF0000', flexShrink: 0}}>
-                                        <i className="fab fa-youtube" style={{color: '#fff', fontSize: '14px'}}></i>
-                                    </span>
+                                    <i className="fab fa-youtube" style={{color: '#D97E4F', fontSize: '20px', width: '20px', textAlign: 'center'}}></i>
                                     YouTube
                                 </a>
                             </div>

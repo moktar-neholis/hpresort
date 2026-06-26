@@ -16,7 +16,7 @@ const partenaires = [
 
 function TestimonialOne() {
     return (
-        <div className="rts__section section__padding testimonial has__shape" style={{ background: '#faf9f7' }}>
+        <div className="rts__section section__padding testimonial has__shape" style={{ background: '#faf9f7', marginBottom: '80px'}}>
             <div className="container">
                 <div className="row mb-40">
                     <div className="d-flex align-items-center justify-content-between position-relative">
@@ -61,20 +61,29 @@ function TestimonialOne() {
                                 display: 'flex',
                                 alignItems: 'center',
                                 justifyContent: 'center',
-                                padding: '10px',
+                                width: '130px',
+                                height: '70px',
+                                margin: '0 auto',
+                                backgroundColor: '#faf9f7',
+                                borderRadius: '8px',
+                                overflow: 'hidden',
+                                padding: '8px',
+                                boxSizing: 'border-box',
                             }}>
                                 <img
                                     src={p.src}
                                     alt={p.alt}
                                     style={{
-                                        maxHeight: '80px',
-                                        maxWidth: '140px',
+                                        width: '100%',
+                                        height: '100%',
                                         objectFit: 'contain',
-                                        filter: 'grayscale(20%)',
-                                        transition: 'filter 0.3s',
+                                        objectPosition: 'center',
+                                        mixBlendMode: 'multiply',
+                                        transition: 'opacity 0.3s',
+                                        opacity: 0.8,
                                     }}
-                                    onMouseEnter={(e) => e.currentTarget.style.filter = 'grayscale(0%)'}
-                                    onMouseLeave={(e) => e.currentTarget.style.filter = 'grayscale(20%)'}
+                                    onMouseEnter={(e) => e.currentTarget.style.opacity = '1'}
+                                    onMouseLeave={(e) => e.currentTarget.style.opacity = '0.8'}
                                 />
                             </div>
                         </SwiperSlide>

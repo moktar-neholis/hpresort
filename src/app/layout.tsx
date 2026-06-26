@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     images: ["/assets/images/logo/hp_logo.png"],
   },
   icons: {
-    icon: "/assets/images/favicon.png",
+    icon: "/assets/images/logo/hp_logo.png",
   },
 };
 

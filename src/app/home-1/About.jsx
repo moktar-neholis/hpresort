@@ -1,6 +1,5 @@
 'use client';
 import React, { useEffect } from 'react';
-import Link from 'next/link';
 import Rellax from 'rellax';
 import { useTranslation } from '../hooks/useTranslation';
 
@@ -14,7 +13,7 @@ function AboutOne() {
     }, []);
 
     return (
-        <div className="rts__section about__area is__home__main section__padding">
+        <div className="rts__section about__area is__home__main section__padding" style={{ paddingBottom: '40px' }}>
             <div className="section__shape d-none d-xl-block">
                 <img src="/assets/images/about/section__shape.svg" alt="" />
             </div>
@@ -61,9 +60,6 @@ function AboutOne() {
                                 Laissez-vous tenter par une expérience immersive à Yamoussoukro, dans un cadre surprenant, original et chaleureux.
                                 Akwaba à l'hôtel HP Resort !
                             </p>
-                            <Link href="#" className="theme-btn btn-style fill no-border wow fadeInUp" data-wow-delay=".5s">
-                                <span>En savoir plus</span>
-                            </Link>
                         </div>
                     </div>
                 </div>

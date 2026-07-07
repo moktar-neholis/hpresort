@@ -19,12 +19,104 @@ const fallbackGallery = [
     '/assets/images/pages/room/r-d-3.webp',
 ];
 
+const commoditesParChambre = {
+    'chambre-twins': [
+        '2 Lits individuels et 2 chevets',
+        '1 Douche italienne',
+        '1 Coiffeuse / Table de travail',
+        '1 Toilette autonome',
+        '1 Table bistrot de 2 places',
+        'Sèche-cheveux',
+        '1 Télévision à écran plat',
+        'Wifi',
+        '1 Plateau de courtoisie',
+        'Climatisation',
+        '1 Mini bar',
+        'Accès PMR',
+        '1 Coffre-fort à la demande',
+        'Non-fumeur',
+    ],
+    'chambre-superieure': [
+        '1 Lit double et 2 chevets',
+        '1 Coiffeuse / Table de travail',
+        '1 Table bistrot de 2 places',
+        '1 Télévision à écran plat',
+        '1 Plateau de courtoisie',
+        '1 Mini bar',
+        '1 Coffre-fort à la demande',
+        'Balcon ou non',
+        '1 Douche italienne ou 1 Baignoire',
+        '1 Toilette autonome',
+        'Sèche-cheveux',
+        'Wifi',
+        'Climatisation',
+        'Accès PMR',
+        'Non-fumeur',
+    ],
+    'chambre-deluxe': [
+        '1 Lit double et 2 chevets',
+        '1 Douche italienne ou 1 Baignoire',
+        '1 Coiffeuse / Table de travail',
+        '1 Toilette autonome',
+        '1 Salon de 4 places',
+        '1 Sèche-cheveux',
+        '1 Télévision à écran plat',
+        'Wifi',
+        '1 Plateau de courtoisie',
+        'Climatisation',
+        '1 Mini bar',
+        'Accès PMR',
+        '1 Coffre-fort',
+        'Chaussure d\'intérieur',
+        'Balcon ou non',
+        'Non-fumeur',
+    ],
+    'suite-junior': [
+        '1 Lit double et 2 chevets',
+        '1 Salon de 5 places',
+        '1 Coiffeuse / Table de travail',
+        '2 Télévisions à écran plat',
+        '1 Plateau de courtoisie',
+        '1 Mini bar',
+        '1 Coffre-fort',
+        'Balcon ou non',
+        '1 Baignoire',
+        '1 Toilette autonome',
+        'Sèche-cheveux',
+        'Wifi',
+        'Climatisation',
+        'Accès PMR',
+        'Vêtement et chaussure d\'intérieur',
+        'Non-fumeur',
+    ],
+    'suite-senior': [
+        '1 Lit double et 2 chevets',
+        '1 Salon de 5 places',
+        '1 Coiffeuse / Table de travail',
+        '2 Télévisions à écran plat',
+        '1 Plateau de courtoisie',
+        '1 Mini bar',
+        '1 Coffre-fort',
+        'Balcon ou non',
+        '1 Baignoire',
+        '1 Toilette autonome',
+        'Sèche-cheveux',
+        'Wifi',
+        'Climatisation',
+        'Accès PMR',
+        'Vêtement et chaussure d\'intérieur',
+        'Non-fumeur',
+    ],
+};
+
 export default function RoomDetailsClient({ roomPost }) {
     const { t, lang } = useTranslation();
     const title       = lang === 'en' ? (roomPost.title_en       || roomPost.title)       : roomPost.title;
     const description = lang === 'en' ? (roomPost.description_en || roomPost.description) : roomPost.description;
     const capacity    = lang === 'en' ? (roomPost.capacity_en    || roomPost.capacity)    : roomPost.capacity;
     const bedType     = lang === 'en' ? (roomPost.bedType_en     || roomPost.bedType)     : roomPost.bedType;
+
+    const commodites = commoditesParChambre[roomPost.slug] || [];
 
     if (!roomPost) {
         return <div>Chambre introuvable !</div>;
@@ -144,24 +236,24 @@ export default function RoomDetailsClient({ roomPost }) {
                                     </div>
                                 </div>
 
-                                {/* Features */}
-                                <span className="h4 d-block mb-50">{t.features.title}</span>
-                                <div className="room__feature mb-30">
-                                    <div className="room__feature__image mb-50">
-                                        <img className="rounded-2" src="/assets/images/pages/room/r-d-3.webp" alt="" />
-                                    </div>
-                                    <div className="group__row">
-                                        <ul className="list__item">
-                                            <li>{t.features.extraBeds}</li>
-                                            <li>{t.features.ac}</li>
-                                            <li>{t.features.art}</li>
-                                            <li>{t.features.coffee}</li>
-                                            <li>{t.features.bedding}</li>
-                                            <li>{t.features.smarttv}</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <p>{t.features.closing}</p>
+                                {/* Commodités */}
+                                {commodites.length > 0 && (
+                                    <>
+                                        <span className="h4 d-block mb-50">Commodités</span>
+                                        <div className="room__feature mb-30">
+                                            <div className="room__feature__image mb-50">
+                                                <img className="rounded-2" src="/assets/images/pages/room/sj-1.jpg" alt="" />
+                                            </div>
+                                            <div className="group__row">
+                                                <ul className="list__item">
+                                                    {commodites.map((item, i) => (
+                                                        <li key={i}>{item}</li>
+                                                    ))}
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </>
+                                )}
                             </div>
                         </div>
 
@@ -240,7 +332,7 @@ export default function RoomDetailsClient({ roomPost }) {
                                             </div>
                                         </div>
 
-                                        <h5 className="p-0 mt-20">{t.booking.services}</h5>
+                                        {/* <h5 className="p-0 mt-20">{t.booking.services}</h5>
 
                                         <div className="query__input checkbox wow fadeInUp">
                                             <input type="checkbox" name="clean" id="clean" />
@@ -269,7 +361,7 @@ export default function RoomDetailsClient({ roomPost }) {
                                         <div className="total__price">
                                             <span className="total h6 mb-0">{t.booking.totalPrice}</span>
                                             <span className="price h6 m-0">{roomPost.price}</span>
-                                        </div>
+                                        </div> */}
 
                                         <Link
                                             href="/contact"

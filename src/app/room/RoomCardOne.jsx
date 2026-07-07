@@ -13,7 +13,7 @@ function RoomCardOne(props) {
             <img
                 height={380}
                 width={420}
-                src={Img || "/assets/images/pages/room/1.webp"}
+                src={Img || "/assets/images/pages/room/rt-1.jpg"}
                 alt=""
                 style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'center', display: 'block' }}
             />

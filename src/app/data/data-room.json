@@ -2,12 +2,12 @@
     {
         "id": 1,
         "slug": "chambre-twins",
-        "image": "/assets/images/pages/room/room1.jpg",
-        "bannerImg": "/assets/images/pages/room/1.webp",
+        "image": "/assets/images/pages/room/rt-1.jpg",
+        "bannerImg": "/assets/images/pages/room/rt-2.jpg",
         "images": [
-            "/assets/images/pages/room/room1.jpg",
-            "/assets/images/pages/room/r-d-1.webp",
-            "/assets/images/pages/room/2.webp"
+            "/assets/images/pages/room/rt-1.jpg",
+            "/assets/images/pages/room/rt-2.jpg",
+            "/assets/images/pages/room/rt-3.jpg"
         ],
         "title": "Chambre Twins",
         "title_en": "Twin Room",
@@ -26,12 +26,12 @@
     {
         "id": 2,
         "slug": "chambre-superieure",
-        "image": "/assets/images/pages/room/room2.jpg",
-        "bannerImg": "/assets/images/pages/room/2.webp",
+        "image": "/assets/images/pages/room/rs-1.jpg",
+        "bannerImg": "/assets/images/pages/room/rs-2.jpg",
         "images": [
-            "/assets/images/pages/room/room2.jpg",
-            "/assets/images/pages/room/r-d-2.webp",
-            "/assets/images/pages/room/3.webp"
+            "/assets/images/pages/room/rs-1.jpg",
+            "/assets/images/pages/room/rs-2.jpg",
+            "/assets/images/pages/room/rs-3.jpg"
         ],
         "title": "Chambre Supérieure",
         "title_en": "Superior Room",
@@ -50,12 +50,12 @@
     {
         "id": 3,
         "slug": "chambre-deluxe",
-        "image": "/assets/images/pages/room/room3.jpg",
-        "bannerImg": "/assets/images/pages/room/3.webp",
+        "image": "/assets/images/pages/room/rd-1.jpg",
+        "bannerImg": "/assets/images/pages/room/rd-2.jpg",
         "images": [
-            "/assets/images/pages/room/room3.jpg",
-            "/assets/images/pages/room/r-d-3.webp",
-            "/assets/images/pages/room/4.webp"
+            "/assets/images/pages/room/rd-1.jpg",
+            "/assets/images/pages/room/rd-2.jpg",
+            "/assets/images/pages/room/rd-3.jpg"
         ],
         "title": "Chambre Deluxe",
         "title_en": "Deluxe Room",
@@ -74,12 +74,12 @@
     {
         "id": 4,
         "slug": "suite-junior",
-        "image": "/assets/images/pages/room/interior_space_big_bed_room_luxury_hotel_1.webp",
-        "bannerImg": "/assets/images/pages/room/hotel_room_with_bed_chair_view_ocean_1.webp",
+        "image": "/assets/images/pages/room/sj-1.jpg",
+        "bannerImg": "/assets/images/pages/room/sj-1.jpg",
         "images": [
-            "/assets/images/pages/room/interior_space_big_bed_room_luxury_hotel_1.webp",
-            "/assets/images/pages/room/hotel_room_with_bed_chair_view_ocean_1.webp",
-            "/assets/images/pages/room/5.webp"
+            "/assets/images/pages/room/sj-1.jpg",
+            "/assets/images/pages/room/sj-2.jpg",
+            "/assets/images/pages/room/sj-3.jpg"
         ],
         "title": "Suite Junior",
         "title_en": "Junior Suite",
@@ -98,20 +98,20 @@
     {
         "id": 5,
         "slug": "suite-senior",
-        "image": "/assets/images/pages/room/luxurious_bedroom_with_large_windows_overlooking_beautiful_ocean_view_2.webp",
-        "bannerImg": "/assets/images/pages/room/living_room_with_large_sofa_table_with_glass_top_4.webp",
+        "image": "/assets/images/pages/room/ss-1.jpg",
+        "bannerImg": "/assets/images/pages/room/ss-2.jpg",
         "images": [
-            "/assets/images/pages/room/luxurious_bedroom_with_large_windows_overlooking_beautiful_ocean_view_2.webp",
-            "/assets/images/pages/room/living_room_with_large_sofa_table_with_glass_top_4.webp",
-            "/assets/images/pages/room/3d_rendering_living_room_family_space_3.webp"
+            "/assets/images/pages/room/ss-1.jpg",
+            "/assets/images/pages/room/ss-2.jpg",
+            "/assets/images/pages/room/ss-3.jpg"
         ],
         "title": "Suite Senior",
         "title_en": "Senior Suite",
         "surface": "64 m²",
         "price": "200 000 CFA",
         "rating": 5,
-        "capacity": "4 Personnes",
-        "capacity_en": "4 Persons",
+        "capacity": "2 Personnes",
+        "capacity_en": "2 Persons",
         "bedType": "Lit King Size",
         "bedType_en": "King Size Bed",
         "wifi": true,

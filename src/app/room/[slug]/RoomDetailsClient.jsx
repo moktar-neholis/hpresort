@@ -23,15 +23,13 @@ const commoditesParChambre = {
     'chambre-twins': [
         '2 Lits individuels et 2 chevets',
         '1 Douche italienne',
-        '1 Coiffeuse / Table de travail',
+        '1 Coiffeuse',
         '1 Toilette autonome',
         '1 Table bistrot de 2 places',
         'Sèche-cheveux',
         '1 Télévision à écran plat',
-        'Wifi',
         '1 Plateau de courtoisie',
         'Climatisation',
-        '1 Mini bar',
         'Accès PMR',
         '1 Coffre-fort à la demande',
         'Non-fumeur',
@@ -239,10 +237,10 @@ export default function RoomDetailsClient({ roomPost }) {
                                 {/* Commodités */}
                                 {commodites.length > 0 && (
                                     <>
-                                        <span className="h4 d-block mb-50">Commodités</span>
+                                        {/* <span className="h4 d-block mb-50">Commodités</span> */}
                                         <div className="room__feature mb-30">
                                             <div className="room__feature__image mb-50">
-                                                <img className="rounded-2" src="/assets/images/pages/room/sj-1.jpg" alt="" />
+                                                <img className="rounded-2" src={roomPost.image} alt={title} />
                                             </div>
                                             <div className="group__row">
                                                 <ul className="list__item">
@@ -317,7 +315,7 @@ export default function RoomDetailsClient({ roomPost }) {
                                                 </div>
                                             </div>
                                         </div>
-
+{/* 
                                         <div className="query__input wow fadeInUp" data-wow-delay=".6s">
                                             <label htmlFor="exbed" className="query__label">{t.booking.extraBed}</label>
                                             <div className="query__input__position">
@@ -330,7 +328,7 @@ export default function RoomDetailsClient({ roomPost }) {
                                                     <img src="/assets/images/icon/bed-alt.svg" alt="" />
                                                 </div>
                                             </div>
-                                        </div>
+                                        </div> */}
 
                                         {/* <h5 className="p-0 mt-20">{t.booking.services}</h5>
 

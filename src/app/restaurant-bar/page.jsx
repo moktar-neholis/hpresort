@@ -24,7 +24,7 @@ function page() {
             <HeaderOne />
             <BreadcrumbOne
                 title={t.breadcrumb.restaurant}
-                bgImage="/assets/images/banner/8.jpg"
+                bgImage="/assets/images/pages/img-resto.jpg"
                 breadcrumb={[{ label: t.breadcrumb.home, href: '/' }]}
                 current={t.breadcrumb.restaurant}
             />

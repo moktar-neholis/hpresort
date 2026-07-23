@@ -28,7 +28,7 @@ function ActivitiesCard(props) {
                     {Title || "Service"}
                 </Link>
                 <p className="font-sm">
-                    {Description}
+                    {Description ? Description.split('.')[0] + '.' : ''}
                 </p>
                 <Link href={`/activities/${Slug || "details"}`} className="theme-btn btn-style fill no-border sm-btn">
                     <span>LIRE LA SUITE</span>

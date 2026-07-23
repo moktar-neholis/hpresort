@@ -1,23 +1,115 @@
 [
     {
         "id": 1,
-        "slug": "piscine",
-        "image": "/assets/images/pages/activities/activity1.jpg",
-        "title": "PISCINE",
-        "description": "Notre spacieuse piscine extérieure avec ses deux bassins distincts de 0.80m et 1.80m de profondeur vous offre un cadre idéal pour vous détendre."
+        "slug": "spa",
+        "image": "/assets/images/pages/img-spa.jpg",
+        "title": "SPA",
+        "title_en": "SPA",
+        "description": "En déplacement d’affaires ou d’agrément, l’Hôtel HP Resort vous propose de joindre l’utile à l’agréable en optant pour un réel séjour de ressourcement grâce au savoir-faire de notre équipe de SPA praticienne spécialisée. Découvrez notre univers SPA PLUS pour reconnecter votre corps et votre esprit grâce au bain maure, bain de chaleur sèche, massage, soin corporel… bienfaits assurés pour votre santé et satisfaire les besoins de l’existence. Profitez donc du traitement qui vous convient parmi notre large gamme de programmes SPA PLUS puis détendez-vous dans notre espace 100% relaxation.",
+        "description_en": "Whether you’re traveling for business or pleasure, the HP Resort Hotel invites you to combine business with pleasure by choosing a truly rejuvenating stay, thanks to the expertise of our team of specialized spa practitioners. Discover our SPA PLUS experience to reconnect your body and mind through Moorish baths, dry heat baths, massages, body treatments, and more—guaranteed to benefit your health and fulfill life’s needs. Choose the treatment that’s right for you from our wide range of SPA PLUS programs, then unwind in our 100% relaxation area.",
+        "facilities": [
+            "Deux cabines individuelles",
+            "Une cabine double",
+            "Une salle de relaxation",
+            "Un hammam",
+            "Un sauna",
+            "Une cabine beauté des mains et des pieds",
+            "Un salon de coiffure"
+        ],
+        "facilities_en": [
+            "Two individual treatment rooms",
+            "One double treatment room",
+            "One relaxation room",
+            "A hammam",
+            "A sauna",
+            "A hand and foot beauty treatment room",
+            "A hair salon"
+        ],
+        "opening_hours": {
+            "days": "Mardi au dimanche",
+            "days_en": "Tuesday to Sunday",
+            "opens": "09:00",
+            "closes": "22:00"
+        }
     },
     {
         "id": 2,
-        "slug": "fitness",
-        "image": "/assets/images/pages/activities/activity2.jpg",
-        "title": "FITNESS",
-        "description": "Que vous soyez un sportif aguerri ou simplement à la recherche d'une remise en forme, notre salle de fitness est équipée pour répondre à vos besoins."
+        "slug": "piscine",
+        "image": "/assets/images/pages/img-relaxatio.jpg",
+        "gallery": [
+            "/assets/images/pages/activities/img-pool.jpg",
+            "/assets/images/pages/activities/img-pool-1.jpg",
+            "/assets/images/pages/activities/img-pool-2.jpg",
+            "/assets/images/pages/activities/img-pool-3.jpg",
+            "/assets/images/pages/activities/img-pool-4.jpg",
+            "/assets/images/pages/activities/img-pool-5.jpg",
+            "/assets/images/pages/activities/img-pool-6.jpg"
+        ],
+        "title": "Piscine",
+        "title_en": "Swimming Pool",
+        "description": "Que vous soyez un sportif aguerri ou simplement à la recherche d'une activité physique légère, notre hôtel HP Resort vous propose des séances de remise en forme en salle. Profitez de la salle de gymnastique de forme, équipée de matériels et appareillages, tout ce dont vous avez besoin pour un entraînement efficace et performer à votre rythme. Renforcement musculaire, *Cardio, Zumba, Swiss ball... Découvrez quelques pratiques et choisissez celle qui vous correspond le plus en fonction de vos objectifs de forme. Nous sommes impatients de vous accueillir dans notre fitness et vous motiver à pratiquer des exercices physiques au cours de votre séjour.",
+        "description_en": "Our spacious outdoor pool, with its two separate sections measuring 0.80 m and 2.00 m, immerses you in a relaxing atmosphere where you can let your mind wander. Its crystal-clear blue waters, its beautiful sand-colored pool deck, and its lush greenery (trees, shrubs, flowering plants, and ornamental foliage) blend seamlessly to create a warm and sunny atmosphere.",
+        "opening_hours": {
+            "days": "Mardi au dimanche",
+            "days_en": "Tuesday to Sunday",
+            "opens": "09:00",
+            "closes": "18:00"
+        }
     },
     {
         "id": 3,
-        "slug": "spaplus",
-        "image": "/assets/images/pages/activities/activity3.png",
-        "title": "SPAPLUS",
-        "description": "Laissez-vous transporter pour une expérience des plus inoubliables ! En déplacement d'affaires ou en séjour détente, profitez de nos soins SPA PLUS."
+        "slug": "fitness",
+        "image": "/assets/images/pages/activities/img-fitness.jpg",
+        "gallery": [
+            "/assets/images/pages/activities/img-fitness.jpg",
+            "/assets/images/pages/activities/img-fitness-2.jpg",
+            "/assets/images/pages/activities/img-fitness-3.jpg",
+            "/assets/images/pages/activities/img-fitness-4.jpg"
+        ],
+        "title": "Fitness",
+        "title_en": "Fitness",
+        "description": "Notre salle de sport bien équipée vous permet de maintenir votre forme et de profiter d’une activité physique dans un cadre agréable et moderne.",
+        "description_en": "Our well-equipped fitness center allows you to stay in shape and enjoy physical activity in a pleasant, modern setting. Our spacious outdoor pool, with its two separate pools measuring 0.80 m and 2.00 m, immerses you in a relaxing atmosphere where you can let your mind wander. Its crystal-clear blue waters, its beautiful sand-colored pool deck, and its lush greenery (trees, shrubs, flowering plants, and ornamental foliage) blend seamlessly to create a warm and sunny atmosphere.",
+        "opening_hours": {
+            "hotel_guests": {
+                "days": "24h/24, 7j/7",
+                "days_en": "24/7",
+                "opens": "00:00",
+                "closes": "23:59"
+            },
+            "external_visitors": {
+                "days": "Tous les jours",
+                "days_en": "Every day",
+                "opens": "08:00",
+                "closes": "20:00"
+            }
+        }
+    },
+    {
+        "id": 4,
+        "slug": "aire-de-jeux-enfant",
+        "image": "/assets/images/pages/img-jeux-enfant.jpg",
+        "title": "Aire de jeux enfant",
+        "title_en": "Children's Play Area",
+        "description": "",
+        "description_en": ""
+    },
+    {
+        "id": 5,
+        "slug": "basket-ball",
+        "image": "/assets/images/pages/img-basket-ball.jpg",
+        "title": "Basket Ball",
+        "title_en": "Basketball",
+        "description": "",
+        "description_en": ""
+    },
+    {
+        "id": 6,
+        "slug": "beach-soccer",
+        "image": "/assets/images/pages/img-beach-soccer.jpg",
+        "title": "Beach Soccer",
+        "title_en": "Beach Soccer",
+        "description": "",
+        "description_en": ""
     }
 ]

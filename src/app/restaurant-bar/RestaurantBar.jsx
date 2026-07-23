@@ -5,7 +5,7 @@ import items from '../data/data-restaurant-bar.json'
 import { useTranslation } from '../hooks/useTranslation'
 
 function RestaurantBar() {
-    const { t } = useTranslation();
+    const { t, lang } = useTranslation();
     const [activeTab, setActiveTab] = useState(items[0]?.slug || '');
 
     return (
@@ -20,7 +20,7 @@ function RestaurantBar() {
                                     <img
                                         height={648}
                                         width={428}
-                                        src="/assets/images/pages/resturant/1.webp"
+                                        src="/assets/images/pages/resturant/resto1.jpg"
                                         alt="Restaurant HP Resort"
                                     />
                                 </div>
@@ -118,7 +118,10 @@ function RestaurantBar() {
                                             </div>
                                             <div className="col-lg-7">
                                                 <h3 className="mb-20" style={{ color: '#16213E' }}>{item.title}</h3>
-                                                <p className="font-sm">{item.description}</p>
+                                                <p className="font-sm">{lang === 'en' ? (item.excerpt_en || item.excerpt) : item.excerpt}</p>
+                                                <Link href={`/restaurant-bar/${item.slug || "details"}`} className="theme-btn btn-style fill no-border sm-btn mt-20 d-inline-block">
+                                                    <span>LIRE LA SUITE</span>
+                                                </Link>
                                             </div>
                                         </div>
                                     </div>

@@ -67,7 +67,7 @@ function RestaurantBar() {
             </div>
 
             {/* Restaurant & Bar cards with tab navigation */}
-            <div className="rts__section resturant__menu__bg section__padding">
+            <  div className="rts__section resturant__menu__bg section__padding" style={{ marginTop: '60px' }}>
                 <div className="container">
                     <div className="row">
                         <div className="section__wrapper mb-40 wow fadeInUp">

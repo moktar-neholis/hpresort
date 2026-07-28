@@ -71,9 +71,9 @@ function RestaurantBar() {
                     <div className="row justify-content-center text-center mb-40">
                         <div className="col-lg-8">
                             <div className="section__topbar">
-                                <span className="h6 subtitle__icon__two d-block wow fadeInUp">
+                                {/* <span className="h6 subtitle__icon__two d-block wow fadeInUp">
                                     {t.restaurant.ourSpacesSubtitle}
-                                </span>
+                                </span> */}
                                 <h2 className="content__title h2 lh-1">{t.restaurant.ourSpacesTitle}</h2>
                                 <p className="font-sm mt-20">{t.restaurant.ourSpacesDesc}</p>
                             </div>

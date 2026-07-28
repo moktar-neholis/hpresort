@@ -103,7 +103,8 @@
         "event": "Réunions & Événements",
         "activities": "Bien Être & Détente",
         "restaurant": "Restaurants & Bar",
-        "package": "Séjour Packagé"
+        "package": "Séjour Packagé",
+        "promotion": "Promotions"
     },
     "event": {
         "title": "Réunions & Événements",
@@ -129,6 +130,14 @@
         "title": "Nos séjours packagés",
         "desc": "Découvrez nos séjours packagés alliant confort, activités variées et découvertes, pour une expérience de voyage clé en main. Profitez d'offres soigneusement conçues pour un séjour sans souci et riche en souvenirs.",
         "readMore": "LIRE LA SUITE"
+    },
+    "promotion": {
+        "title": "Nos Promotions",
+        "desc": "Profitez de nos offres promotionnelles exclusives et vivez des moments inoubliables à l'Hôtel HP Resort de Yamoussoukro. Des offres conçues pour chaque occasion spéciale.",
+        "readMore": "LIRE LA SUITE",
+        "contactUs": "NOUS CONTACTER",
+        "bookOffer": "RÉSERVER CETTE OFFRE",
+        "backToPromotions": "Retour aux promotions"
     },
     "footer": {
         "usefulLinks": "Liens utiles",

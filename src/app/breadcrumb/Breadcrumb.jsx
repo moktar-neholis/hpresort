@@ -10,6 +10,7 @@ const defaultImagesByPath = {
     '/event':          '/assets/images/pages/img-event.jpg',
     '/activities':     '/assets/images/pages/img-relaxatio.jpg',
     '/restaurant-bar': '/assets/images/pages/img-resto.jpg',
+    '/promotion':      '/assets/images/promotion/promo-header.jpg',
 };
 
 function BreadcrumbOne({ title, description, bgImage, breadcrumb, current }) {

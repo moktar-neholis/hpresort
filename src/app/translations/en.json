@@ -103,7 +103,8 @@
         "event": "Meetings & Events",
         "activities": "Wellness & Relaxation",
         "restaurant": "Restaurant & Bar",
-        "package": "Package Stay"
+        "package": "Package Stay",
+        "promotion": "Promotions"
     },
     "event": {
         "title": "Meetings & Events",
@@ -129,6 +130,14 @@
         "title": "Our package stays",
         "desc": "Discover our package stays combining comfort, varied activities and discoveries, for a turnkey travel experience. Enjoy carefully designed offers for a worry-free stay full of memories.",
         "readMore": "READ MORE"
+    },
+    "promotion": {
+        "title": "Our Promotions",
+        "desc": "Take advantage of our exclusive promotional offers and live unforgettable moments at HP Resort Hotel in Yamoussoukro. Offers designed for every special occasion.",
+        "readMore": "READ MORE",
+        "contactUs": "CONTACT US",
+        "bookOffer": "BOOK THIS OFFER",
+        "backToPromotions": "Back to promotions"
     },
     "footer": {
         "usefulLinks": "Useful links",

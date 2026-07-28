@@ -1,12 +1,11 @@
 'use client'
 import Link from 'next/link'
-import React, { useState } from 'react'
+import React from 'react'
 import items from '../data/data-restaurant-bar.json'
 import { useTranslation } from '../hooks/useTranslation'
 
 function RestaurantBar() {
     const { t, lang } = useTranslation();
-    const [activeTab, setActiveTab] = useState(items[0]?.slug || '');
 
     return (
         <>
@@ -66,68 +65,51 @@ function RestaurantBar() {
                 </div>
             </div>
 
-            {/* Restaurant & Bar cards with tab navigation */}
-            <  div className="rts__section resturant__menu__bg section__padding" style={{ marginTop: '60px' }}>
+            {/* Restaurant & Bar cards */}
+            <div className="rts__section section__padding">
                 <div className="container">
-                    <div className="row">
-                        <div className="section__wrapper mb-40 wow fadeInUp">
-                            <div className="section__content__left">
+                    <div className="row justify-content-center text-center mb-40">
+                        <div className="col-lg-8">
+                            <div className="section__topbar">
                                 <span className="h6 subtitle__icon__two d-block wow fadeInUp">
                                     {t.restaurant.ourSpacesSubtitle}
                                 </span>
                                 <h2 className="content__title h2 lh-1">{t.restaurant.ourSpacesTitle}</h2>
-                            </div>
-                            <div className="section__content__right">
-                                <p>{t.restaurant.ourSpacesDesc}</p>
+                                <p className="font-sm mt-20">{t.restaurant.ourSpacesDesc}</p>
                             </div>
                         </div>
                     </div>
-
-                    {/* Tab navigation */}
-                    <div className="row">
-                        <div className="col-12">
-                            <div className="resturant__menu__list">
-                                <div className="nav nav-tabs" id="nav-tab" role="tablist">
-                                    {items.map((item) => (
-                                        <button
-                                            key={item.slug}
-                                            className={`nav-link ${activeTab === item.slug ? 'active' : ''}`}
-                                            onClick={() => setActiveTab(item.slug)}
-                                        >
-                                            {item.title}
-                                        </button>
-                                    ))}
-                                </div>
-                            </div>
-
-                            {/* Tab content */}
-                            <div className="tab-content mt-40" id="nav-tabContent">
-                                {items.map((item) => (
-                                    <div
-                                        key={item.slug}
-                                        style={{ display: activeTab === item.slug ? 'block' : 'none' }}
-                                    >
-                                        <div className="row g-4 align-items-center">
-                                            <div className="col-lg-5">
+                    <div className="row g-30">
+                        {items.map((item) => (
+                            <div key={item.slug} className="col-xl-4 col-lg-6 col-md-6">
+                                <div className="room__card is__activities">
+                                    <div className="room__card__top">
+                                        <div className="room__card__image">
+                                            <Link href={`/restaurant-bar/${item.slug}`}>
                                                 <img
                                                     src={item.image}
+                                                    width={420}
+                                                    height={310}
                                                     alt={item.title}
-                                                    className="rounded-2 w-100"
-                                                    style={{ height: '380px', objectFit: 'cover' }}
+                                                    style={{ objectFit: 'cover', width: '100%', height: '310px' }}
                                                 />
-                                            </div>
-                                            <div className="col-lg-7">
-                                                <h3 className="mb-20" style={{ color: '#16213E' }}>{item.title}</h3>
-                                                <p className="font-sm">{lang === 'en' ? (item.excerpt_en || item.excerpt) : item.excerpt}</p>
-                                                <Link href={`/restaurant-bar/${item.slug || "details"}`} className="theme-btn btn-style fill no-border sm-btn mt-20 d-inline-block">
-                                                    <span>LIRE LA SUITE</span>
-                                                </Link>
-                                            </div>
+                                            </Link>
                                         </div>
                                     </div>
-                                ))}
+                                    <div className="room__card__meta">
+                                        <Link href={`/restaurant-bar/${item.slug}`} className="room__card__title h5">
+                                            {item.title}
+                                        </Link>
+                                        <p className="font-sm">
+                                            {lang === 'en' ? (item.excerpt_en || item.excerpt) : item.excerpt}
+                                        </p>
+                                        <Link href={`/restaurant-bar/${item.slug}`} className="theme-btn btn-style fill no-border sm-btn">
+                                            <span>LIRE LA SUITE</span>
+                                        </Link>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
+                        ))}
                     </div>
                 </div>
             </div>

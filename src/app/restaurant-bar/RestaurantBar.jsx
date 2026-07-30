@@ -115,7 +115,7 @@ function RestaurantBar() {
             </div>
 
             {/* Gallery */}
-            <div className="rts__section section__padding">
+            {/* <div className="rts__section section__padding">
                 <div className="container">
                     <div className="row g-3">
                         {[
@@ -137,7 +137,7 @@ function RestaurantBar() {
                         ))}
                     </div>
                 </div>
-            </div>
+            </div> */}
         </>
     )
 }

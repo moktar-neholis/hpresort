@@ -10,7 +10,7 @@ function RestaurantBar() {
     return (
         <>
             {/* About section - template layout */}
-            <div className="rts__section about is__resturant section__padding">
+            {/* <div className="rts__section about is__resturant section__padding">
                 <div className="container">
                     <div className="row g-4 align-items-center">
                         <div className="col-lg-5">
@@ -63,7 +63,7 @@ function RestaurantBar() {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
 
             {/* Restaurant & Bar cards */}
             <div className="rts__section section__padding">

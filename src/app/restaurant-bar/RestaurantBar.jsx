@@ -3,6 +3,7 @@ import Link from 'next/link'
 import React from 'react'
 import items from '../data/data-restaurant-bar.json'
 import { useTranslation } from '../hooks/useTranslation'
+import '../event/event-card.css'
 
 function RestaurantBar() {
     const { t, lang } = useTranslation();
@@ -82,7 +83,7 @@ function RestaurantBar() {
                     <div className="row g-30">
                         {items.map((item) => (
                             <div key={item.slug} className="col-xl-4 col-lg-6 col-md-6">
-                                <div className="room__card is__activities">
+                                <div className="room__card is__event">
                                     <div className="room__card__top">
                                         <div className="room__card__image">
                                             <Link href={`/restaurant-bar/${item.slug}`}>
@@ -101,7 +102,7 @@ function RestaurantBar() {
                                             {item.title}
                                         </Link>
                                         <p className="font-sm">
-                                            {lang === 'en' ? (item.excerpt_en || item.excerpt) : item.excerpt}
+                                            {(() => { const txt = lang === 'en' ? (item.excerpt_en || item.excerpt) : item.excerpt; return txt ? txt.split(' ').slice(0, 10).join(' ') + '...' : ''; })()}
                                         </p>
                                         <Link href={`/restaurant-bar/${item.slug}`} className="theme-btn btn-style fill no-border sm-btn">
                                             <span>LIRE LA SUITE</span>

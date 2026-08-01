@@ -7,7 +7,7 @@ import { useTranslation } from '../hooks/useTranslation';
 function EventCard({ data }) {
     const { t, lang } = useTranslation();
 
-    const title       = lang === 'en' ? (data.title_en       || data.title)       : data.title;
+    const title = lang === 'en' ? (data.title_en || data.title) : data.title;
     const description = lang === 'en' ? (data.description_en || data.description) : data.description;
 
     return (
@@ -29,7 +29,7 @@ function EventCard({ data }) {
                     {title}
                 </Link>
                 <p className="font-sm">
-                    {description}
+                    {description ? description.split(' ').slice(0, 11).join(' ') + '...' : ''}
                 </p>
                 <Link href={`/event/${data.slug || "details"}`} className="theme-btn btn-style fill no-border sm-btn">
                     <span>{t.event.readMore}</span>
